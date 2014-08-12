@@ -1,0 +1,46 @@
+@media only screen  
+and (max-width : 1024px) {
+	body {
+		font-size: 15px;
+	}
+	.hide-tablet {
+		display: none;
+	}
+}
+
+@media only screen  
+and (max-width : 767px) {
+	body {
+		font-size: 14px;
+	}
+	.hide-tablet, .hide-phone {
+		display: none !important;
+	}
+	.show-phone {
+		display: block;
+	}
+	.row {
+		display: block;
+		margin: 0;
+		.row {
+			margin: 0 -1.5em;;
+			.row {
+				margin: 0 -1.5em;
+			}
+		}
+	}
+	.phone-full, .two-thirds.push-sixth {
+		width: 100%;
+		margin-left: 0;
+	}
+	.phone-half {
+		width: 50%;
+		margin-left: 0;
+	}
+	p.large {
+		text-align: left;
+	}
+	#logo {
+		margin-left: 3em;
+	}
+}

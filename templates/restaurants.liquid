@@ -1,0 +1,105 @@
+{% block content %} 
+	<section id="restaurants-intro">
+		<div class="row">
+			<div class="column one-half push-quarter">
+				<p>"That corner spot? It's perfect for a concert."<br>- The New York Times<br><br>"A complete success."<br>- Edna Landau</p>
+			</div>
+		</div>
+	</section>
+	<section id="restaurants-content" class="page-basic">
+		<div class="row clearfix">
+			<div class="column two-thirds">
+				<article class="page-section">
+					<h2 class="section-title">Host Tertulia</h2>
+					<p class="large">If your restaurant is interested in hosting Tertulia during our 2015-2016 season, please fill out the form below.</p>
+					<div class="row clearfix">
+						<div class="column two-thirds push-sixth">
+							<form action="/">
+								<label for="name">Restaurant Name</label>
+								<input type="text" name="name" />
+								<label for="location">Neighborhood</label>
+								<input type="text" name="location" placeholder="eg. Nolita, Cobble Hill" />
+								<div class="row clearfix">
+									<div class="column one-half">
+										<label for="seating">Conservative Seating Cap</label>
+										<input type="text" name="seating" placeholder="100" />
+									</div>
+									<div class="column one-half">
+										<label for="bar">Bar Seating Cap</label>
+										<input type="text" name="bar" placeholder="10" />
+									</div>
+								</div>
+								<label for="y-name">Your Name</label>
+								<input type="text" name"y-name" />
+								<label for="email">Email Address</label>
+								<input type="email" name="email" placeholder="example@example.com" />
+								<label for="phone">Phone Number</label>
+								<input type="text" name="phone" placeholder="123-456-7890" />
+								<button type="submit" class="button raised-button primary">Send</button>
+							</form>
+						</div>
+					</div>
+				</article>
+				<article class="page-section">
+					<h2 class="section-title">How Tertulia Works</h2>
+					<p class="large">The evening is formatted as a dinner-concert, with three performances separated by extended intermissions. A typical Tertulia presents 60 minutes of music, with at least 75 minutes for eating, drinking, and socializing. During performances restaurant service is held and conversation stops.</p>
+					<p class="large">A typical Tertulia:</p>
+					<table class="ticket-table">
+						<tbody>
+							<tr>
+								<td>7:00 pm</td>
+								<td><i class="fa fa-glass"></i></td>
+								<td>Tertulia begins - guests arrive, check in, order drinks and select dinner options</td>
+							</tr>
+							<tr>
+								<td>7:30 pm</td>
+								<td><i class="fa fa-music"></i></td>
+								<td>First performance - guests are all seated (~20')</td>
+							</tr>
+							<tr>
+								<td>7:50 pm</td>
+								<td><i class="fa fa-cutlery"></i></td>
+								<td>Dinner is served</td>
+							</tr>
+							<tr>
+								<td>8:30PM</td>
+								<td><i class="fa fa-music"></i></td>
+								<td>Second performance (~20')</td>
+							</tr>
+							<tr>
+								<td>9:00PM</td>
+								<td><i class="fa fa-coffee"></i></td>
+								<td>Dessert is served</td>
+							</tr>
+							<tr>
+								<td>9:30PM</td>
+								<td><i class="fa fa-music"></i></td>
+								<td>Final performace (~20')</td>
+							</tr>
+							<tr>
+								<td>9:55PM</td>
+								<td><i class="fa fa-comments"></i></td>
+								<td>Close tabs, mingle, meet the musicians</td>
+							</tr>
+						</tbody>
+					</table>
+					<a href="#" class="button raised-button primary">Sample Program (PDF)</a>
+				</article>
+			</div>
+			<div class="column one-third page-sidebar">
+				<h2>Our Partners</h2>
+				<ul class="fa-ul">
+					<li><i class="fa-li fa fa-star"></i>Engage new patrons and offer existing patrons a world-class, unique experience</li>
+					<li><i class="fa-li fa fa-music"></i>Host the worlds' best classical musicians in the intimacy of your restaurant</li>
+					<li><i class="fa-li fa fa-book"></i>Attract press personnel from the city's most esteemed publications and news sources</li>
+					<li><i class="fa-li fa fa-cutlery"></i>Access Tertulia's extensive network of New Yorkers interested in the city's culinary and performing arts scene</li>
+					<li><i class="fa-li fa fa-certificate"></i>Placement on Tertulia's website and in programs books as a season host</li>
+					<li><i class="fa-li fa fa-heart"></i>Support your local arts community: Tertulia is a non-profit 501(c)(3)</li>
+					<li><i class="fa-li fa fa-dollar"></i>Bar tab and prix fixe dinner sales go to our host restaurant</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+{% block scripts %}
+{% endblock %}

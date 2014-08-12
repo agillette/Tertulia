@@ -1,0 +1,85 @@
+{% block content %} 
+	<section id="restaurants-intro">
+		<div class="row">
+			<div class="column one-half push-quarter">
+				<p>"That corner spot? It's perfect for a concert."<br>- The New York Times<br><br>"A complete success."<br>- Edna Landau</p>
+			</div>
+		</div>
+	</section>
+	<section id="restaurants-content" class="page-basic">
+		<div class="row clearfix">
+			<div class="column two-thirds push-sixth">
+				<article class="page-section clearfix">
+					<h2 class="section-title">What is Tertulia?</h2>
+					<p class="large">Tertulia is a chamber music series that is designed to attract new and experienced audiences alike, or really, anyone who loves incredible food and music. The idea is simple: Tertulia presents world-class chamber music concerts in select restaurants around the city, and musicians and audiences share an evening of music, food, drink and conversation.</p>
+					<p class="large">At Tertulia we embrace two constants above all else: respect the music during performance, and allow time for the audience to eat and socialize.  There are three performances separated by extended intermissions.  The format and program is designed to enhance the social and culinary experience, but at all Tertulias, the music is paramount. <a href="#faq">Questions?</a></p>
+					<div class="row icon-row clearfix">
+						<div class="column one-sixth"><img src="../assets/img/meetthemusicians.png" alt="" /></div>
+						<div class="column one-sixth"><img src="../assets/img/silence.png" alt="" /></div>
+						<div class="column one-sixth"><img src="../assets/img/stayseated.png" alt="" /></div>
+						<div class="column one-sixth"><img src="../assets/img/respect.png" alt="" /></div>
+						<div class="column one-sixth"><img src="../assets/img/showyourlove.png" alt="" /></div>
+						<div class="column one-sixth"><img src="../assets/img/besocial.png" alt="" /></div>
+					</div>
+				</article>
+				<article class="page-section">
+					<h2 class="section-title">Artistic Directors</h2>
+					<figure class="fig-left">
+						<img src="../assets/img/directors-stitch.jpg" alt="Julia and James, Co-Artistic Directors" />
+						<figcaption>James & Julia, Co-Artistic Directors</figcaption>
+					</figure>
+					<p class="large">Bringing together their shared passion for chamber music and New York City's unmatched culinary arts scene, Artistic Directors Julia Villagra and James Austin Smith have created a vibrant concert series aimed at New York's dynamic generation of young music lovers. Julia Tertulia's founder, felt compelled to design a chamber music series that would attract her peers. After moving to New York in 2007, she immediately began to explore the city's dining scene. It was her interest in food and wine that served as inspiration for her decision to bring chamber music into restaurants. Her objective was clear: hire the best musicians, respect the performance, and extend intermissions so people can eat, drink, and be social. Today, the New York Times calls presenters "to observe her approach" in "luring the young and the restless to the charms of chamber music."</p>
+					<p class="large">James, an oboist, has been praised his "virtuosic" and "brilliant" performances by The New York Times. performs equal parts new and old music across the United States and around the world. In addition to serving as Tertulia's Co-Artistic Director, James is an artist of the Chamber Music Society of Lincoln Center (Chamber Music Society Two), the International Contemporary Ensemble (ICE), the Talea Ensemble, Cygnus and Decoda, and is a regular guest of the Orpheus Chamber Orchestra.  He is a member of the faculty of the State University of New York at Purchase and in the fall of 2014 he will join the faculty of the Manhattan School of Music.</p>
+					<p class="large">Both Julia and James were raised in musical families in Connecticut. They met in high school while playing in a youth orchestra and are thrilled to have reconnected in New York, a decade later.</p>
+				</article>
+				<article class="page-section">
+					<h2 class="section-title">Our Mission</h2>
+					<p class="large">Tertulia is a 501(c)(3) non-profit organization. It is Tertulia's mission to bring classical music to broader audiences by diversifying the concert experience through creative presentations using a non-traditional venue.</p>
+				</article>
+				<article class="page-section">
+					<h2 class="section-title">FAQ</h2>
+					<ul class="unstyled expandable">
+						<li>
+							<span class="question"><a href="#"><i class="fa fa-music"></i> If this concert is in a restaurant, is it background music? (the answer is no!)</a></span>
+							<span class="answer">Absolutely not.  Concerts are presented by Tertulia in collaboration with our hosting restaurant, which on the night of a concert, is "closed" for regular business.  Therefore, tickets to the concert are required for entry.</span>
+						</li>
+						<li>
+							<span class="question"><a href="#"><i class="fa fa-music"></i> Are there printed programs?</a></span>
+							<span class="answer">Yes. Programs with detailed program notes, artists bios, and future concert announcements are provided at every Tertulia. <a href="#">View Sample Program</a></span>
+						</li>
+						<li>
+							<span class="question"><a href="#"><i class="fa fa-music"></i> How much music will be performed?</a></span>
+							<span class="answer">On average, Tertulia presents 60 minutes of music, with 75 non-consecutive minutes reserved for eating, drinking, and socializing. The program is divided into 3 performances.</span>
+						</li>
+						<li>
+							<span class="question"><a href="#"><i class="fa fa-cutlery"></i> Is my dinner included in my ticket price?</a></span>
+							<span class="answer">Except for General Entry, all ticket prices do include the prix fixe menu offered by our hosting restaurant.</span>
+						</li>
+						<li>
+							<span class="question"><a href="#"><i class="fa fa-cutlery"></i> Are drinks included in my ticket price?</a></span>
+							<span class="answer">No. Drinks are paid for by guests, whether alcoholic or non-alcoholic.  Guests will be asked to close their tabs at the end of the final performance.</span>
+						</li>
+						<li>
+							<span class="question"><a href="#"><i class="fa fa-cutlery"></i> May I order off the restaurant's regular menu?</a></span>
+							<span class="answer">No. Unfortunately our hosting restaurants can only accommodate a limited menu. </span>
+						</li>
+						<li>
+							<span class="question"><a href="#"><i class="fa fa-cutlery"></i> Am I supposed to tip?</a></span>
+							<span class="answer">Yes, on your drinks.  Gratuity for your dinner has been taken care of by Tertulia.</span>
+						</li>
+					</ul>
+				</article>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+{% block scripts %}
+	<script>
+	$(document).ready(function(){
+		$('.question a').click(function(e){
+			e.preventDefault();
+			$(this).parents('.question').next('.answer').slideToggle();
+		});
+	});
+	</script>
+{% endblock %}

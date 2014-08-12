@@ -1,0 +1,40 @@
+{% block content %} 
+	<section class="page-intro" id="musicians" style="padding:10em 0 5em 0;background:#fff;border-bottom:1px solid #ddd;background:url(../assets/img/musicians-bg-new.jpg) center center no-repeat;background-size:cover;">
+		<div class="row clearfix">
+			<div class="column two-thirds push-sixth">
+				<p class="large" style="color:#fff;text-shadow:0 0 1em rgba(0,0,0,0.8);">Tertulia artists join us this season because of a shared love of food, music, and people. One of the main ingredients of a Tertulia is the physical proximity of our artists to the audience. Not only do our world-renowned musicians perform in the intimacy of our host restaurants, they dine alongside the audience and are equal participants in the social aspect of the evening.</p>
+			</div>
+		</div>
+	</section>
+	<section id="musician-results">
+		<h2 class="section-title">2014-2015 Artists</h2>
+		<!--<div class="row clearfix" id="controls">
+			<div class="column full">
+				<p>Browse by: <a class="drop-down" href="#">Season <i class="fa fa-caret-down"></i></a> <a class="drop-down" href="#">Name <i class="fa fa-caret-down"></i></a></p>
+			</div>
+		</div>-->
+		<div class="row clearfix">
+		{% collection "artists" by 50 order asc %}
+		{% for artist in collection.items %}
+			<div class="column one-quarter artist">
+				<div class="card">
+					<div class="media-area">
+						<img src="{{ artist.headshot }}" alt="{{ artist.title }}" />
+						<div class="caption">
+							<h3>{{ artist.title }}</h3>
+							<h4>{{ artist.instrument }}</h4>
+						</div>
+					</div>
+					<div class="description">
+						<p>Performing with Tertulia on {{ artist.date }}</p>
+					</div>
+					<a href="{{ artist.website }}" class="button flat-button primary">Artist's Website</a>
+				</div>
+			</div>
+			{% endfor %}
+			{% endcollection %}
+		</div>
+	</section>
+{% endblock %}
+{% block scripts %}
+{% endblock %}

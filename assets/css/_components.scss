@@ -1,0 +1,307 @@
+@import 'type';
+
+/* colors */
+
+$white: #fff;
+$black: #000;
+$primary: #03a9f4;
+$accent: #ffff00;
+$primary-light: #b3e5fc;
+$primary-dark: #0288d1;
+$accent-light: #ffff8d;
+$accent-dark: #ffd600;
+
+/* grid */
+
+.row {
+	display: block;
+	margin: 0 2.5em;
+	.row {
+		margin: 0 -1.5em;
+		.row {
+			margin: 0 -1.5em;
+		}
+	}
+}
+.column {
+	float: left;
+	padding: 0 1.5em;
+}
+.one-sixth {
+	width: 16.6667%;
+}
+.one-fifth {
+	width: 20%;
+}
+.one-quarter {
+	width: 25%;
+}
+.one-third {
+	width: 33.3333%;
+}
+.one-half {
+	width: 50%;
+}
+.two-thirds {
+	width: 66.6667%;
+}
+.three-quarters {
+	width: 75%;
+}	
+.full {
+	width: 100%;
+}
+.push-sixth {
+	margin-left: 16.6667%;
+}
+.push-quarter {
+	margin-left: 25%;
+}
+
+/* forms */
+
+form {
+	legend {
+		@include title;
+		margin-bottom: 2rem;
+	}
+	label {
+		display: block;
+		@include caption;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+	input, textarea {
+		display: block;
+		background: transparent;
+		padding: 0.5em 0;
+		border: 1px solid #e5e5e5;
+		border-width: 0 0 1px 0;
+		margin-bottom: 1em;
+		width: 100%;
+		height: 3em;
+		font-size: 0.875em;
+	}
+	input:focus, textarea:focus {
+		border-color: $primary;
+		outline: none;
+	}
+}
+
+/* buttons */
+
+.button {
+	font-size: 0.875em;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0.6em 1em;
+	border: none;
+	outline: none;
+	border-radius: 0.125rem;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.big-button {
+	font-size: 1em;
+}
+
+.flat-button {
+	color: lighten($black, 62%);
+	transition: color 0.3s;
+}
+
+.flat-button.primary {
+	color: $primary;
+}
+
+.flat-button.accent {
+	color: $accent;
+}
+
+.flat-button:hover {
+	color: $primary-dark;
+}
+
+.raised-button {
+	color: #fff;
+	background-color: lighten($black, 62%);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.24), 0 1px 5px rgba(0,0,0,0.12);
+	transition: all 0.3s;
+}
+
+.raised-button.primary {
+	background-color: $primary;
+}
+
+.raised-button.accent {
+	background-color: $accent-dark;
+}
+
+.raised-button:hover {
+	background-color: $primary-dark;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.24), 0 2px 10px rgba(0,0,0,0.12);
+	color: #fff;
+}
+
+.action-button {
+	padding: 1.5em;
+	border-radius: 50%;
+	font-size: 1em;
+	i {
+		font-size: 1.5em;
+	}
+}
+
+/* cards */
+
+.card {
+	background: #fff;
+	margin: 1em -1em;
+	padding-bottom: 1rem;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.24), 0 1px 5px rgba(0,0,0,0.12);
+	border-radius: 0.125em;
+	.calendar {
+		padding: 1em;
+		table {
+			width: 100%;
+			border-top: 1px solid #ddd;
+			border-right: 1px solid #ddd;
+			margin-bottom: 4.35em;
+			tr {
+				border-bottom: 1px solid #ddd;
+				td, th {
+					border-left: 1px solid #ddd;
+					text-align: center;
+					font-size: 0.75em;
+					padding: 0.5em;
+				}
+				.next-month, .last-month {
+					background: #eee;
+				}
+			}
+		}
+		.other-event {
+			background: $primary-light;
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+		.tertulia-event {
+			background: $primary;
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+	.media-area {
+		width: 100%;
+		height: 12.71875em;
+		overflow: hidden;
+		position: relative;
+		img {
+			min-width: 100%;
+		}
+		.caption {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 1em;
+			h3 {
+				@include headline;
+				color: #fff;
+				text-shadow: 0 0 0.25em rgba(0,0,0,0.24);
+			}
+			h4 {
+				@include subhead;
+				color: rgba(255,255,255,0.8);
+				text-shadow: 0 0 0.25em rgba(0,0,0,0.24);
+			}
+		}
+	}
+	.description {
+		padding: 1em;
+	}
+	.event-description {
+		padding: 1em;
+		h4 {
+			@include subhead;
+		}
+		h3 {
+			@include title;
+			margin-bottom: 0.5em;
+		}
+	}
+	.action-area {
+		.raised-button:first-child {
+			margin-left: 1em;
+		}
+	}
+}
+
+.one-quarter .card {
+	.media-area {
+		height: 11.70125em;
+	}
+}
+
+/* lists */
+
+.list-item {
+	padding: 1em 0;
+	margin: 1em 0;
+	border-bottom: 1px solid #e5e5e5;
+	.left-thumb {
+		float: left;
+		width: 25%;
+		margin-right: 1em;
+	}
+	p {
+		font-size: 0.875em;
+		color: lighten($black, 46%);
+	}
+	h4 {
+		@include subhead;
+	}
+	.action-area {
+		padding: 1em 0;
+		.action-icons {
+			display: block;
+			text-align: right;
+			i {
+				margin-left: 1em;
+			}
+			a {
+				color: $primary;
+				transition: color 0.3s;
+			}
+			a:hover {
+				color: $primary-dark;
+			}
+		}
+	}
+}
+
+ul.unstyled {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: none;
+}
+
+ul.link-list {
+	li {
+		margin-bottom: 0.5em;
+		color: $white;
+		a {
+			color: $white;
+			text-decoration: none;
+		}
+		a:hover {
+			color: $primary;
+		}
+	}
+}

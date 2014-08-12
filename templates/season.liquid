@@ -1,0 +1,40 @@
+{% block content %} 
+	<section class="event-intro" id="decoda">
+		<div class="intro-title">
+			<div class="row clearfix">
+				<div class="column full">
+					<h2>Next Tertulia | DECODA at Harding's</h4>
+					<h3>September 19, 2014 | 7PM</h3>
+					<a href="../sept-2014.html#tickets" class="button raised-button action-button accent"><i class="fa fa-ticket"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="season">
+		<h2 class="section-title">2014-2015 Season</h2>
+		{% collection "concerts" by 10 order asc %}
+		{% for concert in collection.items %}
+		<div class="row clearfix">
+			<div class="column two-thirds push-sixth">
+				<div class="row clearfix event-row">
+					<div class="column one-quarter event-date">
+						<span class="year">{{ concert.year }}</span>
+						<span class="month-day">{{ concert.month }}</span>
+					</div>
+					<div class="column three-quarters event-listing">
+						<img src="{{ concert.thumbnail }}" alt="" />
+						<h3>{{ concert.group }}</h3>
+						<h4>{{ concert.location }} | 7 pm</h4>
+						<h4>{{ concert.address }}</h4>						
+						<a class="button raised-button primary" href="{{ concert.slug }}.html"><i class="fa fa-ticket"></i> Tickets & Info</a>
+						<a class="button raised-button" href="#"><i class="fa fa-plus"></i> Add to Calendar</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+		{% endcollection %}
+	</section>
+{% endblock %}
+{% block scripts %}
+{% endblock %}

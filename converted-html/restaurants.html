@@ -1,0 +1,215 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Title block allowing child pages to override -->
+        <title>Tertulia</title>
+				<meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        <!-- Styles -->
+				<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,400italic,600italic,400,600,300' rel='stylesheet' type='text/css'>
+				<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+				<link rel="stylesheet" href="http://qtip2.com/v/2.2.0/basic/jquery.qtip.min.css" />
+        <link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- Style block allowing child pages to inject their own styles -->
+        
+    </head>
+    <body>
+				<!-- Include -->
+				<header id="mainhead">
+	<div>
+		<div class="column one-quarter">
+			<nav id="collapse-nav" class="show-phone">
+				<a id="mobile-menu" href="#"><i class="fa fa-bars"></i></a>
+				<div class="menu-overlay">
+					<ul>
+					<li><a href="../season.html">Season & Tickets</a></li>
+					<li><a href="../musicians.html">Artists</a></li>
+					<li><a href="../about.html">About</a></li>
+					<li><a href="../updates.html">Look & Listen</a></li>
+					<hr>
+					<li><a href="../restaurants.html">For Restaurants</a></li>
+					<li><a href="../support.html">Support</a></li>					
+					<li><a href="../contact.html">Contact</a></li>
+				</ul>
+				</div>
+			</nav>
+			<h1 id="logo"><a href="/">Tertulia</a></h1>
+		</div>
+		<div class="column three-quarters">
+			<nav id="main-nav" class="hide-phone">
+				<ul>
+					<li><a href="../season.html">Season & Tickets</a></li>
+					<li><a href="../musicians.html">Artists</a></li>
+					<li><a href="../about.html">About</a></li>
+					<li><a href="../updates.html">Look & Listen</a></li>
+					<li><a class="muted" href="../restaurants.html">For Restaurants</a></li>
+					<li><a class="muted" href="../support.html">Support</a></li>					
+					<li><a class="muted" href="../contact.html">Contact</a></li>
+					<li class="social"><a class="muted" href="#"><i class="fa fa-instagram"></i></a></li>
+					<li class="social"><a class="muted" href="#"><i class="fa fa-twitter"></i></a></li>
+					<li class="social"><a class="muted" href="#"><i class="fa fa-facebook"></i></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+				<!-- Content block, child page inject content -->
+				 
+	<section id="restaurants-intro">
+		<div class="row">
+			<div class="column one-half push-quarter">
+				<p>"That corner spot? It's perfect for a concert."<br>- The New York Times<br><br>"A complete success."<br>- Edna Landau</p>
+			</div>
+		</div>
+	</section>
+	<section id="restaurants-content" class="page-basic">
+		<div class="row clearfix">
+			<div class="column two-thirds">
+				<article class="page-section">
+					<h2 class="section-title">Host Tertulia</h2>
+					<p class="large">If your restaurant is interested in hosting Tertulia during our 2015-2016 season, please fill out the form below.</p>
+					<div class="row clearfix">
+						<div class="column two-thirds push-sixth">
+							<form action="/">
+								<label for="name">Restaurant Name</label>
+								<input type="text" name="name" />
+								<label for="location">Neighborhood</label>
+								<input type="text" name="location" placeholder="eg. Nolita, Cobble Hill" />
+								<div class="row clearfix">
+									<div class="column one-half">
+										<label for="seating">Conservative Seating Cap</label>
+										<input type="text" name="seating" placeholder="100" />
+									</div>
+									<div class="column one-half">
+										<label for="bar">Bar Seating Cap</label>
+										<input type="text" name="bar" placeholder="10" />
+									</div>
+								</div>
+								<label for="y-name">Your Name</label>
+								<input type="text" name"y-name" />
+								<label for="email">Email Address</label>
+								<input type="email" name="email" placeholder="example@example.com" />
+								<label for="phone">Phone Number</label>
+								<input type="text" name="phone" placeholder="123-456-7890" />
+								<button type="submit" class="button raised-button primary">Send</button>
+							</form>
+						</div>
+					</div>
+				</article>
+				<article class="page-section">
+					<h2 class="section-title">How Tertulia Works</h2>
+					<p class="large">The evening is formatted as a dinner-concert, with three performances separated by extended intermissions. A typical Tertulia presents 60 minutes of music, with at least 75 minutes for eating, drinking, and socializing. During performances restaurant service is held and conversation stops.</p>
+					<p class="large">A typical Tertulia:</p>
+					<table class="ticket-table">
+						<tbody>
+							<tr>
+								<td>7:00 pm</td>
+								<td><i class="fa fa-glass"></i></td>
+								<td>Tertulia begins - guests arrive, check in, order drinks and select dinner options</td>
+							</tr>
+							<tr>
+								<td>7:30 pm</td>
+								<td><i class="fa fa-music"></i></td>
+								<td>First performance - guests are all seated (~20')</td>
+							</tr>
+							<tr>
+								<td>7:50 pm</td>
+								<td><i class="fa fa-cutlery"></i></td>
+								<td>Dinner is served</td>
+							</tr>
+							<tr>
+								<td>8:30PM</td>
+								<td><i class="fa fa-music"></i></td>
+								<td>Second performance (~20')</td>
+							</tr>
+							<tr>
+								<td>9:00PM</td>
+								<td><i class="fa fa-coffee"></i></td>
+								<td>Dessert is served</td>
+							</tr>
+							<tr>
+								<td>9:30PM</td>
+								<td><i class="fa fa-music"></i></td>
+								<td>Final performace (~20')</td>
+							</tr>
+							<tr>
+								<td>9:55PM</td>
+								<td><i class="fa fa-comments"></i></td>
+								<td>Close tabs, mingle, meet the musicians</td>
+							</tr>
+						</tbody>
+					</table>
+					<a href="#" class="button raised-button primary">Sample Program (PDF)</a>
+				</article>
+			</div>
+			<div class="column one-third page-sidebar">
+				<h2>Our Partners</h2>
+				<ul class="fa-ul">
+					<li><i class="fa-li fa fa-star"></i>Engage new patrons and offer existing patrons a world-class, unique experience</li>
+					<li><i class="fa-li fa fa-music"></i>Host the worlds' best classical musicians in the intimacy of your restaurant</li>
+					<li><i class="fa-li fa fa-book"></i>Attract press personnel from the city's most esteemed publications and news sources</li>
+					<li><i class="fa-li fa fa-cutlery"></i>Access Tertulia's extensive network of New Yorkers interested in the city's culinary and performing arts scene</li>
+					<li><i class="fa-li fa fa-certificate"></i>Placement on Tertulia's website and in programs books as a season host</li>
+					<li><i class="fa-li fa fa-heart"></i>Support your local arts community: Tertulia is a non-profit 501(c)(3)</li>
+					<li><i class="fa-li fa fa-dollar"></i>Bar tab and prix fixe dinner sales go to our host restaurant</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+				<footer id="mainfoot">
+					<div class="row clearfix">
+						<div class="column one-third" id="footer-about">
+							<h3>About Tertulia</h3>
+							<p>Tertulia is a chamber music series that is designed to attract new and experienced audiences alike, or really, anyone who loves incredible food and music. The idea is simple: Tertulia presents world-class chamber music concerts in select restaurants around the city, and musicians and audiences share an evening of music, food, drink and conversation.</p>
+							<a href="../about.html" class="button raised-button primary">Read More</a>
+						</div>
+						<div class="column one-third">
+							<h3>Quick Links</h3>
+							<ul class="unstyled link-list">
+								<li><a href="../about.html">About</a></li>
+								<li><a href="../support.html">Support</a></li>
+								<li><a href="../contact.html">Contact</a></li>
+								<li><a href="../season.html">Season & Tickets</a></li>
+								<li><a href="../musicians.html">Artists</a></li>
+								<li><a href="../restaurants.html">For Restaurants</a></li>
+								<li><a href="../look-listen.html">Look & Listen</a></li>
+							</ul>
+						</div>
+						<div class="column one-third">
+							<form action="">
+								<fieldset>
+									<legend>Join Our Mailing List</legend>
+									<label for="email">Email Address</label>
+									<input type="email" placeholder="example@example.com" />
+									<button type="submit" class="button raised-button primary">Subscribe</button>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</footer>
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+				<script src="http://qtip2.com/v/2.2.0/basic/jquery.qtip.min.js"></script>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        
+
+        <script type="text/javascript">
+					$(document).ready(function(){
+						$('.card .media-area').each(function(){
+							var iWidth = $(this).width();
+							var fHeight = (iWidth * 160) / 301;
+							$(this).height(fHeight);
+						});
+						$('#mobile-menu').click(function(e){
+							e.preventDefault();
+							$('.menu-overlay').addClass('open');
+						});
+						$('.tooltip').qtip({
+							style: {
+								classes: 'qtip-light qtip-shadow'
+							}
+						});
+					});
+				</script>
+    </body>
+</html>
