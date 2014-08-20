@@ -20,12 +20,12 @@
 				{% block content %}{% endblock %}
 				<footer id="mainfoot">
 					<div class="row clearfix">
-						<div class="column one-third" id="footer-about">
+						<div class="column one-third hide-phone" id="footer-about">
 							<h3>About Tertulia</h3>
 							<p>Tertulia is a chamber music series that is designed to attract new and experienced audiences alike, or really, anyone who loves incredible food and music. The idea is simple: Tertulia presents world-class chamber music concerts in select restaurants around the city, and musicians and audiences share an evening of music, food, drink and conversation.</p>
 							<a href="../about.html" class="button raised-button primary">Read More</a>
 						</div>
-						<div class="column one-third">
+						<div class="column one-third hide-phone">
 							<h3>Quick Links</h3>
 							<ul class="unstyled link-list">
 								<li><a href="../about.html">About</a></li>
@@ -37,7 +37,7 @@
 								<li><a href="../look-listen.html">Look & Listen</a></li>
 							</ul>
 						</div>
-						<div class="column one-third">
+						<div class="column one-third phone-full">
 							<form action="">
 								<fieldset>
 									<legend>Join Our Mailing List</legend>
@@ -55,9 +55,22 @@
         {% block scripts %}{% endblock %}
         <script type="text/javascript">
 					$(document).ready(function(){
+						if(location.pathname != '/'){
+							$('#main-nav a[href*="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+							console.log(location.pathname.split("/")[1]);
+						}
 						$('.card .media-area').each(function(){
 							var iWidth = $(this).width();
 							var fHeight = (iWidth * 160) / 301;
+							$(this).height(fHeight);
+						});
+						$('.board-row .card .media-area').each(function(){
+							var iWidth = $(this).width();
+							$(this).height(iWidth);
+						});
+						$('.artist .card .media-area, .card.event-card .media-area').each(function(){
+							var iWidth = $(this).width();
+							var fHeight = (iWidth * 2) / 3;
 							$(this).height(fHeight);
 						});
 						$('#mobile-menu').click(function(e){

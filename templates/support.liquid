@@ -1,24 +1,47 @@
 {% block content %} 
-	<section id="restaurants-intro">
+	<!--<section id="restaurants-intro">
 		<div class="row">
 			<div class="column one-half push-quarter">
 				<p>"That corner spot? It's perfect for a concert."<br>- The New York Times<br><br>"A complete success."<br>- Edna Landau</p>
 			</div>
 		</div>
-	</section>
-	<section id="restaurants-content" class="page-basic">
+	</section>-->
+	<section id="restaurants-content" class="page-basic no-header">
 		<div class="row clearfix">
-			<div class="column two-thirds">
+			<div class="column two-thirds push-sixth">
 				<article class="page-section">
 					<h2 class="section-title">Support Tertulia</h2>
 					<p class="large">Ticket sales alone make up the majority of Tertulia’s annual revenue, but we still need your help to balance our budget. We’re a 501(c)(3) so your donation is tax-deductible.</p>
-
-					<p><a href="#">Donate</a></p>
+					<form class="inline-page-form" action="/">
+						<select name="donation" id="">
+							<option value="0">select</option>
+							<option value="10">$10</option>
+							<option value="25">$25</option>
+							<option value="50">$50</option>
+							<option value="100">$100</option>
+							<option value="change">other amount</option>
+						</select>
+						<button type="submit" class="button raised-button primary">Donate</button>
+					</form>
 
 					<h2 class="section-title">Become a Member</h2>
 					<p class="large">Take advantage of special events, open rehearsals, restaurant discounts and more by becoming a member.</p>
 
-					<p><a href="#">Membership</a></p>
+					<form action="/" class="inline-page-form">
+						<select name="memberships" id="">
+							<option value="0">select</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+						</select>
+						<input type="text" value="$200" disabled>
+						<button type="submit" class="button raised-button primary">Become a Member</button>
+					</form>
 
 					<h2 class="section-title">Season Sponsorship</h2>
 					<p class="large">Love the idea of supporting a performing arts organization in New York? Tertulia is a fast-growing new chamber music series that is aimed at the city’s younger generation of concert-goers.  If you or your company is interested in sponsorship, please contact Julia Villagra at <a href="mailto:julia@tertulianyc">julia@tertulianyc.org</a> or at 646-352-3562.</p>

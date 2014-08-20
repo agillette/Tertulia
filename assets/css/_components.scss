@@ -88,6 +88,32 @@ form {
 	}
 }
 
+form.inline-page-form {
+	input, select, button {
+		display: inline-block;
+		margin-right: 1em;
+		width: auto;
+		margin-bottom: 0;
+	}
+	input {
+		margin-top: -4px;
+	}
+	select {
+		border: 1px solid #e5e5e5;
+		border-width: 0 0 1px 0;
+		background: transparent;
+		padding: 0.5em 0;
+	}
+	select:focus {
+		outline: none;
+		border-color: $primary;
+	}
+	input:disabled {
+		color: lighten($black, 46%);
+		width: 3em;
+	}
+}
+
 /* buttons */
 
 .button {
@@ -163,19 +189,14 @@ form {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.24), 0 1px 5px rgba(0,0,0,0.12);
 	border-radius: 0.125em;
 	.calendar {
-		padding: 1em;
+		padding: 1.1em 0 1em 0;
 		table {
 			width: 100%;
-			border-top: 1px solid #ddd;
-			border-right: 1px solid #ddd;
-			margin-bottom: 4.35em;
 			tr {
-				border-bottom: 1px solid #ddd;
 				td, th {
-					border-left: 1px solid #ddd;
 					text-align: center;
 					font-size: 0.75em;
-					padding: 0.5em;
+					padding: 0.4em 0.5em;
 				}
 				.next-month, .last-month {
 					background: #eee;
@@ -209,16 +230,20 @@ form {
 			position: absolute;
 			bottom: 0;
 			left: 0;
-			padding: 1em;
+			padding: 0.5em 1em;
+			background: rgba(0,0,0,0.74);
+			width: 100%;
 			h3 {
-				@include headline;
+				@include title;
 				color: #fff;
-				text-shadow: 0 0 0.25em rgba(0,0,0,0.24);
+				small {
+					font-size: 75%;
+					font-weight: 400;
+				}
 			}
 			h4 {
 				@include subhead;
 				color: rgba(255,255,255,0.8);
-				text-shadow: 0 0 0.25em rgba(0,0,0,0.24);
 			}
 		}
 	}

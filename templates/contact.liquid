@@ -1,32 +1,116 @@
 {% block content %} 
-	<section id="restaurants-intro">
+	<!--<section id="restaurants-intro">
 		<div class="row">
 			<div class="column one-half push-quarter">
 				<p>"That corner spot? It's perfect for a concert."<br>- The New York Times<br><br>"A complete success."<br>- Edna Landau</p>
 			</div>
 		</div>
-	</section>
-	<section id="restaurants-content" class="page-basic">
+	</section>-->
+	<section id="restaurants-content" class="page-basic no-header">
 		<div class="row clearfix">
-			<div class="column two-thirds push-sixth">
+			<div class="column two-thirds">
 				<article class="page-section">
 					<h2 class="section-title">Contact Us</h2>
-					<p class="large">For general inquiries please email <a href="mailto:info@tertulianyc.org">info@tertulianyc.org</a></p>
-					<p class="large">To contact the artistic directors please email <a href="mailto:info@tertulianyc.org">info@tertulianyc.org</a> or call us at (646)352-3562</p>
-					<p class="large">For press inquiries please email <a href="mailto:press@tertulianyc.org">press@tertulianyc.org</a> or call us at (646)352-3562</p>
-					<p class="large">Become a host restaurant by filling out the form <a href="http://tertulia.andygillette.com/restaurants.html">here</a>.</p>
-					
-					<p class="large">Board of Directors</p>
-					<ul>
-						<li>Julia Villagra, president</li>
-						<li>Bill Vanderson, vice president</li>
-						<li>Laura Schubert, secretary</li>
-						<li>James Austin Smith</li>
-						<li>Samantha Angelo</li>
-						<li>Andrew Hood</li>
-						<li>Stefan Jackiw</li>
-					</ul>	
+					<p class="large">Whether it's a question, comment, idea, or you're a restaurant looking to host a concert - we're always eager to hear from you.</p>
+					<div class="row clearfix" style="margin-bottom:2em;">
+						<div class="column two-thirds push-sixth">
+							<form action="/">
+								<label for="name">Full Name</label>
+								<input type="text" name="name" />
+								<label for="email">Email Address</label>
+								<input type="email" name="email" placeholder="example@example.com" />
+								<label for="message">Message</label>
+								<textarea name="message" id="" cols="30" rows="10"></textarea>
+								<button type="submit" class="button raised-button primary">Send</button>
+							</form>
+						</div>
+					</div>
+					<div class="row clearfix board-row">
+						<h2 class="section-title">Board of Directors</h2>
+						<div class="column one-third">
+							<div class="card">
+								<div class="media-area">
+									<img src="/assets/img/board/julia-sq.jpg" alt="" />
+								</div>
+								<div class="description">
+									<h3>Julia Villagra</h3>
+									<h4>President</h4>
+								</div>
+							</div>
+						</div>
+						<div class="column one-third">
+							<div class="card">
+								<div class="media-area">
+									<img src="/assets/img/board/bill-sq.jpg" alt="" />
+								</div>
+								<div class="description">
+									<h3>Bill Vanderson</h3>
+									<h4>Vice President</h4>
+								</div>
+							</div>
+						</div>
+						<div class="column one-third">
+							<div class="card">
+								<div class="media-area">
+									<img src="/assets/img/board/laura-sq.jpg" alt="" />
+								</div>
+								<div class="description">
+									<h3>Laura Schubert</h3>
+									<h4>Secretary</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix board-row">
+						<div class="column one-quarter">
+							<div class="card">
+								<div class="media-area">
+									<img src="/assets/img/board/james-sq.jpg" alt="" />
+								</div>
+								<div class="description">
+									<h3>James Austin Smith</h3>
+								</div>
+							</div>
+						</div>
+						<div class="column one-quarter">
+							<div class="card">
+								<div class="media-area">
+									<img src="/assets/img/board/sam-sq.jpg" alt="" />
+								</div>
+								<div class="description">
+									<h3>Samantha Angelo</h3>
+								</div>
+							</div>
+						</div>
+						<div class="column one-quarter">
+							<div class="card">
+								<div class="media-area">
+									<img src="/assets/img/board/oaz-sq.jpg" alt="" />
+								</div>
+								<div class="description">
+									<h3>Oaz Nir</h3>
+								</div>
+							</div>
+						</div>
+						<div class="column one-quarter">
+							<div class="card">
+								<div class="media-area">
+									<img src="/assets/img/board/stefan-sq.jpg" alt="" />
+								</div>
+								<div class="description">
+									<h3>Stefan Jackiw</h3>
+								</div>
+							</div>
+						</div>
+					</div>	
 				</article>	
+			</div>
+			<div class="column one-third page-sidebar contact-sidebar">
+				<p>General Questions<br><a href="mailto:info@tertulianyc.org">info@tertulianyc.org</a><br>646.352.3562</p>
+				<p>Press<br><a href="mailto:press@tertulianyc.org">press@tertulianyc.org</a></p>
+				<p><a href="/restaurants.html">Restaurants</a></p>
+				<p>Tertulia, Inc.<br>51 W 16th St<br>New York, NY 10011</p>
+				<p><a href="/about.html#faq">FAQ</a></p>
 			</div>
 		</div>
 	</section>

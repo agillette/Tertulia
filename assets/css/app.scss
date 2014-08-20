@@ -82,6 +82,9 @@ h2.section-title:after {
 				a.muted {
 					color: darken($white, 26%);
 				}
+				a.active {
+					color: $accent-light;
+				}
 			}
 		}
 	}
@@ -143,12 +146,21 @@ h2.section-title:after {
 	min-height: 100vh;
 	background: url(http://tertulianyc.org/tertulia_bg.png) center center no-repeat;
 	background-size: cover;
-	p {
-		@include headline;
-		color: $white;
-		text-align: center;
-		padding-top: 35%;
-		font-weight: 300;
+	position: relative;
+	.row {
+		margin-top: 50vh;
+		p {
+			@include headline;
+			color: $white;
+			text-align: center;
+			font-weight: 300;
+			transform: translateY(-50%);
+		}
+		#second em {
+			font-size: 75%;
+			font-style: italic;
+			font-weight: normal;
+		}
 	}
 }
 
@@ -171,16 +183,21 @@ h2.section-title:after {
 	}
 }
 
-#home-intro {
-	margin: 3.5em 0;
-	padding: 3.5em 0;
-	background: lighten($black, 13%);
+#home-intro, #home-season-link {
+	margin: 0 0 3.5em 0;
+	padding: 0 0 3.5em 0;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
 	p {
 		margin: 0;
-		color: #fff;
-		font-size: 1em;
+		font-size: 1.25em;
 		line-height: 1.6;
+		margin-bottom: 1em;
 	}
+}
+
+#home-season-link {
+	margin-top: 3.5em;
 }
 
 /* musicians */
@@ -251,9 +268,6 @@ h2.section-title:after {
 }
 
 .artist {
-	p {
-		height: 5em;
-	}
 }
 
 /* restaurants */
@@ -290,6 +304,14 @@ p.large {
 	}
 	li {
 		margin-bottom: 1em;
+	}
+}
+
+.contact-sidebar {
+	p {
+		text-align: right;
+		margin-bottom: 2em;
+		font-size: 1.1em;
 	}
 }
 
@@ -350,6 +372,10 @@ p.large {
 			display: none;
 		}
 	}
+}
+
+.page-basic.no-header {
+	padding-top: 3.5em;
 }
 
 /* events */
@@ -490,7 +516,7 @@ p.large {
 			padding: 0.5em 1em;
 			text-align: left;
 			select {
-				max-width: 15em;
+				max-width: 26em;
 			}
 		}
 		td:first-child, th:first-child {
@@ -519,6 +545,18 @@ p.large {
 #decoda {
 	background: url(../img/musicians-bg.jpg) center center no-repeat;
 	background-size: cover;
+}
+
+.board-row .card {
+	padding-bottom: 0;
+}
+
+.artist .description {
+	padding-bottom: 0;
+	h3 {
+		@include title;
+		font-size: 1em;
+	}
 }
 
 /* footer */

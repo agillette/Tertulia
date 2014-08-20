@@ -1,0 +1,33 @@
+{% block content %} 
+	<!--<section id="restaurants-intro">
+		<div class="row">
+			<div class="column one-half push-quarter">
+				<p>"That corner spot? It's perfect for a concert."<br>- The New York Times<br><br>"A complete success."<br>- Edna Landau</p>
+			</div>
+		</div>
+	</section>-->
+	<section id="restaurants-content" class="page-basic no-header">
+		<div class="row clearfix">
+			<div class="column two-thirds push-sixth">
+				<article class="page-section">
+					<h2 class="section-title">Meet Meena</h2>
+					<figure class="fig-center">
+						<img src="/assets/img/artists/meena.jpg" width="100%" alt="Meena Bhasin" />
+						<figcaption>Meena Bhasin, Viola</figcaption>
+					</figure>
+					<p class="large">Meena Bhasin is a captivating violist who is forging a new role for the classical musician. She is a co-founder of Decoda, New York City's trailblazing society of virtuoso chamber musicians, arts advocates and educators. She is passionate about using music to spark cultural dialogue. In recent seasons, Ms. Bhasin has designed Carnegie Hall residencies in Mumbai and Abu Dhabi collaborating with musicians and students from both cities. In her home town of New York City, Ms. Bhasin is a member of Lincoln Center's Mostly Mozart Festival Orchestra, principal violist for Trinity Wall Street's NOVUS NY, a frequent performer with the Orchestra of St. Luke's, and a teaching artist for the New York Philharmonic. She also relishes collaborations across genres and has toured the US as a soloist with legendary rock band Jethro Tull and performed Persian music as a soloist with the New York Philharmonic.  Ms. Bhasin spent three years as a fellow in The Academy, the post-graduate leadership program of Carnegie Hall and the Juilliard School, where she taught and made frequent concert appearances on the Carnegie stages, around New York City, and around the world.  Ms. Bhasin graduated as a Presser scholar from New England Conservatory and also holds a BA in international relations from Tufts University.</p>
+				</article>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+{% block scripts %}
+	<script>
+	$(document).ready(function(){
+		$('.question a').click(function(e){
+			e.preventDefault();
+			$(this).parents('.question').next('.answer').slideToggle();
+		});
+	});
+	</script>
+{% endblock %}

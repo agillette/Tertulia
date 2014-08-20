@@ -193,7 +193,10 @@ input[type=button] {
   zoom: 1; }
 
 .text-center {
-  text-align: center; }
+  text-align: center !important; }
+
+.text-right {
+  text-align: right; }
 
 /* colors */
 /* grid */
@@ -266,6 +269,25 @@ form input:focus, form textarea:focus {
   border-color: #03a9f4;
   outline: none; }
 
+form.inline-page-form input, form.inline-page-form select, form.inline-page-form button {
+  display: inline-block;
+  margin-right: 1em;
+  width: auto;
+  margin-bottom: 0; }
+form.inline-page-form input {
+  margin-top: -4px; }
+form.inline-page-form select {
+  border: 1px solid #e5e5e5;
+  border-width: 0 0 1px 0;
+  background: transparent;
+  padding: 0.5em 0; }
+form.inline-page-form select:focus {
+  outline: none;
+  border-color: #03a9f4; }
+form.inline-page-form input:disabled {
+  color: #757575;
+  width: 3em; }
+
 /* buttons */
 .button {
   font-size: 0.875em;
@@ -327,21 +349,15 @@ form input:focus, form textarea:focus {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.12);
   border-radius: 0.125em; }
   .card .calendar {
-    padding: 1em; }
+    padding: 1.1em 0 1em 0; }
     .card .calendar table {
-      width: 100%;
-      border-top: 1px solid #ddd;
-      border-right: 1px solid #ddd;
-      margin-bottom: 4.35em; }
-      .card .calendar table tr {
-        border-bottom: 1px solid #ddd; }
-        .card .calendar table tr td, .card .calendar table tr th {
-          border-left: 1px solid #ddd;
-          text-align: center;
-          font-size: 0.75em;
-          padding: 0.5em; }
-        .card .calendar table tr .next-month, .card .calendar table tr .last-month {
-          background: #eee; }
+      width: 100%; }
+      .card .calendar table tr td, .card .calendar table tr th {
+        text-align: center;
+        font-size: 0.75em;
+        padding: 0.4em 0.5em; }
+      .card .calendar table tr .next-month, .card .calendar table tr .last-month {
+        background: #eee; }
     .card .calendar .other-event {
       background: #b3e5fc; }
       .card .calendar .other-event a {
@@ -363,21 +379,24 @@ form input:focus, form textarea:focus {
       position: absolute;
       bottom: 0;
       left: 0;
-      padding: 1em; }
+      padding: 0.5em 1em;
+      background: rgba(0, 0, 0, 0.74);
+      width: 100%; }
       .card .media-area .caption h3 {
         color: #212121;
-        font-size: 1.5em;
-        font-weight: 400;
+        font-size: 1.25em;
+        font-weight: 600;
         line-height: 1.3333;
-        color: #fff;
-        text-shadow: 0 0 0.25em rgba(0, 0, 0, 0.24); }
+        color: #fff; }
+        .card .media-area .caption h3 small {
+          font-size: 75%;
+          font-weight: 400; }
       .card .media-area .caption h4 {
         color: #212121;
         font-size: 1em;
         font-weight: 400;
         line-height: 1.5;
-        color: rgba(255, 255, 255, 0.8);
-        text-shadow: 0 0 0.25em rgba(0, 0, 0, 0.24); }
+        color: rgba(255, 255, 255, 0.8); }
   .card .description {
     padding: 1em; }
   .card .event-description {
@@ -521,6 +540,8 @@ h2.section-title:after {
         color: white; }
       #mainhead nav ul li a.muted {
         color: #bdbdbd; }
+      #mainhead nav ul li a.active {
+        color: #ffff8d; }
   #mainhead #collapse-nav {
     margin: 0;
     float: left; }
@@ -564,16 +585,23 @@ h2.section-title:after {
   display: block;
   min-height: 100vh;
   background: url(http://tertulianyc.org/tertulia_bg.png) center center no-repeat;
-  background-size: cover; }
-  #home-slider p {
-    color: #212121;
-    font-size: 1.5em;
-    font-weight: 400;
-    line-height: 1.3333;
-    color: white;
-    text-align: center;
-    padding-top: 35%;
-    font-weight: 300; }
+  background-size: cover;
+  position: relative; }
+  #home-slider .row {
+    margin-top: 50vh; }
+    #home-slider .row p {
+      color: #212121;
+      font-size: 1.5em;
+      font-weight: 400;
+      line-height: 1.3333;
+      color: white;
+      text-align: center;
+      font-weight: 300;
+      transform: translateY(-50%); }
+    #home-slider .row #second em {
+      font-size: 75%;
+      font-style: italic;
+      font-weight: normal; }
 
 #home-actions form {
   margin-top: 2em; }
@@ -589,15 +617,19 @@ h2.section-title:after {
     margin: 0 auto;
     display: block; }
 
-#home-intro {
-  margin: 3.5em 0;
-  padding: 3.5em 0;
-  background: #212121; }
-  #home-intro p {
+#home-intro, #home-season-link {
+  margin: 0 0 3.5em 0;
+  padding: 0 0 3.5em 0;
+  border-bottom: 1px solid #ddd;
+  background: #fff; }
+  #home-intro p, #home-season-link p {
     margin: 0;
-    color: #fff;
-    font-size: 1em;
-    line-height: 1.6; }
+    font-size: 1.25em;
+    line-height: 1.6;
+    margin-bottom: 1em; }
+
+#home-season-link {
+  margin-top: 3.5em; }
 
 /* musicians */
 #musicians-intro {
@@ -665,9 +697,6 @@ h2.section-title:after {
     padding-bottom: 0.5em;
     border-bottom: 1px solid #e5e5e5; }
 
-.artist p {
-  height: 5em; }
-
 /* restaurants */
 #restaurants-intro {
   min-height: 75vh;
@@ -702,6 +731,11 @@ p.large {
     margin-bottom: 1em; }
   .page-sidebar li {
     margin-bottom: 1em; }
+
+.contact-sidebar p {
+  text-align: right;
+  margin-bottom: 2em;
+  font-size: 1.1em; }
 
 .page-section .fig-left {
   float: left;
@@ -744,6 +778,9 @@ p.large {
       text-decoration: none; }
   .expandable li .answer {
     display: none; }
+
+.page-basic.no-header {
+  padding-top: 3.5em; }
 
 /* events */
 .event-intro {
@@ -873,7 +910,7 @@ p.large {
       padding: 0.5em 1em;
       text-align: left; }
       .ticket-table tr td select, .ticket-table tr th select {
-        max-width: 15em; }
+        max-width: 26em; }
     .ticket-table tr td:first-child, .ticket-table tr th:first-child {
       padding-left: 0; }
     .ticket-table tr td:last-child, .ticket-table tr th:last-child {
@@ -892,6 +929,18 @@ p.large {
 #decoda {
   background: url(../img/musicians-bg.jpg) center center no-repeat;
   background-size: cover; }
+
+.board-row .card {
+  padding-bottom: 0; }
+
+.artist .description {
+  padding-bottom: 0; }
+  .artist .description h3 {
+    color: #212121;
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.3333;
+    font-size: 1em; }
 
 /* footer */
 #mainfoot {

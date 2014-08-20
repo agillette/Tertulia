@@ -1,0 +1,36 @@
+{% block content %} 
+	<!--<section id="restaurants-intro">
+		<div class="row">
+			<div class="column one-half push-quarter">
+				<p>"That corner spot? It's perfect for a concert."<br>- The New York Times<br><br>"A complete success."<br>- Edna Landau</p>
+			</div>
+		</div>
+	</section>-->
+	<section id="restaurants-content" class="page-basic no-header">
+		<div class="row clearfix">
+			<div class="column two-thirds push-sixth">
+				<article class="page-section">
+					<h2 class="section-title">Composer-in-Residence</h2>
+					<figure class="fig-center">
+						<img src="/assets/img/artists/andres_samanthawest.jpg" width="100%" alt="Timo Andres" />
+						<figcaption>Timo Andres, Piano and Composer</figcaption>
+					</figure>
+					<p class="large">Timo Andres (b. 1985, Palo Alto, CA) is a composer and pianist who grew up in rural Connecticut, studied at Yale University and now lives in Brooklyn, NY.  A Nonesuch Records artist, his newest album of orchestral works, Home Stretch, has been hailed for its "playful intelligence and individuality," (The Guardian) and of his 2010 debut album for two pianos, Shy and Mighty, Alex Ross wrote in The New Yorker that "it achieves an unhurried grandeur that has rarely been felt in American music since John Adams came on the scene... more mighty than shy, [Andres] sounds like himself."</p>
+					<p class="large">In recent seasons, Andres has received commissions from the Los Angeles Philharmonic; the Los Angeles Chamber Orchestra; from a consortium including Carnegie Hall, Wigmore Hall, the Concertgebouw Amsterdam and San Francisco Performances for Jonathan Biss and the Elias String Quartet; from the Gilmore Foundation for Kirill Gerstein; from the University of Notre Dame for Third Coast Percussion; and from the Library of Congress for the Attacca Quartet, among others.</p>
+					<p class="large">Upcoming highlights include a new orchestral work for the Orpheus Chamber Orchestra; a performance - with Andres at the keyboard - of his re-composition of Mozart's "Coronation Concerto" at the 2014 Ojai Festival with the Knights Chamber Orchestra; and a subscription week with the North Carolina Symphony, performing both his 2011 work, Old Keys, and Gershwin's Rhapsody in Blue.</p>
+					<p class="large">Andres has been presented in solo recital by Lincoln Center, Wigmore Hall, (le) Poisson Rouge, and San Francisco Performances, and performed the world premiere of selected Philip Glass Etudes, alongside the composer, at the Barbican in London.</p>
+				</article>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+{% block scripts %}
+	<script>
+	$(document).ready(function(){
+		$('.question a').click(function(e){
+			e.preventDefault();
+			$(this).parents('.question').next('.answer').slideToggle();
+		});
+	});
+	</script>
+{% endblock %}

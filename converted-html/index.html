@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
     <head>
         <!-- Title block allowing child pages to override -->
@@ -9,7 +9,7 @@
 				<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,400italic,600italic,400,600,300' rel='stylesheet' type='text/css'>
 				<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 				<link rel="stylesheet" href="http://qtip2.com/v/2.2.0/basic/jquery.qtip.min.css" />
-        <link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" media="all" />
         <!-- Style block allowing child pages to inject their own styles -->
         
     </head>
@@ -25,7 +25,7 @@
 					<li><a href="/season.html">Season & Tickets</a></li>
 					<li><a href="/musicians.html">Artists</a></li>
 					<li><a href="/about.html">About</a></li>
-					<li><a href="/updates.html">Look & Listen</a></li>
+					<li><a href="http://blog.tertulianyc.org/" target="_blank">Look & Listen</a></li>
 					<hr>
 					<li><a href="/restaurants.html">For Restaurants</a></li>
 					<li><a href="/support.html">Support</a></li>					
@@ -41,7 +41,7 @@
 					<li><a href="/season.html">Season & Tickets</a></li>
 					<li><a href="/musicians.html">Artists</a></li>
 					<li><a href="/about.html">About</a></li>
-					<li><a href="/updates.html">Look & Listen</a></li>
+					<li><a href="http://blog.tertulianyc.org/" target="_blank">Look & Listen</a></li>
 					<li><a class="muted" href="/restaurants.html">For Restaurants</a></li>
 					<li><a class="muted" href="/support.html">Support</a></li>					
 					<li><a class="muted" href="/contact.html">Contact</a></li>
@@ -55,16 +55,31 @@
 </header>
 				<!-- Content block, child page inject content -->
 				 
-	<section id="home-slider">
-		<div class="row">
+	<section id="home-slider" style="overflow:hidden;background:transparent;position:relative;">
+		<video autoplay loop style="position: absolute; z-index: -1; bottom: 0px; left: 0px; width:100%">
+			<source src="/assets/img/vidloop.webm" type="video/webm">
+			<source src="/assets/img/vidloop.ogv" type="video/ogg">
+			<!--<source src="/assets/img/vidloop.mp4" type="video/mp4">-->
+			Your browser does not support the video tag.    
+		</video>
+		<div class="row clearfix">
 			<div class="column one-half push-quarter phone-full">
-				<p id="first"><img src="../assets/img/logo-large.png" alt="" /></p>
-				<p id="second" style="padding-top:1em;">"That corner spot? It's perfect for a concert."<br>- The New York Times</p>
+				<p id="second">"That corner spot? It's perfect for a concert."<br><em>- The New York Times</em></p>
+			</div>
+		</div>
+	</section>
+	<section id="home-intro">
+		<div class="row clearfix">
+			<div class="column two-thirds push-sixth phone-full">
+				<h2 class="section-title">Tertulia Chamber Music</h2>
+				<p class="large">Tertulia is a chamber music series that presents concerts in restaurants, in an atmosphere that combines lively conversation and excellent dining with the opportunity to hear some of the greatest performers of our time.  Tertulias are formatted as dinner-concerts, with three performances separated by extended intermissions. A typical Tertulia presents 60 minutes of music, with at least 75 minutes set aside for eating, drinking, and socializing.</p>
+				<p class="large">During performances restaurant service is suspended and conversation stops.</p>
+				<div class="text-center" style="margin-top:2em;"><a class="button raised-button accent" href="/season.html">Explore Our Season</a></div>
 			</div>
 		</div>
 	</section>
 	<section id="events">
-		<h2 class="section-title">2014-2015 Season</h2>
+		<h2 class="section-title">Season Highlights</h2>
 		<div class="row clearfix">
 		
 			
@@ -72,14 +87,15 @@
 				<div class="card event-card">
 					<div class="media-area">
 						<img src="/assets/img/musicians-bg.jpg" alt="DECODA at Harding's">
-						<div class="caption">
+						<!--<div class="caption">
 							<h4>Harding's</h4>
 							<h3>DECODA</h3>
-						</div>
+						</div>-->
 					</div>
 					<div class="event-description">
-						<h3>08, 2014</h3>
-						<p>32 East 21st St | NYC</p>
+						<h3>DECODA</h3>
+						<h3>Sept 29, 2014</h3>
+						<p>Harding's | 32 East 21st St | NYC</p>
 					</div>
 					<div class="action-area">
 						<a class="button raised-button primary" href="/concerts/1415/september.html"><i class="fa fa-ticket"></i> Tickets & Info</a>
@@ -90,15 +106,16 @@
 			<div class="column one-quarter phone-half">
 				<div class="card event-card">
 					<div class="media-area">
-						<img src="http://www.jasperquartet.com/gallery/gallery-26309.jpg" alt="Jasper String Quartet at Harding's">
-						<div class="caption">
+						<img src="/assets/img/artists/jasperquartet-thumbnail.jpg" alt="Jasper String Quartet at Harding's">
+						<!--<div class="caption">
 							<h4>Harding's</h4>
 							<h3>Jasper String Quartet</h3>
-						</div>
+						</div>-->
 					</div>
 					<div class="event-description">
-						<h3>08, 2014</h3>
-						<p>32 East 21st St | NYC</p>
+						<h3>Jasper String Quartet</h3>
+						<h3>Oct 27, 2014</h3>
+						<p>Harding's | 32 East 21st St | NYC</p>
 					</div>
 					<div class="action-area">
 						<a class="button raised-button primary" href="/concerts/1415/october.html"><i class="fa fa-ticket"></i> Tickets & Info</a>
@@ -109,15 +126,16 @@
 			<div class="column one-quarter phone-half">
 				<div class="card event-card">
 					<div class="media-area">
-						<img src="/assets/img/todd-palmer.jpg" alt="Todd Palmer & Friends at Harding's">
-						<div class="caption">
+						<img src="/assets/img/artists/todd-palmer-thumbnail.jpg" alt="Todd Palmer & Friends at Harding's">
+						<!--<div class="caption">
 							<h4>Harding's</h4>
 							<h3>Todd Palmer & Friends</h3>
-						</div>
+						</div>-->
 					</div>
 					<div class="event-description">
-						<h3>08, 2014</h3>
-						<p>32 East 21st St | NYC</p>
+						<h3>Todd Palmer & Friends</h3>
+						<h3>Nov 24, 2014</h3>
+						<p>Harding's | 32 East 21st St | NYC</p>
 					</div>
 					<div class="action-area">
 						<a class="button raised-button primary" href="/concerts/1415/november.html"><i class="fa fa-ticket"></i> Tickets & Info</a>
@@ -128,15 +146,16 @@
 			<div class="column one-quarter phone-half">
 				<div class="card event-card">
 					<div class="media-area">
-						<img src="/assets/img/concerts/dover-thumb.jpg" alt="Dover Quartet at Tarallucci e Vino">
-						<div class="caption">
+						<img src="/assets/img/artists/dover-thumbnail.jpg" alt="Dover Quartet at Tarallucci e Vino">
+						<!--<div class="caption">
 							<h4>Tarallucci e Vino</h4>
 							<h3>Dover Quartet</h3>
-						</div>
+						</div>-->
 					</div>
 					<div class="event-description">
-						<h3>08, 2014</h3>
-						<p>15 E 18th St | NYC</p>
+						<h3>Dover Quartet</h3>
+						<h3>Jan 11, 2015</h3>
+						<p>Tarallucci e Vino | 15 E 18th St | NYC</p>
 					</div>
 					<div class="action-area">
 						<a class="button raised-button primary" href="/concerts/1415/january.html"><i class="fa fa-ticket"></i> Tickets & Info</a>
@@ -146,187 +165,187 @@
 			
 		
 		</div>
-		<div class="row clearfix text-center" style="margin-top: 1.5em;">
-			<a class="button raised-button big-button accent"><i class="fa fa-calendar"></i> Full Calendar</a>
-		</div>
 	</section>
-	<section id="home-intro">
+	<!--<section id="home-season-link">
 		<div class="row clearfix">
 			<div class="column two-thirds push-sixth phone-full">
-				<p>Bringing together their shared passion for chamber music and New York City's unmatched culinary arts scene, Artistic Directors Julia Villagra and James Austin Smith have created a vibrant concert series aimed at New York's dynamic generation of young music lovers. Tertulia presents concerts in restaurants, an environment that is welcoming and stimulating. At Tertulia, we believe social dining, incredible food, and world-class chamber music, together, are the perfect recipe for engaging today's classical music audiences.</p>
+				<p class="large">Our 2014-2015 season is characterized by some interesting copy. Maybe we could write about the composer in residence and/or the Harding's residency plan here. Just some interesting words to introduce the whole season.</p>
+				<div class="text-center" style="margin-top:2em;"><a class="button raised-button primary" href="/about.html"><i class="fa fa-calendar"></i>&nbsp;&nbsp; Full Calendar</a></div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 	<section id="home-actions">
 		<div class="row clearfix">
-			<div class="column one-third phone-full" id="get-involved">
-				<div class="card cta-card">
-					<div class="calendar">
-						<table>
-							<thead>
-								<tr>
-									<th colspan="7">August 2014</th>
-								</tr>
-								<tr>
-									<th>Su</th>
-									<th>Mo</th>
-									<th>Tu</th>
-									<th>We</th>
-									<th>Th</th>
-									<th>Fr</th>
-									<th>Sa</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td class="last-month">27</td>
-									<td class="last-month">28</td>
-									<td class="last-month">29</td>
-									<td class="last-month">30</td>
-									<td class="last-month">31</td>
-									<td>1</td>
-									<td>2</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>4</td>
-									<td>5</td>
-									<td>6</td>
-									<td>7</td>
-									<td>8</td>
-									<td>9</td>
-								</tr>
-								<tr>
-									<td>10</td>
-									<td>11</td>
-									<td>12</td>
-									<td>13</td>
-									<td class="other-event"><a class="tooltip" href="#" title="This is not a Tertulia, but it is cool">14</a></td>
-									<td>15</td>
-									<td>16</td>
-								</tr>
-								<tr>
-									<td>17</td>
-									<td>18</td>
-									<td>19</td>
-									<td>20</td>
-									<td>21</td>
-									<td>22</td>
-									<td>23</td>
-								</tr>
-								<tr>
-									<td>24</td>
-									<td>25</td>
-									<td>26</td>
-									<td>27</td>
-									<td>28</td>
-									<td>29</td>
-									<td class="tertulia-event"><a class="tooltip" href="#" title="This is a Tertulia. Come to it.">30</a></td>
-								</tr>
-								<tr>
-									<td>31</td>
-									<td class="next-month">1</td>
-									<td class="next-month">2</td>
-									<td class="next-month">3</td>
-									<td class="next-month">4</td>
-									<td class="next-month">5</td>
-									<td class="next-month">6</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="action-area">
-						<a href="../season.html" class="button flat-button primary">View Full Season</a>
-						<a href="#" class="button flat-button">Download (iCal)</a>
-					</div>
-				</div>
-				<div class="card cta-card">
-					<div class="media-area">
-						<img src="../assets/img/artists/andres_samanthawest.jpg" alt="" />
-						<div class="caption">
-							<h3>Composer-in-Residence</h3>
+			<div class="column one-half phone-full">
+				<h2 class="section-title">Explore Tertulia</h2>
+				<div class="row clearfix">
+					<div class="column one-half phone-full" id="get-involved">
+						<div class="card cta-card">
+							<div class="calendar">
+								<table>
+									<thead>
+										<tr>
+											<th colspan="7">August 2014</th>
+										</tr>
+										<tr>
+											<th>Su</th>
+											<th>Mo</th>
+											<th>Tu</th>
+											<th>We</th>
+											<th>Th</th>
+											<th>Fr</th>
+											<th>Sa</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="last-month">27</td>
+											<td class="last-month">28</td>
+											<td class="last-month">29</td>
+											<td class="last-month">30</td>
+											<td class="last-month">31</td>
+											<td>1</td>
+											<td>2</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>4</td>
+											<td>5</td>
+											<td>6</td>
+											<td>7</td>
+											<td>8</td>
+											<td>9</td>
+										</tr>
+										<tr>
+											<td>10</td>
+											<td>11</td>
+											<td>12</td>
+											<td>13</td>
+											<td class="other-event"><a class="tooltip" href="#" title="This is not a Tertulia, but it is cool">14</a></td>
+											<td>15</td>
+											<td>16</td>
+										</tr>
+										<tr>
+											<td>17</td>
+											<td>18</td>
+											<td>19</td>
+											<td>20</td>
+											<td>21</td>
+											<td>22</td>
+											<td>23</td>
+										</tr>
+										<tr>
+											<td>24</td>
+											<td>25</td>
+											<td>26</td>
+											<td>27</td>
+											<td>28</td>
+											<td>29</td>
+											<td class="tertulia-event"><a class="tooltip" href="#" title="This is a Tertulia. Come to it.">30</a></td>
+										</tr>
+										<tr>
+											<td>31</td>
+											<td class="next-month">1</td>
+											<td class="next-month">2</td>
+											<td class="next-month">3</td>
+											<td class="next-month">4</td>
+											<td class="next-month">5</td>
+											<td class="next-month">6</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="action-area">
+								<a href="../season.html" class="button flat-button primary">View Full Season</a>
+								<a href="#" class="button flat-button">Download (iCal)</a>
+							</div>
+						</div>
+						<div class="card cta-card">
+							<div class="media-area">
+								<img src="/assets/img/artists/timo-home.jpg" alt="" />
+								<div class="caption">
+									<h3>Composer-in-Residence</h3>
+								</div>
+							</div>
+							<div class="description">
+								<p>Timo Andres, composer & pianist, joins Tertulia for the 2014-2015 season</p>
+							</div>
+							<div class="action-area">
+								<a href="/timo.html" class="button flat-button primary">Learn More</a>
+							</div>
 						</div>
 					</div>
-					<div class="description">
-						<p>Timo Andres, composer & pianist, joins Tertulia for the 2014-2015 season</p>
-					</div>
-					<div class="action-area">
-						<a href="../timo.html" class="button flat-button primary">Learn More</a>
+					<div class="column one-half phone-full" id="get-involved">
+						<div class="card cta-card">
+							<div class="media-area">
+								<img src="../assets/img/artists/meena.jpg" alt="" />
+								<div class="caption">
+									<h3>Meet Meena</h3>
+								</div>
+							</div>
+							<div class="description">
+								<p>Meena Bhasin, viola, is performing at Harding's on September 19th, 2014.</p>
+							</div>
+							<div class="action-area">
+								<a href="/concerts/1415/september.html" class="button flat-button primary">Get Tickets</a>
+								<a href="/meena.html" class="button flat-button">Meet Meena</a>
+							</div>
+						</div>
+						<div class="card cta-card">
+							<div class="media-area">
+								<img src="/assets/img/members.jpg" alt="" />
+								<div class="caption">
+									<h3>Become A Member</h3>
+								</div>
+							</div>
+							<div class="description">
+								<p>Members get priority tickets, access to exclusive events and other great perks.</p>
+							</div>
+							<div class="action-area">
+								<a href="../membership.html" class="button flat-button primary">Learn More</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="column one-third phone-full" id="get-involved">
-				<div class="card cta-card">
-					<div class="media-area">
-						<img src="../assets/img/artists/meena.jpg" alt="" />
-						<div class="caption">
-							<h3>Meet Meena</h3>
-						</div>
-					</div>
-					<div class="description">
-						<p>Meena Bhasin, viola, is performing at Harding's on September 19th, 2014.</p>
-					</div>
-					<div class="action-area">
-						<a href="../sept-2014.hmtl" class="button flat-button primary">Get Tickets</a>
-						<a href="#" class="button flat-button">Meet Meena</a>
-					</div>
-				</div>
-				<div class="card cta-card">
-					<div class="media-area">
-						<img src="../assets/img/event-1.jpg" alt="" />
-						<div class="caption">
-							<h3>Become A Member</h3>
-						</div>
-					</div>
-					<div class="description">
-						<p>Members get priority tickets, access to exclusive events and other great perks.</p>
-					</div>
-					<div class="action-area">
-						<a href="../membership.html" class="button flat-button primary">Membership Benefits</a>
-						<a href="../giving.html" class="button flat-button">Giving to Tertulia</a>
-					</div>
-				</div>
-			</div>
-			<div class="column one-third hide-phone" id="home-news">
-				<h2 class="section-title" style="margin-top:1em;">News & Community</h2>
+			<div class="column one-half hide-phone" id="home-news">
+				<h2 class="section-title">News & Community</h2>
 				<div class="list">
 					<div class="list-item news-teaser clearfix">
 						<img class="left-thumb" src="http://33.media.tumblr.com/31b26823e9922a45e711bd140fc40d00/tumblr_n8q4wbNGih1qg5kmko1_r1_500.jpg">
-						<h4>Tertulia Announces New Co-director</h4>
-						<!--<p>I am thrilled to tell you starting this 2014-2015 season, James Austin Smith will be joining me as Tertulia's Co-Artistic Director. Together, James and I will be building a full season - programs and artists will be announced late-August - that will include an eight-month residency at Harding's, along with other restaurants around the city.</p>-->
+						<h4>Tertulia announces 2014-2015 season</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 						<div class="action-area">
 							<div class="action-icons">
-								<a href="#"><i class="fa fa-comments"></i></a><a href="#"><i class="fa fa-bookmark"></i></a><a href="#"><i class="fa fa-share"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="list-item news-teaser no-thumb clearfix">
-						<img src="http://www.hardingsnyc.com/img/HomeSlider/Slide_2.jpg" alt="" class="left-thumb" />
-						<h4>Hardings Residency</h4>
-						<!--<p>Ah, you made your way to our blog. Here's what you need to know. Starting in September 2014, Tertulia will be establishing an 8-month residency with Harding's NYC, one of our favorite restaurants in the city.</p>-->
+						<img src="/assets/img/james.jpg" alt="" class="left-thumb" />
+						<h4>Tertulia announces James Austin Smith as Co-Artistic Director</h4>
+						<p>I am thrilled to tell you starting this 2014-2015 season, James Austin Smith will be joining me as Tertulia's Co-Artistic Director.</p>
 						<div class="action-area">
 							<div class="action-icons">
-								<a href="#"><i class="fa fa-comments"></i></a><a href="#"><i class="fa fa-bookmark"></i></a><a href="#"><i class="fa fa-share"></i></a>
+								<a href="http://blog.tertulianyc.org/post/91843316942/dear-tertulia-friends-and-fans-i-am-thrilled-to" target="_blank"><i class="fa fa-share"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="list-item news-teaser clearfix">
-						<img class="left-thumb" src="http://38.media.tumblr.com/e336a398be90c4e5ee861115bed00f7e/tumblr_mslpzcsCwj1qg5kmko4_r1_500.jpg">
-						<h4>Enso Plays Debussy (Gallery)</h4>
-						<!--<p>The first batch of photos here were taken by my wonderfully talented friends Chafic Kazoun and Corey Liston. The second batch were taken by photographer and Tertulia newcomer, Denton Taylor.</p>-->
+						<img class="left-thumb" src="/assets/img/artists/timo_andres.jpg">
+						<h4>Timo Andres joins Tertulia as first ever chef de musique.</h4>
+						<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
 						<div class="action-area">
 							<div class="action-icons">
-								<a href="#"><i class="fa fa-comments"></i></a><a href="#"><i class="fa fa-bookmark"></i></a><a href="#"><i class="fa fa-share"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="list-item news-teaser clearfix">
-						<img class="left-thumb" src="http://www.horszowskitrio.com/HT/Horszowski_Trio___Home_files/shapeimage_4.png">
-						<h4>Tertulia Concert Series at Harding's and Other Restaurants</h4>
-						<!--<p>I remember the moment I decided to start Tertulia, or some variation on what is now Tertulia. I was at Turtle Bay Music School listening to my very good friends Hilary Castle and Isabel Fairbanks performing Ravel's Sonata for violin and cello.</p>-->
+						<img class="left-thumb" src="http://graphics8.nytimes.com/images/2013/05/21/arts/21TERTULIA/21TERTULIA-articleLarge.jpg">
+						<h4>That Corner Spot? Its Perfect for a Concert.</h4>
+						<p>Thanks to <em>New York Times</em> critic Steve Smith a wonderful review of our May 2013 Tertulia at Harding's.</p>
 						<div class="action-area">
 							<div class="action-icons">
-								<a href="#"><i class="fa fa-comments"></i></a><a href="#"><i class="fa fa-bookmark"></i></a><a href="#"><i class="fa fa-share"></i></a>
+								<a href="http://www.nytimes.com/2013/05/21/arts/music/that-corner-spot-its-perfect-for-a-concert.html?_r=0" target="_blank"><i class="fa fa-external-link"></i></a>
 							</div>
 						</div>
 					</div>
@@ -337,7 +356,7 @@
 	<section id="home-media">
 		<div class="row clearfix">
 			<div class="column one-fifth">
-				<a href="http://www.artsjournal.com/sandow/2014/04/from-julia-villagra-wooing-my-peers-1.html" target="_blank"><img src="../assets/img/ascap.png" alt="" /></a>
+				<a href="http://www.artsjournal.com/sandow/2014/04/from-julia-villagra-wooing-my-peers-1.html" target="_blank"><img src="../assets/img/artsjournal.png" alt="" /></a>
 			</div>
 			<div class="column one-fifth">
 				<a href="http://www.musicalamerica.com/mablogs/?p=15715" target="_blank"><img src="../assets/img/musicalamerica.png" alt="" /></a>
@@ -354,15 +373,14 @@
 		</div>
 	</section>
 
-
 				<footer id="mainfoot">
 					<div class="row clearfix">
-						<div class="column one-third" id="footer-about">
+						<div class="column one-third hide-phone" id="footer-about">
 							<h3>About Tertulia</h3>
 							<p>Tertulia is a chamber music series that is designed to attract new and experienced audiences alike, or really, anyone who loves incredible food and music. The idea is simple: Tertulia presents world-class chamber music concerts in select restaurants around the city, and musicians and audiences share an evening of music, food, drink and conversation.</p>
 							<a href="../about.html" class="button raised-button primary">Read More</a>
 						</div>
-						<div class="column one-third">
+						<div class="column one-third hide-phone">
 							<h3>Quick Links</h3>
 							<ul class="unstyled link-list">
 								<li><a href="../about.html">About</a></li>
@@ -374,7 +392,7 @@
 								<li><a href="../look-listen.html">Look & Listen</a></li>
 							</ul>
 						</div>
-						<div class="column one-third">
+						<div class="column one-third phone-full">
 							<form action="">
 								<fieldset>
 									<legend>Join Our Mailing List</legend>
@@ -410,9 +428,22 @@
 
         <script type="text/javascript">
 					$(document).ready(function(){
+						if(location.pathname != '/'){
+							$('#main-nav a[href*="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+							console.log(location.pathname.split("/")[1]);
+						}
 						$('.card .media-area').each(function(){
 							var iWidth = $(this).width();
 							var fHeight = (iWidth * 160) / 301;
+							$(this).height(fHeight);
+						});
+						$('.board-row .card .media-area').each(function(){
+							var iWidth = $(this).width();
+							$(this).height(iWidth);
+						});
+						$('.artist .card .media-area, .card.event-card .media-area').each(function(){
+							var iWidth = $(this).width();
+							var fHeight = (iWidth * 2) / 3;
 							$(this).height(fHeight);
 						});
 						$('#mobile-menu').click(function(e){
