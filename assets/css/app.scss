@@ -139,6 +139,13 @@ h2.section-title:after {
 	}
 }
 
+#mainhead.bottomed {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-top: -4em;
+}
+
 /* home page */
 
 #home-slider {
@@ -491,6 +498,9 @@ p.large {
 	}
 	h4 {
 		@include subhead;
+		padding-bottom: 0.3333em;
+		border-bottom: 1px solid #ddd;
+		width: 50%;
 		margin: 1.3333em 0 0.3333em 0;
 	}
 	p a {

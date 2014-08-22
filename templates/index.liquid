@@ -146,12 +146,10 @@
 						</div>
 						<div class="card cta-card">
 							<div class="media-area">
-								<img src="/assets/img/artists/timo-home.jpg" alt="" />
-								<div class="caption">
-									<h3>Composer-in-Residence</h3>
-								</div>
+								<img src="/assets/img/artists/timo-home.jpg" alt="" />>
 							</div>
 							<div class="description">
+								<h3>Composer-in-Residence</h3>
 								<p>Timo Andres, composer & pianist, joins Tertulia for the 2014-2015 season</p>
 							</div>
 							<div class="action-area">
@@ -162,27 +160,23 @@
 					<div class="column one-half phone-full" id="get-involved">
 						<div class="card cta-card">
 							<div class="media-area">
-								<img src="../assets/img/artists/meena.jpg" alt="" />
-								<div class="caption">
-									<h3>Meet Meena</h3>
-								</div>
+								<img src="../assets/img/artists/jesse-mills-thumbnail.jpg" alt="" />
 							</div>
 							<div class="description">
-								<p>Meena Bhasin, viola, is performing at Harding's on September 19th, 2014.</p>
+								<h3>Meet Jesse</h3>
+								<p>Jesse Mills, violin, is performing on November 24, 2014.</p>
 							</div>
 							<div class="action-area">
-								<a href="/concerts/1415/september.html" class="button flat-button primary">Get Tickets</a>
-								<a href="/meena.html" class="button flat-button">Meet Meena</a>
+								<a href="/concerts/1415/november.html" class="button flat-button primary">Get Tickets</a>
+								<a href="/jesse.html" class="button flat-button">Meet Jesse</a>
 							</div>
 						</div>
 						<div class="card cta-card">
 							<div class="media-area">
 								<img src="/assets/img/members.jpg" alt="" />
-								<div class="caption">
-									<h3>Become A Member</h3>
-								</div>
 							</div>
 							<div class="description">
+								<h3>Become A Member</h3>
 								<p>Members get priority tickets, access to exclusive events and other great perks.</p>
 							</div>
 							<div class="action-area">
@@ -218,7 +212,7 @@
 					<div class="list-item news-teaser clearfix">
 						<img class="left-thumb" src="/assets/img/artists/timo_andres.jpg">
 						<h4>Timo Andres joins Tertulia as first ever chef de musique.</h4>
-						<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+						<p>Timo Andres, New York based composer and pianist, is Tertulia's composer "in residence" for the 2014-2015 season.</p>
 						<div class="action-area">
 							<div class="action-icons">
 								
@@ -265,16 +259,9 @@
 	$(document).ready(function(){
 		var wHeight = $(window).height();
 		var hHeight = $('#mainhead').height();
-		$('#mainhead').css({position: 'absolute', top: wHeight-hHeight});
 		var hOffset = $('#mainhead').offset().top;
 		$(window).scroll(function(){
 			var wScroll = $(window).scrollTop();
-			if( hOffset > wScroll ){
-				$('#mainhead').css({position: 'absolute', top: wHeight-hHeight});
-			}
-			else{
-				$('#mainhead').css({position: 'fixed', top: 0});
-			}
 		})
 	});
 </script>

@@ -307,7 +307,7 @@
 						}
 						$('.card .media-area').each(function(){
 							var iWidth = $(this).width();
-							var fHeight = (iWidth * 160) / 301;
+							var fHeight = (iWidth * 2) / 3;
 							$(this).height(fHeight);
 						});
 						$('.board-row .card .media-area').each(function(){
@@ -327,6 +327,9 @@
 							style: {
 								classes: 'qtip-light qtip-shadow'
 							}
+						});
+						$(window).resize(function(){
+							$('#home-slider').css({ minHeight: '100vh' });
 						});
 					});
 				</script>
