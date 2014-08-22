@@ -1,488 +1,1843 @@
 {
-  "concerts": {
+  "artists": {
     "collection": {
-      "/concerts/1415/october": {
-        "mixture_date": "2014-08-11T19:25:16-04:00",
-        "thumbnail": "http://www.jasperquartet.com/gallery/gallery-26309.jpg",
-        "year": "2014",
-        "feature": "http://dz0zjhi21dz2t.cloudfront.net/media/80702/photos/66884/1366.jpg",
-        "ticks": 1407799516.0,
-        "layout": "concert",
-        "title": "Jasper String Quartet at Harding's",
-        "location": "Harding's",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2014,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>LUDWIG Pale Blue Dot</p>\n\t<h4>Main Course</h4>\n\t<p>HAYDN String Quartet Op. 76, No. 1 in G Major</p>\n\t<h4>Dessert</h4>\n\t<p>KREISLER Caprice Viennois<br>ULLMANN String Quartet No. 3</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes approx 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>J Freivogel, <em>violin</em></li>\n\t\t<li>Sae Chonabayashi, <em>violin</em></li>\n\t\t<li>Sam Quintal, <em>viola</em></li>\n\t\t<li>Rachel Henderson Freivogel, cello</li>\n\t</ul>\n</div>",
-        "date": "Mon Aug 11 23:25:16 UTC 2014",
-        "group": "Jasper String Quartet",
-        "slug": "/concerts/1415/october",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 2,
-        "address": "32 East 21st St | NYC",
-        "calendar_month": "Oct 27",
-        "month": "08"
-      },
-      "/concerts/1415/jan2": {
-        "mixture_date": "2014-08-12T11:03:04-04:00",
-        "thumbnail": "/assets/img/concerts/jan26-thumb.jpeg",
-        "year": "2014",
-        "feature": "/assets/img/concerts/jan26.jpg",
-        "ticks": 1407855784.0,
-        "layout": "concert",
-        "title": "Elena Urioste, Nick Canellakis, and Michael Brown at Harding's",
-        "location": "Harding's",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2015,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>BEACH Romance for violin and piano<br>BROWN New work for cello and piano (2014) \n<br>GANKINO HORO Bulgarian traditional arr. Canellakis for cello and piano</p>\n\t<h4>Main Course</h4>\n\t<p>RAVEL Piano Trio in A minor</p>\n\t<h4>Dessert</h4>\n\t<p>RAVEL Menuet sur le nom d'Haydn<br>RAVEL Le Tombeau de Couperin: Menuet<br>SHOSTAKOVICH Piano Trio no. 1 Op. 8</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Elena Urioste, <em>violin</em></li>\n\t\t<li>Nick Canellakis, <em>cello</em></li>\n\t\t<li>Michael Brown, <em>piano</em></li>\n\t</ul>\n</div>",
-        "date": "Tue Aug 12 15:03:04 UTC 2014",
-        "group": "Elena Urioste, Nick Canellakis, and Michael Brown",
-        "slug": "/concerts/1415/jan2",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 5,
-        "address": "32 East 21st St | NYC",
-        "calendar_month": "Jan 26",
-        "month": "08"
-      },
-      "/concerts/1415/november": {
-        "mixture_date": "2014-08-11T19:25:24-04:00",
-        "thumbnail": "/assets/img/todd-palmer.jpg",
-        "year": "2014",
-        "feature": "http://dz0zjhi21dz2t.cloudfront.net/media/80702/photos/66884/1366.jpg",
-        "ticks": 1407799524.0,
-        "layout": "concert",
-        "title": "Todd Palmer & Friends at Harding's",
-        "location": "Harding's",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2014,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>STRAVINSKY 3 Pieces for Clarinet Solo<br>MILHAUD Suite for Violin, Clarinet and Piano Op. 157b</p>\n\t<h4>Main Course</h4>\n\t<p>HARRISON Grand Duo for Violin and Piano</p>\n\t<h4>Dessert</h4>\n\t<p>WEBER Grand Duo Concertant for Clarinet and Piano</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes approx 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Todd Palmer, <em>clarinet</em></li>\n\t\t<li>Jesse Mills, <em>violin</em></li>\n\t\t<li>Rieko Aizawa, <em>piano</em></li>\n\t</ul>\n</div>",
-        "date": "Mon Aug 11 23:25:24 UTC 2014",
-        "group": "Todd Palmer & Friends",
-        "slug": "/concerts/1415/november",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 3,
-        "address": "32 East 21st St | NYC",
-        "calendar_month": "Nov 24",
-        "month": "08"
-      },
-      "/concerts/1415/april": {
-        "mixture_date": "2014-08-12T11:33:19-04:00",
-        "thumbnail": "/assets/img/concerts/tbd.jpg",
-        "year": "2014",
-        "feature": "/assets/img/concerts/tbd.jpg",
-        "ticks": 1407857599.0,
-        "layout": "concert",
-        "title": "Anthony Roth Costanzo + ICE Ensemble @ Location TBD",
-        "location": "TBD",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2015,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>Music to be announced</p>\n\t<h4>Main Course</h4>\n\t<p>Music to be announced</p>\n\t<h4>Dessert</h4>\n\t<p>Music to be announced</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Anthony Roth Costanzo, <em>countertenor</em></li>\n\t\t<li>James Austin Smith, <em>oboe</em></li>\n\t\t<li>Rebekah Heller, <em>bassoon</em></li>\n\t\t<li>Kivie Cahn-Lipman, <em>cello</em></li>\n\t\t<li>Bridget Kibbey, <em>harp</em></li>\n\t</ul>\n</div>",
-        "date": "Tue Aug 12 15:33:19 UTC 2014",
-        "group": "Anthony Roth Costanzo + ICE Ensemble",
-        "slug": "/concerts/1415/april",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 9,
-        "address": "TBD | NYC",
-        "calendar_month": "April 14",
-        "month": "08"
-      },
-      "/concerts/1415/april-2": {
-        "mixture_date": "2014-08-12T11:39:21-04:00",
-        "thumbnail": "/assets/img/concerts/hardings.jpg",
-        "year": "2014",
-        "feature": "/assets/img/concerts/hardings.jpg",
-        "ticks": 1407857961.0,
-        "layout": "concert",
-        "title": "Tara Helen O'Connor & Friends",
-        "location": "Harding's",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2015,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>PROKOFIEV Flute Sonata</p>\n\t<h4>Main Course</h4>\n\t<p>LIGETI Sonata for Solo Cello<br>LISZT/WAGNER Isolde’s Liebestod</p>\n\t<h4>Dessert</h4>\n\t<p>CRUMB Voice of the Whale</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Tara Helen O'Connor, <em>flute</em></li>\n\t\t<li>Mihai Marcia, <em>cello</em></li>\n\t\t<li>Pedja Muzijevic, <em>piano</em></li>\n\t</ul>\n</div>",
-        "date": "Tue Aug 12 15:39:21 UTC 2014",
-        "group": "Tara Helen O'Connor & Friends",
-        "slug": "/concerts/1415/april-2",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
+      "/artists/latitutde41": {
+        "ticks": 1431111600.0,
+        "title": "Latitude 41",
+        "year": "2015",
+        "headshot": "http://triolatitude41.com/images/Latitude-41_153.jpeg",
+        "mixture_date": "2015-05-08T19:00:00",
+        "body": "",
+        "mixture_month_year": "05/2015",
+        "date": "Fri May 08 19:00:00 UTC 2015",
         "concert_id": 10,
-        "address": "32 E 21st Street | NYC",
-        "calendar_month": "April 27",
-        "month": "08"
-      },
-      "/concerts/1415/september": {
-        "mixture_date": "2014-08-11T19:25:08-04:00",
-        "thumbnail": "/assets/img/musicians-bg.jpg",
-        "year": "2014",
-        "feature": "/assets/img/musicians-bg.jpg",
-        "ticks": 1407799508.0,
-        "layout": "concert",
-        "title": "DECODA at Harding's",
-        "location": "Harding's",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2014,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>BACH keyboard prelude in D major<br>VIVALDI Violin Concerto \"Grosso Mogul\" RV 208</p>\n\t<h4>Main Course</h4>\n\t<p>GLASS Quartet No 5, mvt 3<br>TELEMANN Oboe Concerto in E minor</p>\n\t<h4>Dessert</h4>\n\t<p>BITTOVA \"Hoboj\" for oboe and viola <br>BACH Oboe and Violin Concerto</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes approx 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Owen Dalby, <em>violin</em></li>\n\t\t<li>James Austin Smith, <em>oboe</em></li>\n\t\t<li>Anna Elashvili, <em>violin 1</em></li>\n\t\t<li>Clara Lyon, <em>violin 2</em></li>\n\t\t<li>Meena Bhasin, <em>viola</em></li>\n\t\t<li>Caitlin Sullivan, <em>cello</em></li>\n\t\t<li>Doug Balliett, <em>double bass</em></li>\n\t\t<li>David Kaplan, <em>harpsichord</em></li>\n\t</ul>\n</div>",
-        "date": "Mon Aug 11 23:25:08 UTC 2014",
-        "group": "DECODA",
-        "slug": "/concerts/1415/september",
         "tags": [
           "example",
           "news",
           "story"
         ],
-        "published": true,
-        "concert_id": 1,
-        "address": "32 East 21st St | NYC",
-        "calendar_month": "Sept 29",
-        "month": "08"
+        "month": "05",
+        "instrument": null,
+        "slug": "/artists/latitutde41",
+        "website": "http://triolatitude41.com/",
+        "published": true
       },
-      "/concerts/1415/january": {
-        "mixture_date": "2014-08-11T19:25:36-04:00",
-        "thumbnail": "/assets/img/concerts/dover-thumb.jpg",
+      "/artists/beccastevens": {
+        "ticks": 1424113200.0,
+        "title": "Becca Stevens",
+        "year": "2015",
+        "headshot": "/assets/img/artists/becca-stevens-thumbnail.jpg",
+        "mixture_date": "2015-02-16T19:00:00",
+        "body": "",
+        "mixture_month_year": "02/2015",
+        "date": "Mon Feb 16 19:00:00 UTC 2015",
+        "concert_id": 6,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "02",
+        "instrument": "Vocals",
+        "slug": "/artists/beccastevens",
+        "website": "http://www.beccastevens.com",
+        "published": true
+      },
+      "/artists/timoandres": {
+        "ticks": 1424113200.0,
+        "title": "Timo Andres",
+        "year": "2015",
+        "headshot": "/assets/img/artists/timo-andres-thumbnail.jpg",
+        "mixture_date": "2015-02-16T19:00:00Z",
+        "body": "",
+        "mixture_month_year": "02/2015",
+        "date": "Mon Feb 16 19:00:00 UTC 2015",
+        "concert_id": 6,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "02",
+        "instrument": "Composer and Piano",
+        "slug": "/artists/timoandres",
+        "website": "http://www.andres.com",
+        "published": true
+      },
+      "/artists/mihaimarica": {
+        "ticks": 1430161200.0,
+        "title": "Mihai Marica",
+        "year": "2015",
+        "headshot": "/assets/img/artists/mihai-marica-thumbnail.jpg",
+        "mixture_date": "2015-04-27T19:00:00",
+        "body": "",
+        "mixture_month_year": "04/2015",
+        "date": "Mon Apr 27 19:00:00 UTC 2015",
+        "concert_id": 9,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "04",
+        "instrument": "Cello",
+        "slug": "/artists/mihaimarica",
+        "website": "http://lmgtfy.com/?q=mihai+marica+cello",
+        "published": true
+      },
+      "/artists/markholloway": {
+        "ticks": 1427742000.0,
+        "title": "Mark Holloway",
+        "year": "2015",
+        "headshot": "/assets/img/artists/mark-holloway-thumbnail.jpg",
+        "mixture_date": "2015-03-30T19:00:00",
+        "body": "",
+        "mixture_month_year": "03/2015",
+        "date": "Mon Mar 30 19:00:00 UTC 2015",
+        "concert_id": 7,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "03",
+        "instrument": "Viola",
+        "slug": "/artists/markholloway",
+        "website": "http://lmgtfy.com/?q=mark+holloway+viola",
+        "published": true
+      },
+      "/artists/anthonycostanzo": {
+        "ticks": 1429038000.0,
+        "title": "Anthony Roth Costanzo",
+        "year": "2015",
+        "headshot": "/assets/img/artists/anthony-costanzo-thumbnail.jpg",
+        "mixture_date": "2015-04-14T19:00:00",
+        "body": "",
+        "mixture_month_year": "04/2015",
+        "date": "Tue Apr 14 19:00:00 UTC 2015",
+        "concert_id": 8,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "04",
+        "instrument": "Counter Tenor",
+        "slug": "/artists/anthonycostanzo",
+        "website": "http://www.anthonyrothcostanzo.com",
+        "published": true
+      },
+      "/artists/elena_urioste": {
+        "ticks": 1422298800.0,
+        "title": "Elena Urioste",
+        "year": "2015",
+        "headshot": "/assets/img/artists/elena-urioste-thumbnail.jpg",
+        "mixture_date": "2015-01-26T19:00:00",
+        "body": "",
+        "mixture_month_year": "01/2015",
+        "date": "Mon Jan 26 19:00:00 UTC 2015",
+        "concert_id": 5,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "01",
+        "instrument": "Violin",
+        "slug": "/artists/elena_urioste",
+        "website": "http://www.elenaurioste.com",
+        "published": true
+      },
+      "/artists/ericreed": {
+        "ticks": 1427742000.0,
+        "title": "Eric Reed",
+        "year": "2015",
+        "headshot": "/assets/img/artists/eric-reed-thumbnail.jpg",
+        "mixture_date": "2015-03-30T19:00:00",
+        "body": "",
+        "mixture_month_year": "03/2015",
+        "date": "Mon Mar 30 19:00:00 UTC 2015",
+        "concert_id": 7,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "03",
+        "instrument": "Horn",
+        "slug": "/artists/ericreed",
+        "website": "http://lmgtfy.com/?q=eric+reed+horn",
+        "published": true
+      },
+      "/artists/rieko_aizawa": {
+        "ticks": 1416855600.0,
+        "title": "Rieko Aizawa",
         "year": "2014",
-        "feature": "/assets/img/concerts/dover.jpg",
-        "ticks": 1407799536.0,
-        "layout": "concert",
-        "title": "Dover Quartet at Tarallucci e Vino",
-        "location": "Tarallucci e Vino",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2015,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>LUDWIG Pale Blue Dot</p>\n\t<h4>Main Course</h4>\n\t<p>HAYDN String Quartet Op. 76, No. 1 in G Major</p>\n\t<h4>Dessert</h4>\n\t<p>KREISLER Caprice Viennois<br>ULLMANN String Quartet No. 3</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes approx 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Joel Link, <em>violin</em></li>\n\t\t<li>Bryan Lee, <em>violin</em></li>\n\t\t<li>Milena Pajaro-van de Stadt, <em>viola</em></li>\n\t\t<li>Camden Shaw, <em>cello</em></li>\n\t</ul>\n</div>",
-        "group": "Dover Quartet",
-        "date": "Mon Aug 11 23:25:36 UTC 2014",
-        "slug": "/concerts/1415/january",
-        "published": true,
+        "headshot": "/assets/img/artists/rieko-aizawa-thumbnail.jpg",
+        "mixture_date": "2014-11-24T19:00:00Z",
+        "body": "",
+        "mixture_month_year": "11/2014",
+        "date": "Mon Nov 24 19:00:00 UTC 2014",
+        "concert_id": 3,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "11",
+        "instrument": "Piano",
+        "slug": "/artists/rieko_aizawa",
+        "website": "http://www.riekoaizawa.com/RA/Rieko_Aizawa,_piano___Welcome.html",
+        "published": true
+      },
+      "/artists/jesse_mills": {
+        "ticks": 1416855600.0,
+        "title": "Jesse Mills",
+        "year": "2014",
+        "headshot": "/assets/img/artists/jesse-mills-thumbnail.jpg",
+        "mixture_date": "2014-11-24T19:00:00",
+        "body": "",
+        "mixture_month_year": "11/2014",
+        "date": "Mon Nov 24 19:00:00 UTC 2014",
+        "concert_id": 3,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "11",
+        "instrument": "Violin",
+        "slug": "/artists/jesse_mills",
+        "website": "http://www.jesse-mills.com/JM/Jesse_Mills,_violin___Welcome.html",
+        "published": true
+      },
+      "/artists/taraoconnor": {
+        "ticks": 1430161200.0,
+        "title": "Tara Helen O'Connor",
+        "year": "2015",
+        "headshot": "/assets/img/artists/tara-oconner-thumbnail.jpg",
+        "mixture_date": "2015-04-27T19:00:00Z",
+        "body": "",
+        "mixture_month_year": "04/2015",
+        "date": "Mon Apr 27 19:00:00 UTC 2015",
+        "concert_id": 9,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "04",
+        "instrument": "Flute",
+        "slug": "/artists/taraoconnor",
+        "website": "http://bit.ly/1s5FOfW",
+        "published": true
+      },
+      "/artists/christophercano": {
+        "ticks": 1427742000.0,
+        "title": "Christopher Cano",
+        "year": "2015",
+        "headshot": "/assets/img/artists/chris-cano-thumbnail.jpg",
+        "mixture_date": "2015-03-30T19:00:00",
+        "body": "",
+        "mixture_month_year": "03/2015",
+        "date": "Mon Mar 30 19:00:00 UTC 2015",
+        "concert_id": 7,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "03",
+        "instrument": "Piano",
+        "slug": "/artists/christophercano",
+        "website": "http://www.christophercano.com",
+        "published": true
+      },
+      "/artists/jennifercano": {
+        "ticks": 1427742000.0,
+        "title": "Jennifer Johnson Cano",
+        "year": "2015",
+        "headshot": "/assets/img/artists/jennifer-cano-thumbnail.jpg",
+        "mixture_date": "2015-03-30T19:00:00",
+        "body": "",
+        "mixture_month_year": "03/2015",
+        "date": "Mon Mar 30 19:00:00 UTC 2015",
+        "concert_id": 7,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "03",
+        "instrument": "Mezzo-Soprano",
+        "slug": "/artists/jennifercano",
+        "website": "http://www.jenniferjohnsoncano.net",
+        "published": true
+      },
+      "/artists/internationalensemble": {
+        "ticks": 1429038000.0,
+        "title": "International Contemporary Ensemble",
+        "year": "2015",
+        "headshot": "/assets/img/artists/tbd.jpg",
+        "mixture_date": "2015-04-14T19:00:00",
+        "body": "",
+        "mixture_month_year": "04/2015",
+        "date": "Tue Apr 14 19:00:00 UTC 2015",
+        "concert_id": 8,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "04",
+        "instrument": null,
+        "slug": "/artists/internationalensemble",
+        "website": "http://www.iceorg.org",
+        "published": true
+      },
+      "/artists/decoda": {
+        "ticks": 1412017200.0,
+        "title": "Decoda",
+        "year": "2014",
+        "headshot": "/assets/img/artists/tbd.jpg",
+        "mixture_date": "2014-09-29T19:00:00",
+        "body": "",
+        "mixture_month_year": "09/2014",
+        "date": "Mon Sep 29 19:00:00 UTC 2014",
+        "concert_id": 1,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "09",
+        "instrument": null,
+        "slug": "/artists/decoda",
+        "website": "http://decodamusic.org/",
+        "published": true
+      },
+      "/artists/michaelbrown": {
+        "ticks": 1422298800.0,
+        "title": "Michael Brown",
+        "year": "2015",
+        "headshot": "/assets/img/artists/tbd.jpg",
+        "mixture_date": "2015-01-26T19:00:00",
+        "body": "",
+        "mixture_month_year": "01/2015",
+        "date": "Mon Jan 26 19:00:00 UTC 2015",
+        "concert_id": 5,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "01",
+        "instrument": "Composer and Piano",
+        "slug": "/artists/michaelbrown",
+        "website": "http://www.michaelbrownmusic.com",
+        "published": true
+      },
+      "/artists/jasper_quartet": {
+        "ticks": 1414436400.0,
+        "title": "Jasper String Quartet",
+        "year": "2014",
+        "headshot": "/assets/img/artists/jasperquartet-thumbnail.jpg",
+        "mixture_date": "2014-10-27T19:00:00",
+        "body": "",
+        "mixture_month_year": "10/2014",
+        "date": "Mon Oct 27 19:00:00 UTC 2014",
+        "concert_id": 2,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "10",
+        "instrument": null,
+        "slug": "/artists/jasper_quartet",
+        "website": "http://www.jasperquartet.com",
+        "published": true
+      },
+      "/artists/todd_palmer": {
+        "ticks": 1416855600.0,
+        "title": "Todd Palmer",
+        "year": "2014",
+        "headshot": "/assets/img/artists/todd-palmer-thumbnail.jpg",
+        "mixture_date": "2014-11-24T19:00:00Z",
+        "body": "",
+        "mixture_month_year": "11/2014",
+        "date": "Mon Nov 24 19:00:00 UTC 2014",
+        "concert_id": 3,
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "11",
+        "instrument": "Clarinet",
+        "slug": "/artists/todd_palmer",
+        "website": "http://lmgtfy.com/?q=todd+palmer+clarinet",
+        "published": true
+      },
+      "/artists/dover_quartet": {
+        "ticks": 1421002800.0,
+        "title": "Dover Quartet",
+        "year": "2015",
+        "headshot": "/assets/img/artists/dover-thumbnail.jpg",
+        "mixture_date": "2015-01-11T19:00:00",
+        "body": "",
+        "mixture_month_year": "01/2015",
+        "date": "Sun Jan 11 19:00:00 UTC 2015",
         "concert_id": 4,
         "tags": [
           "example",
           "news",
           "story"
         ],
-        "address": "15 E 18th St | NYC",
-        "calendar_month": "Jan 11",
-        "month": "08"
+        "month": "01",
+        "instrument": null,
+        "slug": "/artists/dover_quartet",
+        "website": "http://www.doverquartet.com",
+        "published": true
       },
-      "/concerts/1415/mar-2": {
-        "mixture_date": "2014-08-12T11:28:14-04:00",
-        "thumbnail": "/assets/img/concerts/mar30-thumb.jpg",
-        "year": "2014",
-        "feature": "/assets/img/concerts/hardings.jpg",
-        "ticks": 1407857294.0,
-        "layout": "concert",
-        "title": "Jennifer Johnson Cano, Christopher Cano, Mark Holloway, & Eric Reed at Harding's",
-        "location": "Harding's",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2015,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>RAVEL Cinq Melodies Populaires Grecques<br>BARBER Three Songs, Op. 10</p>\n\t<h4>Main Course</h4>\n\t<p>ANDRES New work<br>BRAHMS Zwei Gesänge Op. 91</p>\n\t<h4>Dessert</h4>\n\t<p>STRAUSS Andante for Horn and Piano<br>TBD Viola and piano<br>STRAUSS Ein Alphorn</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Jennifer Johnson Cano, <em>mezzo-soprano</em></li>\n\t\t<li>Christopher Cano, <em>piano</em></li>\n\t\t<li>Mark Holloway, <em>viola</em></li>\n\t\t<li>Eric Reed, <em>horn</em></li>\n\t</ul>\n</div>",
-        "date": "Tue Aug 12 15:28:14 UTC 2014",
-        "group": "Jennifer Johnson Cano, Christopher Cano, Mark Holloway, & Eric Reed",
-        "slug": "/concerts/1415/mar-2",
+      "/artists/nicholascanellakis": {
+        "ticks": 1422298800.0,
+        "title": "Nicholas Canellakis",
+        "year": "2015",
+        "headshot": "/assets/img/artists/tbd.jpg",
+        "mixture_date": "2015-01-26T19:00:00",
+        "body": "",
+        "mixture_month_year": "01/2015",
+        "date": "Mon Jan 26 19:00:00 UTC 2015",
+        "concert_id": 5,
         "tags": [
           "example",
           "news",
           "story"
         ],
-        "published": true,
-        "concert_id": 8,
-        "address": "32 E 21st Street | NYC",
-        "calendar_month": "Mar 30",
-        "month": "08"
+        "month": "01",
+        "instrument": "Cello",
+        "slug": "/artists/nicholascanellakis",
+        "website": "http://www.nicholascanellakis.com/",
+        "published": true
       },
-      "/concerts/1415/feb": {
-        "mixture_date": "2014-08-12T11:18:11-04:00",
-        "thumbnail": "/assets/img/concerts/tesla.jpg",
-        "year": "2014",
-        "feature": "/assets/img/concerts/tesla.jpg",
-        "ticks": 1407856691.0,
-        "layout": "concert",
-        "title": "Timo Andres & Friends at Harding's",
-        "location": "Harding's",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2015,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>ANDRES & SCHUMANN: Selections for solo piano</p>\n\t<h4>Main Course</h4>\n\t<p>COPLAND: Twelve Poems of Emily Dickinson</p>\n\t<h4>Dessert</h4>\n\t<p>ANDRES: Piano Quintet</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Timo Andres, <em>piano</em></li>\n\t\t<li>Becca Stevens, <em>vocals</em></li>\n\t\t<li>Tesla Quartet</li>\n\t</ul>\n</div>",
-        "date": "Tue Aug 12 15:18:11 UTC 2014",
-        "group": "Timo Andres & Friends",
-        "slug": "/concerts/1415/feb",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
+      "/artists/teslaquartet": {
+        "ticks": 1424113200.0,
+        "title": "Tesla Quartet",
+        "year": "2015",
+        "headshot": "/assets/img/artists/tesla-thumbnail.jpg",
+        "mixture_date": "2015-02-16T19:00:00Z",
+        "body": "",
+        "mixture_month_year": "02/2015",
+        "date": "Mon Feb 16 19:00:00 UTC 2015",
         "concert_id": 6,
-        "address": "32 East 21st St | NYC",
-        "calendar_month": "Feb 16",
-        "month": "08"
-      },
-      "/concerts/1415/may": {
-        "mixture_date": "2014-08-12T11:44:21-04:00",
-        "thumbnail": "/assets/img/concerts/cubanasocial.jpg",
-        "year": "2014",
-        "feature": "/assets/img/musicians-bg.jpg",
-        "ticks": 1407858261.0,
-        "layout": "concert",
-        "title": "DECODA",
-        "location": "Cubana Social",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2015,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>ANDRES Moores</p>\n\t<h4>Main Course</h4>\n\t<p>Music to be announced</p>\n\t<h4>Dessert</h4>\n\t<p>Music to be announced</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Owen Dalby, <em>violin</em></li>\n\t\t<li>Anna Elashvili, <em>violin</em></li>\n\t</ul>\n</div>",
-        "date": "Tue Aug 12 15:44:21 UTC 2014",
-        "group": "DECODA",
-        "slug": "/concerts/1415/may",
         "tags": [
           "example",
           "news",
           "story"
         ],
-        "published": true,
-        "concert_id": 10,
-        "address": "70 N 6th Street | Williamsburg",
-        "calendar_month": "May 10",
-        "month": "08"
+        "month": "02",
+        "instrument": null,
+        "slug": "/artists/teslaquartet",
+        "website": "http://www.teslaquartet.com",
+        "published": true
       },
-      "/concerts/1415/mar": {
-        "mixture_date": "2014-08-12T11:24:18-04:00",
-        "thumbnail": "/assets/img/concerts/cubanasocial.jpg",
-        "year": "2014",
-        "feature": "/assets/img/concerts/cubanasocial.jpg",
-        "ticks": 1407857058.0,
-        "layout": "concert",
-        "title": "Latitude 41 at Cubana Social",
-        "location": "Cubana Social",
-        "mixture_month_year": "08/2014",
-        "calendar_year": 2015,
-        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>Music to be announced</p>\n\t<h4>Main Course</h4>\n\t<p>Music to be announced</p>\n\t<h4>Dessert</h4>\n\t<p>Music to be announced</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Livia Sohn, <em>violin</em></li>\n\t\t<li>Bernadene Blaha, <em>piano</em></li>\n\t\t<li>Luigi Piovano, <em>cello</em></li>\n\t</ul>\n</div>",
-        "date": "Tue Aug 12 15:24:18 UTC 2014",
-        "group": "Latitude 41",
-        "slug": "/concerts/1415/mar",
+      "/artists/pedjamuzijevic": {
+        "ticks": 1430161200.0,
+        "title": "Pedja Muzijevic",
+        "year": "2015",
+        "headshot": "/assets/img/artists/pedja-muzijevic-thumbnail.jpg",
+        "mixture_date": "2015-04-27T19:00:00Z",
+        "body": "",
+        "mixture_month_year": "04/2015",
+        "date": "Mon Apr 27 19:00:00 UTC 2015",
+        "concert_id": 9,
         "tags": [
           "example",
           "news",
           "story"
         ],
-        "published": true,
-        "concert_id": 7,
-        "address": "70 N 6th Street | Williamsburg",
-        "calendar_month": "Mar 8",
-        "month": "08"
+        "month": "04",
+        "instrument": "Piano",
+        "slug": "/artists/pedjamuzijevic",
+        "website": "http://www.pedjamuzijevic.com",
+        "published": true
       }
     },
     "index": {
-      "transliterated-calendar_year": {
-        "2015": [
-          "/concerts/1415/jan2",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
+      "title": {
+        "pedja muzijevic": [
+          "/artists/pedjamuzijevic"
         ],
-        "2014": [
-          "/concerts/1415/october",
-          "/concerts/1415/november",
-          "/concerts/1415/september"
+        "mihai marica": [
+          "/artists/mihaimarica"
+        ],
+        "mark holloway": [
+          "/artists/markholloway"
+        ],
+        "michael brown": [
+          "/artists/michaelbrown"
+        ],
+        "international contemporary ensemble": [
+          "/artists/internationalensemble"
+        ],
+        "becca stevens": [
+          "/artists/beccastevens"
+        ],
+        "dover quartet": [
+          "/artists/dover_quartet"
+        ],
+        "jasper string quartet": [
+          "/artists/jasper_quartet"
+        ],
+        "anthony roth costanzo": [
+          "/artists/anthonycostanzo"
+        ],
+        "tara helen o'connor": [
+          "/artists/taraoconnor"
+        ],
+        "latitude 41": [
+          "/artists/latitutde41"
+        ],
+        "jennifer johnson cano": [
+          "/artists/jennifercano"
+        ],
+        "christopher cano": [
+          "/artists/christophercano"
+        ],
+        "tesla quartet": [
+          "/artists/teslaquartet"
+        ],
+        "todd palmer": [
+          "/artists/todd_palmer"
+        ],
+        "decoda": [
+          "/artists/decoda"
+        ],
+        "elena urioste": [
+          "/artists/elena_urioste"
+        ],
+        "timo andres": [
+          "/artists/timoandres"
+        ],
+        "rieko aizawa": [
+          "/artists/rieko_aizawa"
+        ],
+        "nicholas canellakis": [
+          "/artists/nicholascanellakis"
+        ],
+        "jesse mills": [
+          "/artists/jesse_mills"
+        ],
+        "eric reed": [
+          "/artists/ericreed"
         ]
       },
-      "thumbnail": {
-        "/assets/img/concerts/mar30-thumb.jpg": [
-          "/concerts/1415/mar-2"
+      "ticks": {
+        "1414436400.0": [
+          "/artists/jasper_quartet"
         ],
-        "/assets/img/concerts/hardings.jpg": [
-          "/concerts/1415/april-2"
+        "1427742000.0": [
+          "/artists/markholloway",
+          "/artists/ericreed",
+          "/artists/christophercano",
+          "/artists/jennifercano"
         ],
-        "/assets/img/concerts/dover-thumb.jpg": [
-          "/concerts/1415/january"
+        "1429038000.0": [
+          "/artists/anthonycostanzo",
+          "/artists/internationalensemble"
         ],
-        "/assets/img/concerts/jan26-thumb.jpeg": [
-          "/concerts/1415/jan2"
+        "1424113200.0": [
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/teslaquartet"
         ],
-        "http://www.jasperquartet.com/gallery/gallery-26309.jpg": [
-          "/concerts/1415/october"
+        "1430161200.0": [
+          "/artists/mihaimarica",
+          "/artists/taraoconnor",
+          "/artists/pedjamuzijevic"
         ],
-        "/assets/img/concerts/cubanasocial.jpg": [
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
+        "1412017200.0": [
+          "/artists/decoda"
         ],
-        "/assets/img/concerts/tesla.jpg": [
-          "/concerts/1415/feb"
+        "1422298800.0": [
+          "/artists/elena_urioste",
+          "/artists/michaelbrown",
+          "/artists/nicholascanellakis"
         ],
-        "/assets/img/musicians-bg.jpg": [
-          "/concerts/1415/september"
+        "1421002800.0": [
+          "/artists/dover_quartet"
         ],
-        "/assets/img/todd-palmer.jpg": [
-          "/concerts/1415/november"
+        "1431111600.0": [
+          "/artists/latitutde41"
         ],
-        "/assets/img/concerts/tbd.jpg": [
-          "/concerts/1415/april"
+        "1416855600.0": [
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/todd_palmer"
         ]
       },
-      "mixture_date": {
-        "2014-08-11t19:25:24-04:00": [
-          "/concerts/1415/november"
+      "transliterated-tags": {
+        "example": [
+          "/artists/latitutde41",
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/mihaimarica",
+          "/artists/markholloway",
+          "/artists/anthonycostanzo",
+          "/artists/elena_urioste",
+          "/artists/ericreed",
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/taraoconnor",
+          "/artists/christophercano",
+          "/artists/jennifercano",
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/michaelbrown",
+          "/artists/jasper_quartet",
+          "/artists/todd_palmer",
+          "/artists/dover_quartet",
+          "/artists/nicholascanellakis",
+          "/artists/teslaquartet",
+          "/artists/pedjamuzijevic"
         ],
-        "2014-08-12t11:24:18-04:00": [
-          "/concerts/1415/mar"
+        "news": [
+          "/artists/latitutde41",
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/mihaimarica",
+          "/artists/markholloway",
+          "/artists/anthonycostanzo",
+          "/artists/elena_urioste",
+          "/artists/ericreed",
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/taraoconnor",
+          "/artists/christophercano",
+          "/artists/jennifercano",
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/michaelbrown",
+          "/artists/jasper_quartet",
+          "/artists/todd_palmer",
+          "/artists/dover_quartet",
+          "/artists/nicholascanellakis",
+          "/artists/teslaquartet",
+          "/artists/pedjamuzijevic"
         ],
-        "2014-08-12t11:39:21-04:00": [
-          "/concerts/1415/april-2"
-        ],
-        "2014-08-12t11:44:21-04:00": [
-          "/concerts/1415/may"
-        ],
-        "2014-08-11t19:25:36-04:00": [
-          "/concerts/1415/january"
-        ],
-        "2014-08-11t19:25:16-04:00": [
-          "/concerts/1415/october"
-        ],
-        "2014-08-12t11:18:11-04:00": [
-          "/concerts/1415/feb"
-        ],
-        "2014-08-12t11:28:14-04:00": [
-          "/concerts/1415/mar-2"
-        ],
-        "2014-08-11t19:25:08-04:00": [
-          "/concerts/1415/september"
-        ],
-        "2014-08-12t11:33:19-04:00": [
-          "/concerts/1415/april"
-        ],
-        "2014-08-12t11:03:04-04:00": [
-          "/concerts/1415/jan2"
+        "story": [
+          "/artists/latitutde41",
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/mihaimarica",
+          "/artists/markholloway",
+          "/artists/anthonycostanzo",
+          "/artists/elena_urioste",
+          "/artists/ericreed",
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/taraoconnor",
+          "/artists/christophercano",
+          "/artists/jennifercano",
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/michaelbrown",
+          "/artists/jasper_quartet",
+          "/artists/todd_palmer",
+          "/artists/dover_quartet",
+          "/artists/nicholascanellakis",
+          "/artists/teslaquartet",
+          "/artists/pedjamuzijevic"
         ]
       },
-      "feature": {
-        "/assets/img/concerts/jan26.jpg": [
-          "/concerts/1415/jan2"
+      "transliterated-concert_id": {
+        "10": [
+          "/artists/latitutde41"
         ],
-        "/assets/img/concerts/hardings.jpg": [
-          "/concerts/1415/april-2",
-          "/concerts/1415/mar-2"
+        "4": [
+          "/artists/dover_quartet"
         ],
-        "/assets/img/concerts/dover.jpg": [
-          "/concerts/1415/january"
+        "2": [
+          "/artists/jasper_quartet"
         ],
-        "/assets/img/concerts/cubanasocial.jpg": [
-          "/concerts/1415/mar"
+        "1": [
+          "/artists/decoda"
         ],
-        "/assets/img/concerts/tesla.jpg": [
-          "/concerts/1415/feb"
+        "3": [
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/todd_palmer"
         ],
-        "/assets/img/musicians-bg.jpg": [
-          "/concerts/1415/september",
-          "/concerts/1415/may"
+        "5": [
+          "/artists/elena_urioste",
+          "/artists/michaelbrown",
+          "/artists/nicholascanellakis"
         ],
-        "http://dz0zjhi21dz2t.cloudfront.net/media/80702/photos/66884/1366.jpg": [
-          "/concerts/1415/october",
-          "/concerts/1415/november"
+        "8": [
+          "/artists/anthonycostanzo",
+          "/artists/internationalensemble"
         ],
-        "/assets/img/concerts/tbd.jpg": [
-          "/concerts/1415/april"
+        "7": [
+          "/artists/markholloway",
+          "/artists/ericreed",
+          "/artists/christophercano",
+          "/artists/jennifercano"
+        ],
+        "9": [
+          "/artists/mihaimarica",
+          "/artists/taraoconnor",
+          "/artists/pedjamuzijevic"
+        ],
+        "6": [
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/teslaquartet"
         ]
       },
       "year": {
         "2014": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/decoda",
+          "/artists/jasper_quartet",
+          "/artists/todd_palmer"
+        ],
+        "2015": [
+          "/artists/latitutde41",
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/mihaimarica",
+          "/artists/markholloway",
+          "/artists/anthonycostanzo",
+          "/artists/elena_urioste",
+          "/artists/ericreed",
+          "/artists/taraoconnor",
+          "/artists/christophercano",
+          "/artists/jennifercano",
+          "/artists/internationalensemble",
+          "/artists/michaelbrown",
+          "/artists/dover_quartet",
+          "/artists/nicholascanellakis",
+          "/artists/teslaquartet",
+          "/artists/pedjamuzijevic"
         ]
       },
-      "transliterated-calendar_month": {
-        "may-10": [
-          "/concerts/1415/may"
+      "transliterated-headshot": {
+        "/assets/img/artists/jasperquartet-thumbnailjpg": [
+          "/artists/jasper_quartet"
         ],
-        "feb-16": [
-          "/concerts/1415/feb"
+        "/assets/img/artists/eric-reed-thumbnailjpg": [
+          "/artists/ericreed"
         ],
-        "oct-27": [
+        "/assets/img/artists/mihai-marica-thumbnailjpg": [
+          "/artists/mihaimarica"
+        ],
+        "/assets/img/artists/tesla-thumbnailjpg": [
+          "/artists/teslaquartet"
+        ],
+        "/assets/img/artists/chris-cano-thumbnailjpg": [
+          "/artists/christophercano"
+        ],
+        "/assets/img/artists/dover-thumbnailjpg": [
+          "/artists/dover_quartet"
+        ],
+        "/assets/img/artists/pedja-muzijevic-thumbnailjpg": [
+          "/artists/pedjamuzijevic"
+        ],
+        "/assets/img/artists/jesse-mills-thumbnailjpg": [
+          "/artists/jesse_mills"
+        ],
+        "/assets/img/artists/rieko-aizawa-thumbnailjpg": [
+          "/artists/rieko_aizawa"
+        ],
+        "/assets/img/artists/mark-holloway-thumbnailjpg": [
+          "/artists/markholloway"
+        ],
+        "/assets/img/artists/becca-stevens-thumbnailjpg": [
+          "/artists/beccastevens"
+        ],
+        "http//triolatitude41com/images/latitude-41_153jpeg": [
+          "/artists/latitutde41"
+        ],
+        "/assets/img/artists/todd-palmer-thumbnailjpg": [
+          "/artists/todd_palmer"
+        ],
+        "/assets/img/artists/timo-andres-thumbnailjpg": [
+          "/artists/timoandres"
+        ],
+        "/assets/img/artists/elena-urioste-thumbnailjpg": [
+          "/artists/elena_urioste"
+        ],
+        "/assets/img/artists/anthony-costanzo-thumbnailjpg": [
+          "/artists/anthonycostanzo"
+        ],
+        "/assets/img/artists/tbdjpg": [
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/michaelbrown",
+          "/artists/nicholascanellakis"
+        ],
+        "/assets/img/artists/jennifer-cano-thumbnailjpg": [
+          "/artists/jennifercano"
+        ],
+        "/assets/img/artists/tara-oconner-thumbnailjpg": [
+          "/artists/taraoconnor"
+        ]
+      },
+      "headshot": {
+        "/assets/img/artists/jesse-mills-thumbnail.jpg": [
+          "/artists/jesse_mills"
+        ],
+        "/assets/img/artists/mark-holloway-thumbnail.jpg": [
+          "/artists/markholloway"
+        ],
+        "/assets/img/artists/becca-stevens-thumbnail.jpg": [
+          "/artists/beccastevens"
+        ],
+        "/assets/img/artists/pedja-muzijevic-thumbnail.jpg": [
+          "/artists/pedjamuzijevic"
+        ],
+        "/assets/img/artists/tara-oconner-thumbnail.jpg": [
+          "/artists/taraoconnor"
+        ],
+        "/assets/img/artists/eric-reed-thumbnail.jpg": [
+          "/artists/ericreed"
+        ],
+        "/assets/img/artists/elena-urioste-thumbnail.jpg": [
+          "/artists/elena_urioste"
+        ],
+        "/assets/img/artists/todd-palmer-thumbnail.jpg": [
+          "/artists/todd_palmer"
+        ],
+        "/assets/img/artists/chris-cano-thumbnail.jpg": [
+          "/artists/christophercano"
+        ],
+        "/assets/img/artists/rieko-aizawa-thumbnail.jpg": [
+          "/artists/rieko_aizawa"
+        ],
+        "/assets/img/artists/dover-thumbnail.jpg": [
+          "/artists/dover_quartet"
+        ],
+        "/assets/img/artists/anthony-costanzo-thumbnail.jpg": [
+          "/artists/anthonycostanzo"
+        ],
+        "http://triolatitude41.com/images/latitude-41_153.jpeg": [
+          "/artists/latitutde41"
+        ],
+        "/assets/img/artists/tesla-thumbnail.jpg": [
+          "/artists/teslaquartet"
+        ],
+        "/assets/img/artists/jasperquartet-thumbnail.jpg": [
+          "/artists/jasper_quartet"
+        ],
+        "/assets/img/artists/tbd.jpg": [
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/michaelbrown",
+          "/artists/nicholascanellakis"
+        ],
+        "/assets/img/artists/timo-andres-thumbnail.jpg": [
+          "/artists/timoandres"
+        ],
+        "/assets/img/artists/jennifer-cano-thumbnail.jpg": [
+          "/artists/jennifercano"
+        ],
+        "/assets/img/artists/mihai-marica-thumbnail.jpg": [
+          "/artists/mihaimarica"
+        ]
+      },
+      "mixture_date": {
+        "2014-11-24t19:00:00": [
+          "/artists/jesse_mills"
+        ],
+        "2015-03-30t19:00:00": [
+          "/artists/markholloway",
+          "/artists/ericreed",
+          "/artists/christophercano",
+          "/artists/jennifercano"
+        ],
+        "2015-04-14t19:00:00": [
+          "/artists/anthonycostanzo",
+          "/artists/internationalensemble"
+        ],
+        "2015-05-08t19:00:00": [
+          "/artists/latitutde41"
+        ],
+        "2015-01-26t19:00:00": [
+          "/artists/elena_urioste",
+          "/artists/michaelbrown",
+          "/artists/nicholascanellakis"
+        ],
+        "2014-10-27t19:00:00": [
+          "/artists/jasper_quartet"
+        ],
+        "2015-02-16t19:00:00": [
+          "/artists/beccastevens"
+        ],
+        "2014-11-24t19:00:00z": [
+          "/artists/rieko_aizawa",
+          "/artists/todd_palmer"
+        ],
+        "2015-04-27t19:00:00": [
+          "/artists/mihaimarica"
+        ],
+        "2015-01-11t19:00:00": [
+          "/artists/dover_quartet"
+        ],
+        "2014-09-29t19:00:00": [
+          "/artists/decoda"
+        ],
+        "2015-04-27t19:00:00z": [
+          "/artists/taraoconnor",
+          "/artists/pedjamuzijevic"
+        ],
+        "2015-02-16t19:00:00z": [
+          "/artists/timoandres",
+          "/artists/teslaquartet"
+        ]
+      },
+      "concert_id": {
+        "10": [
+          "/artists/latitutde41"
+        ],
+        "4": [
+          "/artists/dover_quartet"
+        ],
+        "2": [
+          "/artists/jasper_quartet"
+        ],
+        "1": [
+          "/artists/decoda"
+        ],
+        "3": [
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/todd_palmer"
+        ],
+        "5": [
+          "/artists/elena_urioste",
+          "/artists/michaelbrown",
+          "/artists/nicholascanellakis"
+        ],
+        "8": [
+          "/artists/anthonycostanzo",
+          "/artists/internationalensemble"
+        ],
+        "7": [
+          "/artists/markholloway",
+          "/artists/ericreed",
+          "/artists/christophercano",
+          "/artists/jennifercano"
+        ],
+        "9": [
+          "/artists/mihaimarica",
+          "/artists/taraoconnor",
+          "/artists/pedjamuzijevic"
+        ],
+        "6": [
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/teslaquartet"
+        ]
+      },
+      "mixture_month_year": {
+        "10/2014": [
+          "/artists/jasper_quartet"
+        ],
+        "11/2014": [
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/todd_palmer"
+        ],
+        "01/2015": [
+          "/artists/elena_urioste",
+          "/artists/michaelbrown",
+          "/artists/dover_quartet",
+          "/artists/nicholascanellakis"
+        ],
+        "04/2015": [
+          "/artists/mihaimarica",
+          "/artists/anthonycostanzo",
+          "/artists/taraoconnor",
+          "/artists/internationalensemble",
+          "/artists/pedjamuzijevic"
+        ],
+        "02/2015": [
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/teslaquartet"
+        ],
+        "05/2015": [
+          "/artists/latitutde41"
+        ],
+        "09/2014": [
+          "/artists/decoda"
+        ],
+        "03/2015": [
+          "/artists/markholloway",
+          "/artists/ericreed",
+          "/artists/christophercano",
+          "/artists/jennifercano"
+        ]
+      },
+      "transliterated-instrument": {
+        "piano": [
+          "/artists/rieko_aizawa",
+          "/artists/christophercano",
+          "/artists/pedjamuzijevic"
+        ],
+        "mezzo-soprano": [
+          "/artists/jennifercano"
+        ],
+        "violin": [
+          "/artists/elena_urioste",
+          "/artists/jesse_mills"
+        ],
+        "counter-tenor": [
+          "/artists/anthonycostanzo"
+        ],
+        "viola": [
+          "/artists/markholloway"
+        ],
+        "cello": [
+          "/artists/mihaimarica",
+          "/artists/nicholascanellakis"
+        ],
+        "composer-and-piano": [
+          "/artists/timoandres",
+          "/artists/michaelbrown"
+        ],
+        "clarinet": [
+          "/artists/todd_palmer"
+        ],
+        "horn": [
+          "/artists/ericreed"
+        ],
+        "flute": [
+          "/artists/taraoconnor"
+        ],
+        "vocals": [
+          "/artists/beccastevens"
+        ],
+        "": [
+          "/artists/latitutde41",
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/jasper_quartet",
+          "/artists/dover_quartet",
+          "/artists/teslaquartet"
+        ]
+      },
+      "tags": {
+        "example": [
+          "/artists/latitutde41",
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/mihaimarica",
+          "/artists/markholloway",
+          "/artists/anthonycostanzo",
+          "/artists/elena_urioste",
+          "/artists/ericreed",
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/taraoconnor",
+          "/artists/christophercano",
+          "/artists/jennifercano",
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/michaelbrown",
+          "/artists/jasper_quartet",
+          "/artists/todd_palmer",
+          "/artists/dover_quartet",
+          "/artists/nicholascanellakis",
+          "/artists/teslaquartet",
+          "/artists/pedjamuzijevic"
+        ],
+        "news": [
+          "/artists/latitutde41",
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/mihaimarica",
+          "/artists/markholloway",
+          "/artists/anthonycostanzo",
+          "/artists/elena_urioste",
+          "/artists/ericreed",
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/taraoconnor",
+          "/artists/christophercano",
+          "/artists/jennifercano",
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/michaelbrown",
+          "/artists/jasper_quartet",
+          "/artists/todd_palmer",
+          "/artists/dover_quartet",
+          "/artists/nicholascanellakis",
+          "/artists/teslaquartet",
+          "/artists/pedjamuzijevic"
+        ],
+        "story": [
+          "/artists/latitutde41",
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/mihaimarica",
+          "/artists/markholloway",
+          "/artists/anthonycostanzo",
+          "/artists/elena_urioste",
+          "/artists/ericreed",
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/taraoconnor",
+          "/artists/christophercano",
+          "/artists/jennifercano",
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/michaelbrown",
+          "/artists/jasper_quartet",
+          "/artists/todd_palmer",
+          "/artists/dover_quartet",
+          "/artists/nicholascanellakis",
+          "/artists/teslaquartet",
+          "/artists/pedjamuzijevic"
+        ]
+      },
+      "transliterated-slug": {
+        "/artists/beccastevens": [
+          "/artists/beccastevens"
+        ],
+        "/artists/latitutde41": [
+          "/artists/latitutde41"
+        ],
+        "/artists/mihaimarica": [
+          "/artists/mihaimarica"
+        ],
+        "/artists/timoandres": [
+          "/artists/timoandres"
+        ],
+        "/artists/anthonycostanzo": [
+          "/artists/anthonycostanzo"
+        ],
+        "/artists/markholloway": [
+          "/artists/markholloway"
+        ],
+        "/artists/elena_urioste": [
+          "/artists/elena_urioste"
+        ],
+        "/artists/rieko_aizawa": [
+          "/artists/rieko_aizawa"
+        ],
+        "/artists/ericreed": [
+          "/artists/ericreed"
+        ],
+        "/artists/jennifercano": [
+          "/artists/jennifercano"
+        ],
+        "/artists/christophercano": [
+          "/artists/christophercano"
+        ],
+        "/artists/taraoconnor": [
+          "/artists/taraoconnor"
+        ],
+        "/artists/jesse_mills": [
+          "/artists/jesse_mills"
+        ],
+        "/artists/internationalensemble": [
+          "/artists/internationalensemble"
+        ],
+        "/artists/decoda": [
+          "/artists/decoda"
+        ],
+        "/artists/michaelbrown": [
+          "/artists/michaelbrown"
+        ],
+        "/artists/dover_quartet": [
+          "/artists/dover_quartet"
+        ],
+        "/artists/todd_palmer": [
+          "/artists/todd_palmer"
+        ],
+        "/artists/jasper_quartet": [
+          "/artists/jasper_quartet"
+        ],
+        "/artists/pedjamuzijevic": [
+          "/artists/pedjamuzijevic"
+        ],
+        "/artists/teslaquartet": [
+          "/artists/teslaquartet"
+        ],
+        "/artists/nicholascanellakis": [
+          "/artists/nicholascanellakis"
+        ]
+      },
+      "instrument": {
+        "piano": [
+          "/artists/rieko_aizawa",
+          "/artists/christophercano",
+          "/artists/pedjamuzijevic"
+        ],
+        "mezzo-soprano": [
+          "/artists/jennifercano"
+        ],
+        "violin": [
+          "/artists/elena_urioste",
+          "/artists/jesse_mills"
+        ],
+        "viola": [
+          "/artists/markholloway"
+        ],
+        "cello": [
+          "/artists/mihaimarica",
+          "/artists/nicholascanellakis"
+        ],
+        "clarinet": [
+          "/artists/todd_palmer"
+        ],
+        "horn": [
+          "/artists/ericreed"
+        ],
+        "flute": [
+          "/artists/taraoconnor"
+        ],
+        "counter tenor": [
+          "/artists/anthonycostanzo"
+        ],
+        "composer and piano": [
+          "/artists/timoandres",
+          "/artists/michaelbrown"
+        ],
+        "vocals": [
+          "/artists/beccastevens"
+        ],
+        "": [
+          "/artists/latitutde41",
+          "/artists/internationalensemble",
+          "/artists/decoda",
+          "/artists/jasper_quartet",
+          "/artists/dover_quartet",
+          "/artists/teslaquartet"
+        ]
+      },
+      "month": {
+        "10": [
+          "/artists/jasper_quartet"
+        ],
+        "11": [
+          "/artists/rieko_aizawa",
+          "/artists/jesse_mills",
+          "/artists/todd_palmer"
+        ],
+        "09": [
+          "/artists/decoda"
+        ],
+        "01": [
+          "/artists/elena_urioste",
+          "/artists/michaelbrown",
+          "/artists/dover_quartet",
+          "/artists/nicholascanellakis"
+        ],
+        "03": [
+          "/artists/markholloway",
+          "/artists/ericreed",
+          "/artists/christophercano",
+          "/artists/jennifercano"
+        ],
+        "04": [
+          "/artists/mihaimarica",
+          "/artists/anthonycostanzo",
+          "/artists/taraoconnor",
+          "/artists/internationalensemble",
+          "/artists/pedjamuzijevic"
+        ],
+        "02": [
+          "/artists/beccastevens",
+          "/artists/timoandres",
+          "/artists/teslaquartet"
+        ],
+        "05": [
+          "/artists/latitutde41"
+        ]
+      },
+      "website": {
+        "http://www.anthonyrothcostanzo.com": [
+          "/artists/anthonycostanzo"
+        ],
+        "http://www.beccastevens.com": [
+          "/artists/beccastevens"
+        ],
+        "http://triolatitude41.com/": [
+          "/artists/latitutde41"
+        ],
+        "http://www.pedjamuzijevic.com": [
+          "/artists/pedjamuzijevic"
+        ],
+        "http://www.teslaquartet.com": [
+          "/artists/teslaquartet"
+        ],
+        "http://www.doverquartet.com": [
+          "/artists/dover_quartet"
+        ],
+        "http://www.iceorg.org": [
+          "/artists/internationalensemble"
+        ],
+        "http://www.jenniferjohnsoncano.net": [
+          "/artists/jennifercano"
+        ],
+        "http://www.jasperquartet.com": [
+          "/artists/jasper_quartet"
+        ],
+        "http://lmgtfy.com/?q=eric+reed+horn": [
+          "/artists/ericreed"
+        ],
+        "http://www.christophercano.com": [
+          "/artists/christophercano"
+        ],
+        "http://www.michaelbrownmusic.com": [
+          "/artists/michaelbrown"
+        ],
+        "http://decodamusic.org/": [
+          "/artists/decoda"
+        ],
+        "http://bit.ly/1s5fofw": [
+          "/artists/taraoconnor"
+        ],
+        "http://www.riekoaizawa.com/ra/rieko_aizawa,_piano___welcome.html": [
+          "/artists/rieko_aizawa"
+        ],
+        "http://lmgtfy.com/?q=mark+holloway+viola": [
+          "/artists/markholloway"
+        ],
+        "http://lmgtfy.com/?q=mihai+marica+cello": [
+          "/artists/mihaimarica"
+        ],
+        "http://www.elenaurioste.com": [
+          "/artists/elena_urioste"
+        ],
+        "http://www.jesse-mills.com/jm/jesse_mills,_violin___welcome.html": [
+          "/artists/jesse_mills"
+        ],
+        "http://www.andres.com": [
+          "/artists/timoandres"
+        ],
+        "http://www.nicholascanellakis.com/": [
+          "/artists/nicholascanellakis"
+        ],
+        "http://lmgtfy.com/?q=todd+palmer+clarinet": [
+          "/artists/todd_palmer"
+        ]
+      },
+      "slug": {
+        "/artists/beccastevens": [
+          "/artists/beccastevens"
+        ],
+        "/artists/latitutde41": [
+          "/artists/latitutde41"
+        ],
+        "/artists/mihaimarica": [
+          "/artists/mihaimarica"
+        ],
+        "/artists/timoandres": [
+          "/artists/timoandres"
+        ],
+        "/artists/anthonycostanzo": [
+          "/artists/anthonycostanzo"
+        ],
+        "/artists/markholloway": [
+          "/artists/markholloway"
+        ],
+        "/artists/elena_urioste": [
+          "/artists/elena_urioste"
+        ],
+        "/artists/rieko_aizawa": [
+          "/artists/rieko_aizawa"
+        ],
+        "/artists/ericreed": [
+          "/artists/ericreed"
+        ],
+        "/artists/jennifercano": [
+          "/artists/jennifercano"
+        ],
+        "/artists/christophercano": [
+          "/artists/christophercano"
+        ],
+        "/artists/taraoconnor": [
+          "/artists/taraoconnor"
+        ],
+        "/artists/jesse_mills": [
+          "/artists/jesse_mills"
+        ],
+        "/artists/internationalensemble": [
+          "/artists/internationalensemble"
+        ],
+        "/artists/decoda": [
+          "/artists/decoda"
+        ],
+        "/artists/michaelbrown": [
+          "/artists/michaelbrown"
+        ],
+        "/artists/dover_quartet": [
+          "/artists/dover_quartet"
+        ],
+        "/artists/todd_palmer": [
+          "/artists/todd_palmer"
+        ],
+        "/artists/jasper_quartet": [
+          "/artists/jasper_quartet"
+        ],
+        "/artists/pedjamuzijevic": [
+          "/artists/pedjamuzijevic"
+        ],
+        "/artists/teslaquartet": [
+          "/artists/teslaquartet"
+        ],
+        "/artists/nicholascanellakis": [
+          "/artists/nicholascanellakis"
+        ]
+      },
+      "transliterated-title": {
+        "dover-quartet": [
+          "/artists/dover_quartet"
+        ],
+        "christopher-cano": [
+          "/artists/christophercano"
+        ],
+        "rieko-aizawa": [
+          "/artists/rieko_aizawa"
+        ],
+        "anthony-roth-costanzo": [
+          "/artists/anthonycostanzo"
+        ],
+        "timo-andres": [
+          "/artists/timoandres"
+        ],
+        "tesla-quartet": [
+          "/artists/teslaquartet"
+        ],
+        "nicholas-canellakis": [
+          "/artists/nicholascanellakis"
+        ],
+        "mark-holloway": [
+          "/artists/markholloway"
+        ],
+        "todd-palmer": [
+          "/artists/todd_palmer"
+        ],
+        "michael-brown": [
+          "/artists/michaelbrown"
+        ],
+        "jennifer-johnson-cano": [
+          "/artists/jennifercano"
+        ],
+        "international-contemporary-ensemble": [
+          "/artists/internationalensemble"
+        ],
+        "elena-urioste": [
+          "/artists/elena_urioste"
+        ],
+        "mihai-marica": [
+          "/artists/mihaimarica"
+        ],
+        "decoda": [
+          "/artists/decoda"
+        ],
+        "eric-reed": [
+          "/artists/ericreed"
+        ],
+        "pedja-muzijevic": [
+          "/artists/pedjamuzijevic"
+        ],
+        "becca-stevens": [
+          "/artists/beccastevens"
+        ],
+        "latitude-41": [
+          "/artists/latitutde41"
+        ],
+        "jasper-string-quartet": [
+          "/artists/jasper_quartet"
+        ],
+        "tara-helen-oconnor": [
+          "/artists/taraoconnor"
+        ],
+        "jesse-mills": [
+          "/artists/jesse_mills"
+        ]
+      },
+      "transliterated-website": {
+        "http//decodamusicorg/": [
+          "/artists/decoda"
+        ],
+        "http//wwwiceorgorg": [
+          "/artists/internationalensemble"
+        ],
+        "http//wwwchristophercanocom": [
+          "/artists/christophercano"
+        ],
+        "http//lmgtfycom/qmihaimaricacello": [
+          "/artists/mihaimarica"
+        ],
+        "http//wwwpedjamuzijeviccom": [
+          "/artists/pedjamuzijevic"
+        ],
+        "http//wwwjesse-millscom/jm/jesse_mills_violin___welcomehtml": [
+          "/artists/jesse_mills"
+        ],
+        "http//lmgtfycom/qericreedhorn": [
+          "/artists/ericreed"
+        ],
+        "http//wwwandrescom": [
+          "/artists/timoandres"
+        ],
+        "http//wwwmichaelbrownmusiccom": [
+          "/artists/michaelbrown"
+        ],
+        "http//wwwbeccastevenscom": [
+          "/artists/beccastevens"
+        ],
+        "http//wwwelenauriostecom": [
+          "/artists/elena_urioste"
+        ],
+        "http//wwwteslaquartetcom": [
+          "/artists/teslaquartet"
+        ],
+        "http//wwwjenniferjohnsoncanonet": [
+          "/artists/jennifercano"
+        ],
+        "http//wwwriekoaizawacom/ra/rieko_aizawa_piano___welcomehtml": [
+          "/artists/rieko_aizawa"
+        ],
+        "http//wwwanthonyrothcostanzocom": [
+          "/artists/anthonycostanzo"
+        ],
+        "http//wwwnicholascanellakiscom/": [
+          "/artists/nicholascanellakis"
+        ],
+        "http//wwwdoverquartetcom": [
+          "/artists/dover_quartet"
+        ],
+        "http//wwwjasperquartetcom": [
+          "/artists/jasper_quartet"
+        ],
+        "http//lmgtfycom/qtoddpalmerclarinet": [
+          "/artists/todd_palmer"
+        ],
+        "http//lmgtfycom/qmarkhollowayviola": [
+          "/artists/markholloway"
+        ],
+        "http//bitly/1s5fofw": [
+          "/artists/taraoconnor"
+        ],
+        "http//triolatitude41com/": [
+          "/artists/latitutde41"
+        ]
+      }
+    }
+  },
+  "concerts": {
+    "collection": {
+      "/concerts/1415/may": {
+        "ticks": 1431284400.0,
+        "title": "DECODA",
+        "year": "2015",
+        "location": "Cubana Social",
+        "mixture_date": "2015-05-10T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>ANDRES Moores</p>\n\t<h4>Main Course</h4>\n\t<p>Music to be announced</p>\n\t<h4>Dessert</h4>\n\t<p>Music to be announced</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Owen Dalby, <em>violin</em></li>\n\t\t<li>Anna Elashvili, <em>violin</em></li>\n\t</ul>\n</div>",
+        "mixture_month_year": "05/2015",
+        "date": "Sun May 10 19:00:00 UTC 2015",
+        "concert_id": 10,
+        "calendar_year": 2015,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "05",
+        "thumbnail": "/assets/img/concerts/cubanasocial.jpg",
+        "slug": "/concerts/1415/may",
+        "published": true,
+        "group": "DECODA",
+        "calendar_month": "May 10",
+        "address": "70 N 6th Street | Williamsburg",
+        "feature": "/assets/img/musicians-bg.jpg"
+      },
+      "/concerts/1415/jan2": {
+        "ticks": 1422298800.0,
+        "title": "Elena Urioste, Nick Canellakis, and Michael Brown at Harding's",
+        "year": "2015",
+        "location": "Harding's",
+        "mixture_date": "2015-01-26T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>BEACH Romance for violin and piano<br>BROWN New work for cello and piano (2014) \n<br>GANKINO HORO Bulgarian traditional arr. Canellakis for cello and piano</p>\n\t<h4>Main Course</h4>\n\t<p>RAVEL Piano Trio in A minor</p>\n\t<h4>Dessert</h4>\n\t<p>RAVEL Menuet sur le nom d'Haydn<br>RAVEL Le Tombeau de Couperin: Menuet<br>SHOSTAKOVICH Piano Trio no. 1 Op. 8</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Elena Urioste, <em>violin</em></li>\n\t\t<li>Nick Canellakis, <em>cello</em></li>\n\t\t<li>Michael Brown, <em>piano</em></li>\n\t</ul>\n</div>",
+        "mixture_month_year": "01/2015",
+        "date": "Mon Jan 26 19:00:00 UTC 2015",
+        "concert_id": 5,
+        "calendar_year": 2015,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "01",
+        "thumbnail": "/assets/img/concerts/jan26-thumb.jpeg",
+        "slug": "/concerts/1415/jan2",
+        "published": true,
+        "group": "Elena Urioste, Nick Canellakis, and Michael Brown",
+        "calendar_month": "Jan 26",
+        "address": "32 East 21st St | NYC",
+        "feature": "/assets/img/concerts/jan26.jpg"
+      },
+      "/concerts/1415/mar": {
+        "ticks": 1425841200.0,
+        "title": "Latitude 41 at Cubana Social",
+        "year": "2015",
+        "location": "Cubana Social",
+        "mixture_date": "2015-03-08T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>Music to be announced</p>\n\t<h4>Main Course</h4>\n\t<p>Music to be announced</p>\n\t<h4>Dessert</h4>\n\t<p>Music to be announced</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Livia Sohn, <em>violin</em></li>\n\t\t<li>Bernadene Blaha, <em>piano</em></li>\n\t\t<li>Luigi Piovano, <em>cello</em></li>\n\t</ul>\n</div>",
+        "mixture_month_year": "03/2015",
+        "date": "Sun Mar 08 19:00:00 UTC 2015",
+        "concert_id": 7,
+        "calendar_year": 2015,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "03",
+        "thumbnail": "/assets/img/concerts/cubanasocial.jpg",
+        "slug": "/concerts/1415/mar",
+        "published": true,
+        "group": "Latitude 41",
+        "calendar_month": "Mar 8",
+        "address": "70 N 6th Street | Williamsburg",
+        "feature": "/assets/img/concerts/cubanasocial.jpg"
+      },
+      "/concerts/1415/january": {
+        "ticks": 1421002800.0,
+        "title": "Dover Quartet at Tarallucci e Vino",
+        "year": "2015",
+        "location": "Tarallucci e Vino",
+        "mixture_date": "2015-01-11T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>LUDWIG Pale Blue Dot</p>\n\t<h4>Main Course</h4>\n\t<p>HAYDN String Quartet Op. 76, No. 1 in G Major</p>\n\t<h4>Dessert</h4>\n\t<p>KREISLER Caprice Viennois<br>ULLMANN String Quartet No. 3</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes approx 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Joel Link, <em>violin</em></li>\n\t\t<li>Bryan Lee, <em>violin</em></li>\n\t\t<li>Milena Pajaro-van de Stadt, <em>viola</em></li>\n\t\t<li>Camden Shaw, <em>cello</em></li>\n\t</ul>\n</div>",
+        "mixture_month_year": "01/2015",
+        "date": "Sun Jan 11 19:00:00 UTC 2015",
+        "concert_id": 4,
+        "calendar_year": 2015,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "01",
+        "thumbnail": "/assets/img/artists/dover-thumbnail.jpg",
+        "slug": "/concerts/1415/january",
+        "published": true,
+        "group": "Dover Quartet",
+        "calendar_month": "Jan 11",
+        "address": "15 E 18th St | NYC",
+        "feature": "/assets/img/concerts/dover.jpg"
+      },
+      "/concerts/1415/november": {
+        "ticks": 1416855600.0,
+        "title": "Todd Palmer & Friends at Harding's",
+        "year": "2014",
+        "location": "Harding's",
+        "mixture_date": "2014-11-24T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>STRAVINSKY 3 Pieces for Clarinet Solo<br>MILHAUD Suite for Violin, Clarinet and Piano Op. 157b</p>\n\t<h4>Main Course</h4>\n\t<p>HARRISON Grand Duo for Violin and Piano</p>\n\t<h4>Dessert</h4>\n\t<p>WEBER Grand Duo Concertant for Clarinet and Piano</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes approx 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Todd Palmer, <em>clarinet</em></li>\n\t\t<li>Jesse Mills, <em>violin</em></li>\n\t\t<li>Rieko Aizawa, <em>piano</em></li>\n\t</ul>\n</div>",
+        "mixture_month_year": "11/2014",
+        "date": "Mon Nov 24 19:00:00 UTC 2014",
+        "concert_id": 3,
+        "calendar_year": 2014,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "11",
+        "thumbnail": "/assets/img/artists/todd-palmer-thumbnail.jpg",
+        "slug": "/concerts/1415/november",
+        "published": true,
+        "group": "Todd Palmer & Friends",
+        "calendar_month": "Nov 24",
+        "address": "32 East 21st St | NYC",
+        "feature": "http://dz0zjhi21dz2t.cloudfront.net/media/80702/photos/66884/1366.jpg"
+      },
+      "/concerts/1415/feb": {
+        "ticks": 1424113200.0,
+        "title": "Timo Andres & Friends at Harding's",
+        "year": "2015",
+        "location": "Harding's",
+        "mixture_date": "2015-02-16T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>ANDRES & SCHUMANN: Selections for solo piano</p>\n\t<h4>Main Course</h4>\n\t<p>COPLAND: Twelve Poems of Emily Dickinson</p>\n\t<h4>Dessert</h4>\n\t<p>ANDRES: Piano Quintet</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Timo Andres, <em>piano</em></li>\n\t\t<li>Becca Stevens, <em>vocals</em></li>\n\t\t<li>Tesla Quartet</li>\n\t</ul>\n</div>",
+        "mixture_month_year": "02/2015",
+        "date": "Mon Feb 16 19:00:00 UTC 2015",
+        "concert_id": 6,
+        "calendar_year": 2015,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "02",
+        "thumbnail": "/assets/img/artists/timo_andres.jpg",
+        "slug": "/concerts/1415/feb",
+        "published": true,
+        "group": "Timo Andres & Friends",
+        "calendar_month": "Feb 16",
+        "address": "32 East 21st St | NYC",
+        "feature": "/assets/img/concerts/tesla.jpg"
+      },
+      "/concerts/1415/april-2": {
+        "ticks": 1430161200.0,
+        "title": "Tara Helen O'Connor & Friends",
+        "year": "2015",
+        "location": "Harding's",
+        "mixture_date": "2015-04-27T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>PROKOFIEV Flute Sonata</p>\n\t<h4>Main Course</h4>\n\t<p>LIGETI Sonata for Solo Cello<br>LISZT/WAGNER Isolde’s Liebestod</p>\n\t<h4>Dessert</h4>\n\t<p>CRUMB Voice of the Whale</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Tara Helen O'Connor, <em>flute</em></li>\n\t\t<li>Mihai Marcia, <em>cello</em></li>\n\t\t<li>Pedja Muzijevic, <em>piano</em></li>\n\t</ul>\n</div>",
+        "mixture_month_year": "04/2015",
+        "date": "Mon Apr 27 19:00:00 UTC 2015",
+        "concert_id": 10,
+        "calendar_year": 2015,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "04",
+        "thumbnail": "/assets/img/concerts/hardings.jpg",
+        "slug": "/concerts/1415/april-2",
+        "published": true,
+        "group": "Tara Helen O'Connor & Friends",
+        "calendar_month": "April 27",
+        "address": "32 E 21st Street | NYC",
+        "feature": "/assets/img/concerts/hardings.jpg"
+      },
+      "/concerts/1415/mar-2": {
+        "ticks": 1427742000.0,
+        "title": "Jennifer Johnson Cano & Friends",
+        "year": "2015",
+        "location": "Harding's",
+        "mixture_date": "2015-03-30T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>STRAUSS Ein Alphorn<br>ANDRES World Premiere<br>RAVEL Cinq Mélodies populaires grecques</p>\n\t<h4>Main Course</h4>\n\t<p>ENESCU Concert Piece for viola and piano<br>BARBER Three Songs, Opus 10</p>\n\t<h4>Dessert</h4>\n\t<p>STRAUSS Andante for horn and piano<br>BRAHMS Zwei Gesänge, Opus 91</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Jennifer Johnson Cano, <em>mezzo-soprano</em></li>\n\t\t<li>Christopher Cano, <em>piano</em></li>\n\t\t<li>Mark Holloway, <em>viola</em></li>\n\t\t<li>Eric Reed, <em>horn</em></li>\n\t</ul>\n</div>",
+        "mixture_month_year": "03/2015",
+        "date": "Mon Mar 30 19:00:00 UTC 2015",
+        "concert_id": 8,
+        "calendar_year": 2015,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "03",
+        "thumbnail": "/assets/img/concerts/mar30-thumb.jpg",
+        "slug": "/concerts/1415/mar-2",
+        "published": true,
+        "group": "Jennifer Johnson Cano & Friends",
+        "calendar_month": "Mar 30",
+        "address": "32 E 21st Street | NYC",
+        "feature": "/assets/img/concerts/hardings.jpg"
+      },
+      "/concerts/1415/april": {
+        "ticks": 1429038000.0,
+        "title": "Anthony Roth Costanzo & ICE Ensemble @ Location TBD",
+        "year": "2015",
+        "location": "TBD",
+        "mixture_date": "2015-04-14T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>Music to be announced</p>\n\t<h4>Main Course</h4>\n\t<p>Music to be announced</p>\n\t<h4>Dessert</h4>\n\t<p>Music to be announced</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Anthony Roth Costanzo, <em>countertenor</em></li>\n\t\t<li>James Austin Smith, <em>oboe</em></li>\n\t\t<li>Rebekah Heller, <em>bassoon</em></li>\n\t\t<li>Kivie Cahn-Lipman, <em>cello</em></li>\n\t\t<li>Bridget Kibbey, <em>harp</em></li>\n\t</ul>\n</div>",
+        "mixture_month_year": "04/2015",
+        "date": "Tue Apr 14 19:00:00 UTC 2015",
+        "concert_id": 9,
+        "calendar_year": 2015,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "04",
+        "thumbnail": "/assets/img/concerts/tbd.jpg",
+        "slug": "/concerts/1415/april",
+        "published": true,
+        "group": "Anthony Roth Costanzo & ICE Ensemble",
+        "calendar_month": "April 14",
+        "address": "TBD | NYC",
+        "feature": "/assets/img/concerts/tbd.jpg"
+      },
+      "/concerts/1415/september": {
+        "ticks": 1412017200.0,
+        "title": "DECODA at Harding's",
+        "year": "2014",
+        "location": "Harding's",
+        "mixture_date": "2014-09-29T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>BACH keyboard prelude in D major<br>VIVALDI Violin Concerto \"Grosso Mogul\" RV 208</p>\n\t<h4>Main Course</h4>\n\t<p>GLASS Quartet No 5, mvt 3<br>TELEMANN Oboe Concerto in E minor</p>\n\t<h4>Dessert</h4>\n\t<p>BITTOVA \"Hoboj\" for oboe and viola <br>BACH Oboe and Violin Concerto</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes approx 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>Owen Dalby, <em>solo violin</em></li>\n\t\t<li>James Austin Smith, <em>oboe</em></li>\n\t\t<li>Anna Elashvili, <em>violin</em></li>\n\t\t<li>Clara Lyon, <em>violin</em></li>\n\t\t<li>Meena Bhasin, <em>viola</em></li>\n\t\t<li>Caitlin Sullivan, <em>cello</em></li>\n\t\t<li>Doug Balliett, <em>double bass</em></li>\n\t\t<li>David Kaplan, <em>harpsichord</em></li>\n\t</ul>\n</div>",
+        "mixture_month_year": "09/2014",
+        "date": "Mon Sep 29 19:00:00 UTC 2014",
+        "concert_id": 1,
+        "calendar_year": 2014,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "09",
+        "thumbnail": "/assets/img/musicians-bg.jpg",
+        "slug": "/concerts/1415/september",
+        "published": true,
+        "group": "DECODA",
+        "calendar_month": "Sept 29",
+        "address": "32 East 21st St | NYC",
+        "feature": "/assets/img/musicians-bg.jpg"
+      },
+      "/concerts/1415/october": {
+        "ticks": 1414436400.0,
+        "title": "Jasper String Quartet at Harding's",
+        "year": "2014",
+        "location": "Harding's",
+        "mixture_date": "2014-10-27T19:00:00Z",
+        "body": "\n\n<div class=\"column two-thirds\">\n\t<h3>Itinerary</h3>\n\t<h4>Cocktails & Amuse-Bouche</h4>\n\t<p>BEETHOVEN String Quartet Op. 18 No. 3</p>\n\t<h4>Main Course</h4>\n\t<p>BARTOK String Quartet No. 5, Mvts I, IV, V</p>\n\t<h4>Dessert</h4>\n\t<p>GREENSTEIN Four on the Floor<br>MONTI Csardas</p>\n\t<h4>Mingle & Meet the Musicians</h4>\n\t<p><em>Program includes approx 60 minutes of music.<br><br></em></p>\n\t<p><a href=\"#\" class=\"button raised-button primary\" style=\"margin-right: 1em;\">Listen on Spotify <i class=\"fa fa-spotify\"></i></a> <a href=\"#\" class=\"button raised-button primary\">Prix Fixe Menu <i class=\"fa fa-cutlery\"></i></a></p>\n</div>\n<div class=\"column one-third artists-sidebar\">\n\t<h3>Artists</h3>\n\t<ul class=\"unstyled\">\n\t\t<li>J Freivogel, <em>violin</em></li>\n\t\t<li>Sae Chonabayashi, <em>violin</em></li>\n\t\t<li>Sam Quintal, <em>viola</em></li>\n\t\t<li>Rachel Henderson Freivogel, cello</li>\n\t</ul>\n</div>",
+        "mixture_month_year": "10/2014",
+        "date": "Mon Oct 27 19:00:00 UTC 2014",
+        "concert_id": 2,
+        "calendar_year": 2014,
+        "layout": "concert",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "month": "10",
+        "thumbnail": "/assets/img/artists/jasperquartet-thumbnail.jpg",
+        "slug": "/concerts/1415/october",
+        "published": true,
+        "group": "Jasper String Quartet",
+        "calendar_month": "Oct 27",
+        "address": "32 East 21st St | NYC",
+        "feature": "http://dz0zjhi21dz2t.cloudfront.net/media/80702/photos/66884/1366.jpg"
+      }
+    },
+    "index": {
+      "title": {
+        "jasper string quartet at harding's": [
           "/concerts/1415/october"
         ],
-        "april-14": [
-          "/concerts/1415/april"
-        ],
-        "jan-26": [
-          "/concerts/1415/jan2"
-        ],
-        "mar-8": [
-          "/concerts/1415/mar"
-        ],
-        "jan-11": [
-          "/concerts/1415/january"
-        ],
-        "sept-29": [
-          "/concerts/1415/september"
-        ],
-        "april-27": [
-          "/concerts/1415/april-2"
-        ],
-        "nov-24": [
-          "/concerts/1415/november"
-        ],
-        "mar-30": [
+        "jennifer johnson cano & friends": [
           "/concerts/1415/mar-2"
-        ]
-      },
-      "location": {
-        "tarallucci e vino": [
+        ],
+        "dover quartet at tarallucci e vino": [
           "/concerts/1415/january"
         ],
-        "cubana social": [
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
-        ],
-        "tbd": [
-          "/concerts/1415/april"
-        ],
-        "harding's": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb"
-        ]
-      },
-      "title": {
-        "tara helen o'connor & friends": [
-          "/concerts/1415/april-2"
+        "elena urioste, nick canellakis, and michael brown at harding's": [
+          "/concerts/1415/jan2"
         ],
         "todd palmer & friends at harding's": [
           "/concerts/1415/november"
-        ],
-        "jasper string quartet at harding's": [
-          "/concerts/1415/october"
         ],
         "latitude 41 at cubana social": [
           "/concerts/1415/mar"
@@ -493,93 +1848,104 @@
         "timo andres & friends at harding's": [
           "/concerts/1415/feb"
         ],
-        "dover quartet at tarallucci e vino": [
-          "/concerts/1415/january"
-        ],
-        "elena urioste, nick canellakis, and michael brown at harding's": [
-          "/concerts/1415/jan2"
-        ],
-        "anthony roth costanzo + ice ensemble @ location tbd": [
-          "/concerts/1415/april"
-        ],
         "decoda": [
           "/concerts/1415/may"
         ],
-        "jennifer johnson cano, christopher cano, mark holloway, & eric reed at harding's": [
-          "/concerts/1415/mar-2"
-        ]
-      },
-      "layout": {
-        "concert": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
-        ]
-      },
-      "ticks": {
-        "1407857058.0": [
-          "/concerts/1415/mar"
-        ],
-        "1407857599.0": [
+        "anthony roth costanzo & ice ensemble @ location tbd": [
           "/concerts/1415/april"
         ],
-        "1407855784.0": [
-          "/concerts/1415/jan2"
-        ],
-        "1407858261.0": [
-          "/concerts/1415/may"
-        ],
-        "1407799508.0": [
-          "/concerts/1415/september"
-        ],
-        "1407856691.0": [
-          "/concerts/1415/feb"
-        ],
-        "1407857294.0": [
-          "/concerts/1415/mar-2"
-        ],
-        "1407799516.0": [
-          "/concerts/1415/october"
-        ],
-        "1407799536.0": [
-          "/concerts/1415/january"
-        ],
-        "1407799524.0": [
-          "/concerts/1415/november"
-        ],
-        "1407857961.0": [
+        "tara helen o'connor & friends": [
           "/concerts/1415/april-2"
         ]
       },
-      "transliterated-thumbnail": {
+      "ticks": {
+        "1414436400.0": [
+          "/concerts/1415/october"
+        ],
+        "1427742000.0": [
+          "/concerts/1415/mar-2"
+        ],
+        "1429038000.0": [
+          "/concerts/1415/april"
+        ],
+        "1431284400.0": [
+          "/concerts/1415/may"
+        ],
+        "1424113200.0": [
+          "/concerts/1415/feb"
+        ],
+        "1430161200.0": [
+          "/concerts/1415/april-2"
+        ],
+        "1412017200.0": [
+          "/concerts/1415/september"
+        ],
+        "1422298800.0": [
+          "/concerts/1415/jan2"
+        ],
+        "1421002800.0": [
+          "/concerts/1415/january"
+        ],
+        "1425841200.0": [
+          "/concerts/1415/mar"
+        ],
+        "1416855600.0": [
+          "/concerts/1415/november"
+        ]
+      },
+      "transliterated-feature": {
+        "http//dz0zjhi21dz2tcloudfrontnet/media/80702/photos/66884/1366jpg": [
+          "/concerts/1415/november",
+          "/concerts/1415/october"
+        ],
+        "/assets/img/musicians-bgjpg": [
+          "/concerts/1415/may",
+          "/concerts/1415/september"
+        ],
+        "/assets/img/concerts/hardingsjpg": [
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2"
+        ],
         "/assets/img/concerts/tbdjpg": [
           "/concerts/1415/april"
         ],
-        "/assets/img/todd-palmerjpg": [
-          "/concerts/1415/november"
+        "/assets/img/concerts/jan26jpg": [
+          "/concerts/1415/jan2"
         ],
-        "/assets/img/concerts/dover-thumbjpg": [
+        "/assets/img/concerts/doverjpg": [
           "/concerts/1415/january"
-        ],
-        "http//wwwjasperquartetcom/gallery/gallery-26309jpg": [
-          "/concerts/1415/october"
         ],
         "/assets/img/concerts/teslajpg": [
           "/concerts/1415/feb"
         ],
+        "/assets/img/concerts/cubanasocialjpg": [
+          "/concerts/1415/mar"
+        ]
+      },
+      "transliterated-thumbnail": {
+        "/assets/img/artists/jasperquartet-thumbnailjpg": [
+          "/concerts/1415/october"
+        ],
         "/assets/img/musicians-bgjpg": [
           "/concerts/1415/september"
         ],
+        "/assets/img/artists/timo_andresjpg": [
+          "/concerts/1415/feb"
+        ],
+        "/assets/img/concerts/mar30-thumbjpg": [
+          "/concerts/1415/mar-2"
+        ],
+        "/assets/img/artists/dover-thumbnailjpg": [
+          "/concerts/1415/january"
+        ],
         "/assets/img/concerts/hardingsjpg": [
           "/concerts/1415/april-2"
+        ],
+        "/assets/img/concerts/tbdjpg": [
+          "/concerts/1415/april"
+        ],
+        "/assets/img/artists/todd-palmer-thumbnailjpg": [
+          "/concerts/1415/november"
         ],
         "/assets/img/concerts/jan26-thumbjpeg": [
           "/concerts/1415/jan2"
@@ -587,153 +1953,498 @@
         "/assets/img/concerts/cubanasocialjpg": [
           "/concerts/1415/may",
           "/concerts/1415/mar"
-        ],
-        "/assets/img/concerts/mar30-thumbjpg": [
-          "/concerts/1415/mar-2"
         ]
       },
       "transliterated-tags": {
         "example": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
           "/concerts/1415/may",
-          "/concerts/1415/mar"
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/november",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
         ],
         "news": [
-          "/concerts/1415/october",
+          "/concerts/1415/may",
           "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
+          "/concerts/1415/mar",
           "/concerts/1415/january",
-          "/concerts/1415/mar-2",
+          "/concerts/1415/november",
           "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ],
+        "story": [
+          "/concerts/1415/may",
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/november",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ]
+      },
+      "transliterated-concert_id": {
+        "10": [
+          "/concerts/1415/may",
+          "/concerts/1415/april-2"
+        ],
+        "2": [
+          "/concerts/1415/october"
+        ],
+        "1": [
+          "/concerts/1415/september"
+        ],
+        "9": [
+          "/concerts/1415/april"
+        ],
+        "8": [
+          "/concerts/1415/mar-2"
+        ],
+        "6": [
+          "/concerts/1415/feb"
+        ],
+        "3": [
+          "/concerts/1415/november"
+        ],
+        "4": [
+          "/concerts/1415/january"
+        ],
+        "7": [
+          "/concerts/1415/mar"
+        ],
+        "5": [
+          "/concerts/1415/jan2"
+        ]
+      },
+      "location": {
+        "cubana social": [
           "/concerts/1415/may",
           "/concerts/1415/mar"
         ],
-        "story": [
-          "/concerts/1415/october",
+        "tarallucci e vino": [
+          "/concerts/1415/january"
+        ],
+        "tbd": [
+          "/concerts/1415/april"
+        ],
+        "harding's": [
           "/concerts/1415/jan2",
           "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
           "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ]
+      },
+      "year": {
+        "2014": [
+          "/concerts/1415/november",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ],
+        "2015": [
           "/concerts/1415/may",
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april"
+        ]
+      },
+      "transliterated-calendar_month": {
+        "feb-16": [
+          "/concerts/1415/feb"
+        ],
+        "april-14": [
+          "/concerts/1415/april"
+        ],
+        "jan-11": [
+          "/concerts/1415/january"
+        ],
+        "oct-27": [
+          "/concerts/1415/october"
+        ],
+        "mar-8": [
           "/concerts/1415/mar"
+        ],
+        "nov-24": [
+          "/concerts/1415/november"
+        ],
+        "sept-29": [
+          "/concerts/1415/september"
+        ],
+        "mar-30": [
+          "/concerts/1415/mar-2"
+        ],
+        "april-27": [
+          "/concerts/1415/april-2"
+        ],
+        "jan-26": [
+          "/concerts/1415/jan2"
+        ],
+        "may-10": [
+          "/concerts/1415/may"
+        ]
+      },
+      "transliterated-calendar_year": {
+        "2014": [
+          "/concerts/1415/november",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ],
+        "2015": [
+          "/concerts/1415/may",
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april"
+        ]
+      },
+      "mixture_date": {
+        "2015-01-11t19:00:00z": [
+          "/concerts/1415/january"
+        ],
+        "2014-09-29t19:00:00z": [
+          "/concerts/1415/september"
+        ],
+        "2015-03-30t19:00:00z": [
+          "/concerts/1415/mar-2"
+        ],
+        "2014-11-24t19:00:00z": [
+          "/concerts/1415/november"
+        ],
+        "2015-05-10t19:00:00z": [
+          "/concerts/1415/may"
+        ],
+        "2015-01-26t19:00:00z": [
+          "/concerts/1415/jan2"
+        ],
+        "2015-04-14t19:00:00z": [
+          "/concerts/1415/april"
+        ],
+        "2015-04-27t19:00:00z": [
+          "/concerts/1415/april-2"
+        ],
+        "2015-02-16t19:00:00z": [
+          "/concerts/1415/feb"
+        ],
+        "2015-03-08t19:00:00z": [
+          "/concerts/1415/mar"
+        ],
+        "2014-10-27t19:00:00z": [
+          "/concerts/1415/october"
+        ]
+      },
+      "concert_id": {
+        "10": [
+          "/concerts/1415/may",
+          "/concerts/1415/april-2"
+        ],
+        "2": [
+          "/concerts/1415/october"
+        ],
+        "1": [
+          "/concerts/1415/september"
+        ],
+        "9": [
+          "/concerts/1415/april"
+        ],
+        "8": [
+          "/concerts/1415/mar-2"
+        ],
+        "6": [
+          "/concerts/1415/feb"
+        ],
+        "3": [
+          "/concerts/1415/november"
+        ],
+        "4": [
+          "/concerts/1415/january"
+        ],
+        "7": [
+          "/concerts/1415/mar"
+        ],
+        "5": [
+          "/concerts/1415/jan2"
+        ]
+      },
+      "mixture_month_year": {
+        "10/2014": [
+          "/concerts/1415/october"
+        ],
+        "11/2014": [
+          "/concerts/1415/november"
+        ],
+        "01/2015": [
+          "/concerts/1415/jan2",
+          "/concerts/1415/january"
+        ],
+        "04/2015": [
+          "/concerts/1415/april-2",
+          "/concerts/1415/april"
+        ],
+        "02/2015": [
+          "/concerts/1415/feb"
+        ],
+        "05/2015": [
+          "/concerts/1415/may"
+        ],
+        "09/2014": [
+          "/concerts/1415/september"
+        ],
+        "03/2015": [
+          "/concerts/1415/mar",
+          "/concerts/1415/mar-2"
         ]
       },
       "transliterated-group": {
-        "latitude-41": [
-          "/concerts/1415/mar"
+        "timo-andres--friends": [
+          "/concerts/1415/feb"
         ],
         "dover-quartet": [
           "/concerts/1415/january"
         ],
-        "elena-urioste-nick-canellakis-and-michael-brown": [
-          "/concerts/1415/jan2"
+        "todd-palmer--friends": [
+          "/concerts/1415/november"
+        ],
+        "jennifer-johnson-cano--friends": [
+          "/concerts/1415/mar-2"
+        ],
+        "decoda": [
+          "/concerts/1415/may",
+          "/concerts/1415/september"
+        ],
+        "tara-helen-oconnor--friends": [
+          "/concerts/1415/april-2"
+        ],
+        "latitude-41": [
+          "/concerts/1415/mar"
         ],
         "jasper-string-quartet": [
           "/concerts/1415/october"
         ],
-        "timo-andres--friends": [
-          "/concerts/1415/feb"
-        ],
-        "tara-helen-oconnor--friends": [
-          "/concerts/1415/april-2"
-        ],
-        "todd-palmer--friends": [
-          "/concerts/1415/november"
-        ],
         "anthony-roth-costanzo--ice-ensemble": [
           "/concerts/1415/april"
         ],
-        "jennifer-johnson-cano-christopher-cano-mark-holloway--eric-reed": [
-          "/concerts/1415/mar-2"
-        ],
-        "decoda": [
-          "/concerts/1415/september",
-          "/concerts/1415/may"
+        "elena-urioste-nick-canellakis-and-michael-brown": [
+          "/concerts/1415/jan2"
         ]
       },
-      "transliterated-title": {
-        "anthony-roth-costanzo--ice-ensemble--location-tbd": [
-          "/concerts/1415/april"
-        ],
-        "latitude-41-at-cubana-social": [
-          "/concerts/1415/mar"
-        ],
-        "decoda-at-hardings": [
-          "/concerts/1415/september"
-        ],
-        "jennifer-johnson-cano-christopher-cano-mark-holloway--eric-reed-at-hardings": [
-          "/concerts/1415/mar-2"
-        ],
-        "dover-quartet-at-tarallucci-e-vino": [
-          "/concerts/1415/january"
-        ],
-        "elena-urioste-nick-canellakis-and-michael-brown-at-hardings": [
-          "/concerts/1415/jan2"
-        ],
-        "timo-andres--friends-at-hardings": [
-          "/concerts/1415/feb"
-        ],
-        "jasper-string-quartet-at-hardings": [
+      "transliterated-layout": {
+        "concert": [
+          "/concerts/1415/may",
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/november",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ]
+      },
+      "tags": {
+        "example": [
+          "/concerts/1415/may",
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/november",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april",
+          "/concerts/1415/september",
           "/concerts/1415/october"
         ],
-        "tara-helen-oconnor--friends": [
-          "/concerts/1415/april-2"
+        "news": [
+          "/concerts/1415/may",
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/november",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
         ],
-        "todd-palmer--friends-at-hardings": [
-          "/concerts/1415/november"
-        ],
-        "decoda": [
-          "/concerts/1415/may"
+        "story": [
+          "/concerts/1415/may",
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/november",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ]
+      },
+      "layout": {
+        "concert": [
+          "/concerts/1415/may",
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/november",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
         ]
       },
       "calendar_year": {
+        "2014": [
+          "/concerts/1415/november",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ],
         "2015": [
-          "/concerts/1415/jan2",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
           "/concerts/1415/may",
+          "/concerts/1415/jan2",
+          "/concerts/1415/mar",
+          "/concerts/1415/january",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/april"
+        ]
+      },
+      "transliterated-slug": {
+        "/concerts/1415/january": [
+          "/concerts/1415/january"
+        ],
+        "/concerts/1415/mar": [
           "/concerts/1415/mar"
         ],
-        "2014": [
-          "/concerts/1415/october",
-          "/concerts/1415/november",
+        "/concerts/1415/jan2": [
+          "/concerts/1415/jan2"
+        ],
+        "/concerts/1415/may": [
+          "/concerts/1415/may"
+        ],
+        "/concerts/1415/november": [
+          "/concerts/1415/november"
+        ],
+        "/concerts/1415/feb": [
+          "/concerts/1415/feb"
+        ],
+        "/concerts/1415/mar-2": [
+          "/concerts/1415/mar-2"
+        ],
+        "/concerts/1415/april-2": [
+          "/concerts/1415/april-2"
+        ],
+        "/concerts/1415/april": [
+          "/concerts/1415/april"
+        ],
+        "/concerts/1415/october": [
+          "/concerts/1415/october"
+        ],
+        "/concerts/1415/september": [
           "/concerts/1415/september"
         ]
       },
-      "mixture_month_year": {
-        "08/2014": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
+      "thumbnail": {
+        "/assets/img/concerts/mar30-thumb.jpg": [
+          "/concerts/1415/mar-2"
+        ],
+        "/assets/img/concerts/tbd.jpg": [
+          "/concerts/1415/april"
+        ],
+        "/assets/img/artists/timo_andres.jpg": [
+          "/concerts/1415/feb"
+        ],
+        "/assets/img/artists/todd-palmer-thumbnail.jpg": [
+          "/concerts/1415/november"
+        ],
+        "/assets/img/artists/dover-thumbnail.jpg": [
+          "/concerts/1415/january"
+        ],
+        "/assets/img/concerts/jan26-thumb.jpeg": [
+          "/concerts/1415/jan2"
+        ],
+        "/assets/img/artists/jasperquartet-thumbnail.jpg": [
+          "/concerts/1415/october"
+        ],
+        "/assets/img/concerts/cubanasocial.jpg": [
           "/concerts/1415/may",
           "/concerts/1415/mar"
+        ],
+        "/assets/img/concerts/hardings.jpg": [
+          "/concerts/1415/april-2"
+        ],
+        "/assets/img/musicians-bg.jpg": [
+          "/concerts/1415/september"
+        ]
+      },
+      "month": {
+        "10": [
+          "/concerts/1415/october"
+        ],
+        "11": [
+          "/concerts/1415/november"
+        ],
+        "09": [
+          "/concerts/1415/september"
+        ],
+        "04": [
+          "/concerts/1415/april-2",
+          "/concerts/1415/april"
+        ],
+        "02": [
+          "/concerts/1415/feb"
+        ],
+        "03": [
+          "/concerts/1415/mar",
+          "/concerts/1415/mar-2"
+        ],
+        "01": [
+          "/concerts/1415/jan2",
+          "/concerts/1415/january"
+        ],
+        "05": [
+          "/concerts/1415/may"
         ]
       },
       "transliterated-address": {
+        "15-e-18th-st--nyc": [
+          "/concerts/1415/january"
+        ],
+        "32-east-21st-st--nyc": [
+          "/concerts/1415/jan2",
+          "/concerts/1415/november",
+          "/concerts/1415/feb",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ],
         "32-e-21st-street--nyc": [
           "/concerts/1415/april-2",
           "/concerts/1415/mar-2"
@@ -742,315 +2453,141 @@
           "/concerts/1415/may",
           "/concerts/1415/mar"
         ],
-        "15-e-18th-st--nyc": [
-          "/concerts/1415/january"
-        ],
-        "32-east-21st-st--nyc": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/september",
-          "/concerts/1415/feb"
-        ],
         "tbd--nyc": [
           "/concerts/1415/april"
         ]
       },
-      "transliterated-concert_id": {
-        "7": [
-          "/concerts/1415/mar"
-        ],
-        "6": [
-          "/concerts/1415/feb"
-        ],
-        "8": [
-          "/concerts/1415/mar-2"
-        ],
-        "4": [
-          "/concerts/1415/january"
-        ],
-        "1": [
-          "/concerts/1415/september"
-        ],
-        "9": [
-          "/concerts/1415/april"
-        ],
-        "3": [
-          "/concerts/1415/november"
-        ],
-        "5": [
-          "/concerts/1415/jan2"
-        ],
-        "2": [
-          "/concerts/1415/october"
-        ],
-        "10": [
-          "/concerts/1415/april-2",
-          "/concerts/1415/may"
-        ]
-      },
-      "group": {
-        "timo andres & friends": [
-          "/concerts/1415/feb"
-        ],
-        "tara helen o'connor & friends": [
-          "/concerts/1415/april-2"
-        ],
-        "dover quartet": [
-          "/concerts/1415/january"
-        ],
-        "todd palmer & friends": [
-          "/concerts/1415/november"
-        ],
-        "elena urioste, nick canellakis, and michael brown": [
-          "/concerts/1415/jan2"
-        ],
-        "jasper string quartet": [
-          "/concerts/1415/october"
-        ],
-        "anthony roth costanzo + ice ensemble": [
-          "/concerts/1415/april"
-        ],
-        "latitude 41": [
-          "/concerts/1415/mar"
-        ],
-        "jennifer johnson cano, christopher cano, mark holloway, & eric reed": [
-          "/concerts/1415/mar-2"
-        ],
-        "decoda": [
-          "/concerts/1415/september",
-          "/concerts/1415/may"
-        ]
-      },
       "slug": {
-        "/concerts/1415/jan2": [
-          "/concerts/1415/jan2"
-        ],
-        "/concerts/1415/october": [
-          "/concerts/1415/october"
-        ],
-        "/concerts/1415/november": [
-          "/concerts/1415/november"
-        ],
-        "/concerts/1415/april": [
-          "/concerts/1415/april"
-        ],
-        "/concerts/1415/september": [
-          "/concerts/1415/september"
-        ],
-        "/concerts/1415/april-2": [
-          "/concerts/1415/april-2"
-        ],
-        "/concerts/1415/mar-2": [
-          "/concerts/1415/mar-2"
-        ],
         "/concerts/1415/january": [
           "/concerts/1415/january"
         ],
         "/concerts/1415/mar": [
           "/concerts/1415/mar"
         ],
-        "/concerts/1415/may": [
-          "/concerts/1415/may"
-        ],
-        "/concerts/1415/feb": [
-          "/concerts/1415/feb"
-        ]
-      },
-      "transliterated-layout": {
-        "concert": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
-        ]
-      },
-      "concert_id": {
-        "7": [
-          "/concerts/1415/mar"
-        ],
-        "6": [
-          "/concerts/1415/feb"
-        ],
-        "8": [
-          "/concerts/1415/mar-2"
-        ],
-        "4": [
-          "/concerts/1415/january"
-        ],
-        "1": [
-          "/concerts/1415/september"
-        ],
-        "9": [
-          "/concerts/1415/april"
-        ],
-        "3": [
-          "/concerts/1415/november"
-        ],
-        "5": [
-          "/concerts/1415/jan2"
-        ],
-        "2": [
-          "/concerts/1415/october"
-        ],
-        "10": [
-          "/concerts/1415/april-2",
-          "/concerts/1415/may"
-        ]
-      },
-      "tags": {
-        "example": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
-        ],
-        "news": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
-        ],
-        "story": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
-        ]
-      },
-      "transliterated-slug": {
         "/concerts/1415/jan2": [
           "/concerts/1415/jan2"
         ],
-        "/concerts/1415/october": [
-          "/concerts/1415/october"
+        "/concerts/1415/may": [
+          "/concerts/1415/may"
         ],
         "/concerts/1415/november": [
           "/concerts/1415/november"
         ],
-        "/concerts/1415/april": [
-          "/concerts/1415/april"
-        ],
-        "/concerts/1415/september": [
-          "/concerts/1415/september"
-        ],
-        "/concerts/1415/april-2": [
-          "/concerts/1415/april-2"
+        "/concerts/1415/feb": [
+          "/concerts/1415/feb"
         ],
         "/concerts/1415/mar-2": [
           "/concerts/1415/mar-2"
         ],
-        "/concerts/1415/january": [
-          "/concerts/1415/january"
+        "/concerts/1415/april-2": [
+          "/concerts/1415/april-2"
         ],
-        "/concerts/1415/mar": [
-          "/concerts/1415/mar"
+        "/concerts/1415/april": [
+          "/concerts/1415/april"
         ],
-        "/concerts/1415/may": [
-          "/concerts/1415/may"
+        "/concerts/1415/october": [
+          "/concerts/1415/october"
         ],
-        "/concerts/1415/feb": [
-          "/concerts/1415/feb"
+        "/concerts/1415/september": [
+          "/concerts/1415/september"
         ]
       },
       "transliterated-location": {
+        "tbd": [
+          "/concerts/1415/april"
+        ],
+        "hardings": [
+          "/concerts/1415/jan2",
+          "/concerts/1415/november",
+          "/concerts/1415/feb",
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2",
+          "/concerts/1415/september",
+          "/concerts/1415/october"
+        ],
         "cubana-social": [
           "/concerts/1415/may",
           "/concerts/1415/mar"
         ],
-        "hardings": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb"
-        ],
         "tarallucci-e-vino": [
           "/concerts/1415/january"
-        ],
-        "tbd": [
-          "/concerts/1415/april"
         ]
       },
-      "calendar_month": {
-        "jan 26": [
-          "/concerts/1415/jan2"
-        ],
-        "mar 8": [
-          "/concerts/1415/mar"
-        ],
-        "jan 11": [
-          "/concerts/1415/january"
-        ],
-        "sept 29": [
+      "transliterated-title": {
+        "decoda-at-hardings": [
           "/concerts/1415/september"
         ],
-        "april 27": [
-          "/concerts/1415/april-2"
+        "dover-quartet-at-tarallucci-e-vino": [
+          "/concerts/1415/january"
         ],
-        "nov 24": [
+        "todd-palmer--friends-at-hardings": [
           "/concerts/1415/november"
         ],
-        "may 10": [
-          "/concerts/1415/may"
+        "elena-urioste-nick-canellakis-and-michael-brown-at-hardings": [
+          "/concerts/1415/jan2"
         ],
-        "mar 30": [
+        "jennifer-johnson-cano--friends": [
           "/concerts/1415/mar-2"
         ],
-        "feb 16": [
+        "timo-andres--friends-at-hardings": [
           "/concerts/1415/feb"
         ],
-        "oct 27": [
+        "jasper-string-quartet-at-hardings": [
           "/concerts/1415/october"
         ],
-        "april 14": [
+        "anthony-roth-costanzo--ice-ensemble--location-tbd": [
           "/concerts/1415/april"
+        ],
+        "latitude-41-at-cubana-social": [
+          "/concerts/1415/mar"
+        ],
+        "decoda": [
+          "/concerts/1415/may"
+        ],
+        "tara-helen-oconnor--friends": [
+          "/concerts/1415/april-2"
+        ]
+      },
+      "feature": {
+        "http://dz0zjhi21dz2t.cloudfront.net/media/80702/photos/66884/1366.jpg": [
+          "/concerts/1415/november",
+          "/concerts/1415/october"
+        ],
+        "/assets/img/concerts/jan26.jpg": [
+          "/concerts/1415/jan2"
+        ],
+        "/assets/img/concerts/tbd.jpg": [
+          "/concerts/1415/april"
+        ],
+        "/assets/img/concerts/cubanasocial.jpg": [
+          "/concerts/1415/mar"
+        ],
+        "/assets/img/concerts/dover.jpg": [
+          "/concerts/1415/january"
+        ],
+        "/assets/img/concerts/hardings.jpg": [
+          "/concerts/1415/april-2",
+          "/concerts/1415/mar-2"
+        ],
+        "/assets/img/concerts/tesla.jpg": [
+          "/concerts/1415/feb"
+        ],
+        "/assets/img/musicians-bg.jpg": [
+          "/concerts/1415/may",
+          "/concerts/1415/september"
         ]
       },
       "address": {
-        "15 e 18th st | nyc": [
-          "/concerts/1415/january"
-        ],
         "32 e 21st street | nyc": [
           "/concerts/1415/april-2",
           "/concerts/1415/mar-2"
         ],
         "32 east 21st st | nyc": [
-          "/concerts/1415/october",
           "/concerts/1415/jan2",
           "/concerts/1415/november",
+          "/concerts/1415/feb",
           "/concerts/1415/september",
-          "/concerts/1415/feb"
+          "/concerts/1415/october"
         ],
         "tbd | nyc": [
           "/concerts/1415/april"
@@ -1058,1586 +2595,77 @@
         "70 n 6th street | williamsburg": [
           "/concerts/1415/may",
           "/concerts/1415/mar"
-        ]
-      },
-      "month": {
-        "08": [
-          "/concerts/1415/october",
-          "/concerts/1415/jan2",
-          "/concerts/1415/november",
-          "/concerts/1415/april",
-          "/concerts/1415/april-2",
-          "/concerts/1415/september",
-          "/concerts/1415/january",
-          "/concerts/1415/mar-2",
-          "/concerts/1415/feb",
-          "/concerts/1415/may",
-          "/concerts/1415/mar"
-        ]
-      },
-      "transliterated-feature": {
-        "/assets/img/concerts/doverjpg": [
-          "/concerts/1415/january"
         ],
-        "/assets/img/concerts/tbdjpg": [
+        "15 e 18th st | nyc": [
+          "/concerts/1415/january"
+        ]
+      },
+      "calendar_month": {
+        "april 14": [
           "/concerts/1415/april"
         ],
-        "/assets/img/concerts/teslajpg": [
-          "/concerts/1415/feb"
+        "jan 11": [
+          "/concerts/1415/january"
         ],
-        "http//dz0zjhi21dz2tcloudfrontnet/media/80702/photos/66884/1366jpg": [
-          "/concerts/1415/october",
+        "oct 27": [
+          "/concerts/1415/october"
+        ],
+        "mar 8": [
+          "/concerts/1415/mar"
+        ],
+        "nov 24": [
           "/concerts/1415/november"
         ],
-        "/assets/img/concerts/jan26jpg": [
-          "/concerts/1415/jan2"
+        "sept 29": [
+          "/concerts/1415/september"
         ],
-        "/assets/img/musicians-bgjpg": [
-          "/concerts/1415/september",
-          "/concerts/1415/may"
-        ],
-        "/assets/img/concerts/hardingsjpg": [
-          "/concerts/1415/april-2",
+        "mar 30": [
           "/concerts/1415/mar-2"
         ],
-        "/assets/img/concerts/cubanasocialjpg": [
-          "/concerts/1415/mar"
-        ]
-      }
-    }
-  },
-  "artists": {
-    "collection": {
-      "/artists/ericreed": {
-        "mixture_date": "2015-03-30T19:00:00",
-        "year": "2015",
-        "ticks": 1427742000.0,
-        "title": "Eric Reed",
-        "mixture_month_year": "03/2015",
-        "website": "http://lmgtfy.com/?q=eric+reed+horn",
-        "body": "",
-        "date": "Mon Mar 30 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/eric_reed.jpg",
-        "slug": "/artists/ericreed",
-        "tags": [
-          "example",
-          "news",
-          "story"
+        "april 27": [
+          "/concerts/1415/april-2"
         ],
-        "published": true,
-        "concert_id": 7,
-        "instrument": "Horn",
-        "month": "03"
-      },
-      "/artists/timoandres": {
-        "mixture_date": "2015-02-16T19:00:00",
-        "year": "2015",
-        "ticks": 1424113200.0,
-        "title": "Timo Andres",
-        "mixture_month_year": "02/2015",
-        "website": "http://www.andres.com",
-        "body": "",
-        "date": "Mon Feb 16 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/timo_andres.jpg",
-        "slug": "/artists/timoandres",
-        "tags": [
-          "example",
-          "news",
-          "story"
+        "jan 26": [
+          "/concerts/1415/jan2"
         ],
-        "published": true,
-        "concert_id": 6,
-        "instrument": "Composer and Piano",
-        "month": "02"
-      },
-      "/artists/dover_quartet": {
-        "mixture_date": "2015-01-11T19:00:00",
-        "year": "2015",
-        "ticks": 1421002800.0,
-        "title": "Dover Quartet",
-        "mixture_month_year": "01/2015",
-        "website": "http://www.doverquartet.com",
-        "body": "",
-        "date": "Sun Jan 11 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/dover.jpg",
-        "slug": "/artists/dover_quartet",
-        "tags": [
-          "example",
-          "news",
-          "story"
+        "may 10": [
+          "/concerts/1415/may"
         ],
-        "published": true,
-        "concert_id": 4,
-        "instrument": "ensemble",
-        "month": "01"
-      },
-      "/artists/mihaimarica": {
-        "mixture_date": "2015-04-27T19:00:00",
-        "year": "2015",
-        "ticks": 1430161200.0,
-        "title": "Mihai Marica",
-        "mixture_month_year": "04/2015",
-        "website": "http://lmgtfy.com/?q=mihai+marica+cello",
-        "body": "",
-        "date": "Mon Apr 27 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/mihai_marica.jpg",
-        "slug": "/artists/mihaimarica",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 9,
-        "instrument": "Cello",
-        "month": "04"
-      },
-      "/artists/teslaquartet": {
-        "mixture_date": "2015-02-16T19:00:00",
-        "year": "2015",
-        "ticks": 1424113200.0,
-        "title": "Tesla Quartet",
-        "mixture_month_year": "02/2015",
-        "website": "http://www.teslaquartet.com",
-        "body": "",
-        "date": "Mon Feb 16 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/teslagroup.jpg",
-        "slug": "/artists/teslaquartet",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 6,
-        "instrument": "Ensemble",
-        "month": "02"
-      },
-      "/artists/jasper_quartet": {
-        "mixture_date": "2014-10-27T19:00:00",
-        "year": "2014",
-        "ticks": 1414436400.0,
-        "title": "Jasper String Quartet",
-        "mixture_month_year": "10/2014",
-        "website": "http://www.jasperquartet.com",
-        "body": "",
-        "date": "Mon Oct 27 19:00:00 UTC 2014",
-        "headshot": "/assets/img/artists/jasperquartet.jpg",
-        "slug": "/artists/jasper_quartet",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 2,
-        "instrument": "Ensemble",
-        "month": "10"
-      },
-      "/artists/latitutde41": {
-        "mixture_date": "2015-05-08T19:00:00",
-        "year": "2015",
-        "ticks": 1431111600.0,
-        "title": "Latitude 41",
-        "mixture_month_year": "05/2015",
-        "website": "http://triolatitude41.com/",
-        "body": "",
-        "date": "Fri May 08 19:00:00 UTC 2015",
-        "headshot": "http://triolatitude41.com/images/Latitude-41_153.jpeg",
-        "slug": "/artists/latitutde41",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 10,
-        "instrument": "Ensemble",
-        "month": "05"
-      },
-      "/artists/elena_urioste": {
-        "mixture_date": "2015-01-26T19:00:00",
-        "year": "2015",
-        "ticks": 1422298800.0,
-        "title": "Elena Urioste",
-        "mixture_month_year": "01/2015",
-        "website": "http://www.elenaurioste.com",
-        "body": "",
-        "date": "Mon Jan 26 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/elena_urioste.jpg",
-        "slug": "/artists/elena_urioste",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 5,
-        "instrument": "Violin",
-        "month": "01"
-      },
-      "/artists/anthonycostanzo": {
-        "mixture_date": "2015-04-14T19:00:00",
-        "year": "2015",
-        "ticks": 1429038000.0,
-        "title": "Anthony Roth Costanzo",
-        "mixture_month_year": "04/2015",
-        "website": "http://www.anthonyrothcostanzo.com",
-        "body": "",
-        "date": "Tue Apr 14 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/anthony_costanzo.jpg",
-        "slug": "/artists/anthonycostanzo",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 8,
-        "instrument": "Counter Tenor",
-        "month": "04"
-      },
-      "/artists/jesse_mills": {
-        "mixture_date": "2014-11-24T19:00:00",
-        "year": "2014",
-        "ticks": 1416855600.0,
-        "title": "Jesse Mills",
-        "mixture_month_year": "11/2014",
-        "website": "http://www.jesse-mills.com/JM/Jesse_Mills,_violin___Welcome.html",
-        "body": "",
-        "date": "Mon Nov 24 19:00:00 UTC 2014",
-        "headshot": "http://www.jesse-mills.com/JM/Jesse_Mills,_violin___Welcome_files/shapeimage_4.png",
-        "slug": "/artists/jesse_mills",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 3,
-        "instrument": "Violin",
-        "month": "11"
-      },
-      "/artists/internationalensemble": {
-        "mixture_date": "2015-04-14T19:00:00",
-        "year": "2015",
-        "ticks": 1429038000.0,
-        "title": "International Contemporary Ensemble",
-        "mixture_month_year": "04/2015",
-        "website": "http://www.iceorg.org",
-        "body": "",
-        "date": "Tue Apr 14 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/tbd.jpg",
-        "slug": "/artists/internationalensemble",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 8,
-        "instrument": "Ensemble",
-        "month": "04"
-      },
-      "/artists/beccastevens": {
-        "mixture_date": "2015-02-16T19:00:00",
-        "year": "2015",
-        "ticks": 1424113200.0,
-        "title": "Becca Stevens",
-        "mixture_month_year": "02/2015",
-        "website": "http://www.beccastevens.com",
-        "body": "",
-        "date": "Mon Feb 16 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/becca_stevens.jpg",
-        "slug": "/artists/beccastevens",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 6,
-        "instrument": "Vocals",
-        "month": "02"
-      },
-      "/artists/nicholascanellakis": {
-        "mixture_date": "2015-01-26T19:00:00",
-        "year": "2015",
-        "ticks": 1422298800.0,
-        "title": "Nicholas Canellakis",
-        "mixture_month_year": "01/2015",
-        "website": "http://www.nicholascanellakis.com/",
-        "body": "",
-        "date": "Mon Jan 26 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/nicholas_canellakis.jpg",
-        "slug": "/artists/nicholascanellakis",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 5,
-        "instrument": "Cello",
-        "month": "01"
-      },
-      "/artists/todd_palmer": {
-        "mixture_date": "2014-11-24T19:00:00",
-        "year": "2014",
-        "ticks": 1416855600.0,
-        "title": "Todd Palmer",
-        "mixture_month_year": "11/2014",
-        "website": "http://lmgtfy.com/?q=todd+palmer+clarinet",
-        "body": "",
-        "date": "Mon Nov 24 19:00:00 UTC 2014",
-        "headshot": "/assets/img/artists/toddpalmer.jpg",
-        "slug": "/artists/todd_palmer",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 3,
-        "instrument": "Clarinet",
-        "month": "11"
-      },
-      "/artists/christophercano": {
-        "mixture_date": "2015-03-30T19:00:00",
-        "year": "2015",
-        "ticks": 1427742000.0,
-        "title": "Christopher Cano",
-        "mixture_month_year": "03/2015",
-        "website": "http://www.christophercano.com",
-        "body": "",
-        "date": "Mon Mar 30 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/christopher_cano.jpg",
-        "slug": "/artists/christophercano",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 7,
-        "instrument": "Piano",
-        "month": "03"
-      },
-      "/artists/rieko_aizawa": {
-        "mixture_date": "2014-11-24T19:00:00",
-        "year": "2014",
-        "ticks": 1416855600.0,
-        "title": "Rieko Aizawa",
-        "mixture_month_year": "11/2014",
-        "website": "http://www.riekoaizawa.com/RA/Rieko_Aizawa,_piano___Welcome.html",
-        "body": "",
-        "date": "Mon Nov 24 19:00:00 UTC 2014",
-        "headshot": "http://www.riekoaizawa.com/RA/Rieko_Aizawa,_piano___About_files/shapeimage_1.png",
-        "slug": "/artists/rieko_aizawa",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 3,
-        "instrument": "Piano",
-        "month": "11"
-      },
-      "/artists/michaelbrown": {
-        "mixture_date": "2015-01-26T19:00:00",
-        "year": "2015",
-        "ticks": 1422298800.0,
-        "title": "Michael Brown",
-        "mixture_month_year": "01/2015",
-        "website": "http://www.michaelbrownmusic.com",
-        "body": "",
-        "date": "Mon Jan 26 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/michael_brown.jpg",
-        "slug": "/artists/michaelbrown",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 5,
-        "instrument": "Composer and Piano",
-        "month": "01"
-      },
-      "/artists/decoda": {
-        "mixture_date": "2014-09-29T19:00:00",
-        "year": "2014",
-        "ticks": 1412017200.0,
-        "title": "Decoda",
-        "mixture_month_year": "09/2014",
-        "website": "http://decodamusic.org/",
-        "body": "",
-        "date": "Mon Sep 29 19:00:00 UTC 2014",
-        "headshot": "/assets/img/artists/tbd.jpg",
-        "slug": "/artists/decoda",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 1,
-        "instrument": "ensemble",
-        "month": "09"
-      },
-      "/artists/markholloway": {
-        "mixture_date": "2015-03-30T19:00:00",
-        "year": "2015",
-        "ticks": 1427742000.0,
-        "title": "Mark Holloway",
-        "mixture_month_year": "03/2015",
-        "website": "http://lmgtfy.com/?q=mark+holloway+viola",
-        "body": "",
-        "date": "Mon Mar 30 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/mark_holloway.jpg",
-        "slug": "/artists/markholloway",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 7,
-        "instrument": "Viola",
-        "month": "03"
-      },
-      "/artists/pedjamuzijevic": {
-        "mixture_date": "2015-04-27T19:00:00",
-        "year": "2015",
-        "ticks": 1430161200.0,
-        "title": "Pedja Muzijevic",
-        "mixture_month_year": "04/2015",
-        "website": "http://www.pedjamuzijevic.com",
-        "body": "",
-        "date": "Mon Apr 27 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/pedja_muzijevic.jpg",
-        "slug": "/artists/pedjamuzijevic",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 9,
-        "instrument": "Piano",
-        "month": "04"
-      },
-      "/artists/taraoconnor": {
-        "mixture_date": "2015-04-27T19:00:00",
-        "year": "2015",
-        "ticks": 1430161200.0,
-        "title": "Tara Helen O'Connor",
-        "mixture_month_year": "04/2015",
-        "website": "http://bit.ly/1s5FOfW",
-        "body": "",
-        "date": "Mon Apr 27 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/tara_oconnor.jpg",
-        "slug": "/artists/taraoconnor",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 9,
-        "instrument": "Flute",
-        "month": "04"
-      },
-      "/artists/jennifercano": {
-        "mixture_date": "2015-03-30T19:00:00",
-        "year": "2015",
-        "ticks": 1427742000.0,
-        "title": "Jennifer Johnson Cano",
-        "mixture_month_year": "03/2015",
-        "website": "http://www.jenniferjohnsoncano.net",
-        "body": "",
-        "date": "Mon Mar 30 19:00:00 UTC 2015",
-        "headshot": "/assets/img/artists/jennifer_cano.jpg",
-        "slug": "/artists/jennifercano",
-        "tags": [
-          "example",
-          "news",
-          "story"
-        ],
-        "published": true,
-        "concert_id": 7,
-        "instrument": "Mezzo-Soprano",
-        "month": "03"
-      }
-    },
-    "index": {
-      "mixture_date": {
-        "2014-09-29t19:00:00": [
-          "/artists/decoda"
-        ],
-        "2015-04-14t19:00:00": [
-          "/artists/anthonycostanzo",
-          "/artists/internationalensemble"
-        ],
-        "2014-11-24t19:00:00": [
-          "/artists/jesse_mills",
-          "/artists/todd_palmer",
-          "/artists/rieko_aizawa"
-        ],
-        "2015-05-08t19:00:00": [
-          "/artists/latitutde41"
-        ],
-        "2015-01-11t19:00:00": [
-          "/artists/dover_quartet"
-        ],
-        "2015-01-26t19:00:00": [
-          "/artists/elena_urioste",
-          "/artists/nicholascanellakis",
-          "/artists/michaelbrown"
-        ],
-        "2015-02-16t19:00:00": [
-          "/artists/timoandres",
-          "/artists/teslaquartet",
-          "/artists/beccastevens"
-        ],
-        "2014-10-27t19:00:00": [
-          "/artists/jasper_quartet"
-        ],
-        "2015-04-27t19:00:00": [
-          "/artists/mihaimarica",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor"
-        ],
-        "2015-03-30t19:00:00": [
-          "/artists/ericreed",
-          "/artists/christophercano",
-          "/artists/markholloway",
-          "/artists/jennifercano"
+        "feb 16": [
+          "/concerts/1415/feb"
         ]
       },
-      "year": {
-        "2014": [
-          "/artists/jasper_quartet",
-          "/artists/jesse_mills",
-          "/artists/todd_palmer",
-          "/artists/rieko_aizawa",
-          "/artists/decoda"
+      "group": {
+        "jennifer johnson cano & friends": [
+          "/concerts/1415/mar-2"
         ],
-        "2015": [
-          "/artists/ericreed",
-          "/artists/timoandres",
-          "/artists/dover_quartet",
-          "/artists/mihaimarica",
-          "/artists/teslaquartet",
-          "/artists/latitutde41",
-          "/artists/elena_urioste",
-          "/artists/anthonycostanzo",
-          "/artists/internationalensemble",
-          "/artists/beccastevens",
-          "/artists/nicholascanellakis",
-          "/artists/christophercano",
-          "/artists/michaelbrown",
-          "/artists/markholloway",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor",
-          "/artists/jennifercano"
-        ]
-      },
-      "title": {
-        "mark holloway": [
-          "/artists/markholloway"
+        "elena urioste, nick canellakis, and michael brown": [
+          "/concerts/1415/jan2"
         ],
-        "tesla quartet": [
-          "/artists/teslaquartet"
+        "anthony roth costanzo & ice ensemble": [
+          "/concerts/1415/april"
         ],
-        "todd palmer": [
-          "/artists/todd_palmer"
-        ],
-        "becca stevens": [
-          "/artists/beccastevens"
-        ],
-        "anthony roth costanzo": [
-          "/artists/anthonycostanzo"
-        ],
-        "dover quartet": [
-          "/artists/dover_quartet"
-        ],
-        "tara helen o'connor": [
-          "/artists/taraoconnor"
-        ],
-        "international contemporary ensemble": [
-          "/artists/internationalensemble"
-        ],
-        "timo andres": [
-          "/artists/timoandres"
-        ],
-        "jennifer johnson cano": [
-          "/artists/jennifercano"
-        ],
-        "michael brown": [
-          "/artists/michaelbrown"
-        ],
-        "rieko aizawa": [
-          "/artists/rieko_aizawa"
-        ],
-        "jesse mills": [
-          "/artists/jesse_mills"
-        ],
-        "mihai marica": [
-          "/artists/mihaimarica"
-        ],
-        "elena urioste": [
-          "/artists/elena_urioste"
+        "timo andres & friends": [
+          "/concerts/1415/feb"
         ],
         "jasper string quartet": [
-          "/artists/jasper_quartet"
+          "/concerts/1415/october"
         ],
-        "christopher cano": [
-          "/artists/christophercano"
+        "dover quartet": [
+          "/concerts/1415/january"
         ],
-        "eric reed": [
-          "/artists/ericreed"
-        ],
-        "pedja muzijevic": [
-          "/artists/pedjamuzijevic"
-        ],
-        "nicholas canellakis": [
-          "/artists/nicholascanellakis"
+        "todd palmer & friends": [
+          "/concerts/1415/november"
         ],
         "latitude 41": [
-          "/artists/latitutde41"
+          "/concerts/1415/mar"
         ],
         "decoda": [
-          "/artists/decoda"
-        ]
-      },
-      "ticks": {
-        "1431111600.0": [
-          "/artists/latitutde41"
-        ],
-        "1424113200.0": [
-          "/artists/timoandres",
-          "/artists/teslaquartet",
-          "/artists/beccastevens"
-        ],
-        "1414436400.0": [
-          "/artists/jasper_quartet"
-        ],
-        "1430161200.0": [
-          "/artists/mihaimarica",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor"
-        ],
-        "1412017200.0": [
-          "/artists/decoda"
-        ],
-        "1416855600.0": [
-          "/artists/jesse_mills",
-          "/artists/todd_palmer",
-          "/artists/rieko_aizawa"
-        ],
-        "1427742000.0": [
-          "/artists/ericreed",
-          "/artists/christophercano",
-          "/artists/markholloway",
-          "/artists/jennifercano"
-        ],
-        "1429038000.0": [
-          "/artists/anthonycostanzo",
-          "/artists/internationalensemble"
-        ],
-        "1421002800.0": [
-          "/artists/dover_quartet"
-        ],
-        "1422298800.0": [
-          "/artists/elena_urioste",
-          "/artists/nicholascanellakis",
-          "/artists/michaelbrown"
-        ]
-      },
-      "transliterated-tags": {
-        "example": [
-          "/artists/ericreed",
-          "/artists/timoandres",
-          "/artists/dover_quartet",
-          "/artists/mihaimarica",
-          "/artists/teslaquartet",
-          "/artists/jasper_quartet",
-          "/artists/latitutde41",
-          "/artists/elena_urioste",
-          "/artists/anthonycostanzo",
-          "/artists/jesse_mills",
-          "/artists/internationalensemble",
-          "/artists/beccastevens",
-          "/artists/nicholascanellakis",
-          "/artists/todd_palmer",
-          "/artists/christophercano",
-          "/artists/rieko_aizawa",
-          "/artists/michaelbrown",
-          "/artists/decoda",
-          "/artists/markholloway",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor",
-          "/artists/jennifercano"
-        ],
-        "news": [
-          "/artists/ericreed",
-          "/artists/timoandres",
-          "/artists/dover_quartet",
-          "/artists/mihaimarica",
-          "/artists/teslaquartet",
-          "/artists/jasper_quartet",
-          "/artists/latitutde41",
-          "/artists/elena_urioste",
-          "/artists/anthonycostanzo",
-          "/artists/jesse_mills",
-          "/artists/internationalensemble",
-          "/artists/beccastevens",
-          "/artists/nicholascanellakis",
-          "/artists/todd_palmer",
-          "/artists/christophercano",
-          "/artists/rieko_aizawa",
-          "/artists/michaelbrown",
-          "/artists/decoda",
-          "/artists/markholloway",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor",
-          "/artists/jennifercano"
-        ],
-        "story": [
-          "/artists/ericreed",
-          "/artists/timoandres",
-          "/artists/dover_quartet",
-          "/artists/mihaimarica",
-          "/artists/teslaquartet",
-          "/artists/jasper_quartet",
-          "/artists/latitutde41",
-          "/artists/elena_urioste",
-          "/artists/anthonycostanzo",
-          "/artists/jesse_mills",
-          "/artists/internationalensemble",
-          "/artists/beccastevens",
-          "/artists/nicholascanellakis",
-          "/artists/todd_palmer",
-          "/artists/christophercano",
-          "/artists/rieko_aizawa",
-          "/artists/michaelbrown",
-          "/artists/decoda",
-          "/artists/markholloway",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor",
-          "/artists/jennifercano"
-        ]
-      },
-      "transliterated-headshot": {
-        "/assets/img/artists/pedja_muzijevicjpg": [
-          "/artists/pedjamuzijevic"
-        ],
-        "/assets/img/artists/mark_hollowayjpg": [
-          "/artists/markholloway"
-        ],
-        "/assets/img/artists/christopher_canojpg": [
-          "/artists/christophercano"
-        ],
-        "/assets/img/artists/timo_andresjpg": [
-          "/artists/timoandres"
-        ],
-        "/assets/img/artists/doverjpg": [
-          "/artists/dover_quartet"
-        ],
-        "/assets/img/artists/michael_brownjpg": [
-          "/artists/michaelbrown"
-        ],
-        "/assets/img/artists/tbdjpg": [
-          "/artists/internationalensemble",
-          "/artists/decoda"
-        ],
-        "/assets/img/artists/jasperquartetjpg": [
-          "/artists/jasper_quartet"
-        ],
-        "/assets/img/artists/mihai_maricajpg": [
-          "/artists/mihaimarica"
-        ],
-        "/assets/img/artists/anthony_costanzojpg": [
-          "/artists/anthonycostanzo"
-        ],
-        "http//wwwriekoaizawacom/ra/rieko_aizawa_piano___about_files/shapeimage_1png": [
-          "/artists/rieko_aizawa"
-        ],
-        "/assets/img/artists/becca_stevensjpg": [
-          "/artists/beccastevens"
-        ],
-        "/assets/img/artists/elena_uriostejpg": [
-          "/artists/elena_urioste"
-        ],
-        "/assets/img/artists/eric_reedjpg": [
-          "/artists/ericreed"
-        ],
-        "/assets/img/artists/jennifer_canojpg": [
-          "/artists/jennifercano"
-        ],
-        "/assets/img/artists/nicholas_canellakisjpg": [
-          "/artists/nicholascanellakis"
-        ],
-        "http//wwwjesse-millscom/jm/jesse_mills_violin___welcome_files/shapeimage_4png": [
-          "/artists/jesse_mills"
-        ],
-        "http//triolatitude41com/images/latitude-41_153jpeg": [
-          "/artists/latitutde41"
-        ],
-        "/assets/img/artists/tara_oconnorjpg": [
-          "/artists/taraoconnor"
-        ],
-        "/assets/img/artists/toddpalmerjpg": [
-          "/artists/todd_palmer"
-        ],
-        "/assets/img/artists/teslagroupjpg": [
-          "/artists/teslaquartet"
-        ]
-      },
-      "transliterated-title": {
-        "jennifer-johnson-cano": [
-          "/artists/jennifercano"
-        ],
-        "nicholas-canellakis": [
-          "/artists/nicholascanellakis"
-        ],
-        "becca-stevens": [
-          "/artists/beccastevens"
-        ],
-        "international-contemporary-ensemble": [
-          "/artists/internationalensemble"
-        ],
-        "latitude-41": [
-          "/artists/latitutde41"
-        ],
-        "dover-quartet": [
-          "/artists/dover_quartet"
-        ],
-        "jesse-mills": [
-          "/artists/jesse_mills"
-        ],
-        "timo-andres": [
-          "/artists/timoandres"
-        ],
-        "mark-holloway": [
-          "/artists/markholloway"
-        ],
-        "elena-urioste": [
-          "/artists/elena_urioste"
-        ],
-        "tesla-quartet": [
-          "/artists/teslaquartet"
-        ],
-        "todd-palmer": [
-          "/artists/todd_palmer"
-        ],
-        "jasper-string-quartet": [
-          "/artists/jasper_quartet"
-        ],
-        "pedja-muzijevic": [
-          "/artists/pedjamuzijevic"
-        ],
-        "eric-reed": [
-          "/artists/ericreed"
-        ],
-        "tara-helen-oconnor": [
-          "/artists/taraoconnor"
-        ],
-        "anthony-roth-costanzo": [
-          "/artists/anthonycostanzo"
-        ],
-        "mihai-marica": [
-          "/artists/mihaimarica"
-        ],
-        "christopher-cano": [
-          "/artists/christophercano"
-        ],
-        "michael-brown": [
-          "/artists/michaelbrown"
-        ],
-        "rieko-aizawa": [
-          "/artists/rieko_aizawa"
-        ],
-        "decoda": [
-          "/artists/decoda"
-        ]
-      },
-      "website": {
-        "http://www.christophercano.com": [
-          "/artists/christophercano"
-        ],
-        "http://triolatitude41.com/": [
-          "/artists/latitutde41"
-        ],
-        "http://lmgtfy.com/?q=eric+reed+horn": [
-          "/artists/ericreed"
-        ],
-        "http://bit.ly/1s5fofw": [
-          "/artists/taraoconnor"
-        ],
-        "http://www.andres.com": [
-          "/artists/timoandres"
-        ],
-        "http://www.riekoaizawa.com/ra/rieko_aizawa,_piano___welcome.html": [
-          "/artists/rieko_aizawa"
-        ],
-        "http://www.beccastevens.com": [
-          "/artists/beccastevens"
-        ],
-        "http://www.jenniferjohnsoncano.net": [
-          "/artists/jennifercano"
-        ],
-        "http://lmgtfy.com/?q=mark+holloway+viola": [
-          "/artists/markholloway"
-        ],
-        "http://www.michaelbrownmusic.com": [
-          "/artists/michaelbrown"
-        ],
-        "http://www.iceorg.org": [
-          "/artists/internationalensemble"
-        ],
-        "http://lmgtfy.com/?q=todd+palmer+clarinet": [
-          "/artists/todd_palmer"
-        ],
-        "http://www.jasperquartet.com": [
-          "/artists/jasper_quartet"
-        ],
-        "http://www.pedjamuzijevic.com": [
-          "/artists/pedjamuzijevic"
-        ],
-        "http://decodamusic.org/": [
-          "/artists/decoda"
-        ],
-        "http://www.anthonyrothcostanzo.com": [
-          "/artists/anthonycostanzo"
-        ],
-        "http://www.elenaurioste.com": [
-          "/artists/elena_urioste"
-        ],
-        "http://www.nicholascanellakis.com/": [
-          "/artists/nicholascanellakis"
-        ],
-        "http://www.jesse-mills.com/jm/jesse_mills,_violin___welcome.html": [
-          "/artists/jesse_mills"
-        ],
-        "http://www.teslaquartet.com": [
-          "/artists/teslaquartet"
-        ],
-        "http://lmgtfy.com/?q=mihai+marica+cello": [
-          "/artists/mihaimarica"
-        ],
-        "http://www.doverquartet.com": [
-          "/artists/dover_quartet"
-        ]
-      },
-      "mixture_month_year": {
-        "03/2015": [
-          "/artists/ericreed",
-          "/artists/christophercano",
-          "/artists/markholloway",
-          "/artists/jennifercano"
-        ],
-        "11/2014": [
-          "/artists/jesse_mills",
-          "/artists/todd_palmer",
-          "/artists/rieko_aizawa"
-        ],
-        "10/2014": [
-          "/artists/jasper_quartet"
-        ],
-        "04/2015": [
-          "/artists/mihaimarica",
-          "/artists/anthonycostanzo",
-          "/artists/internationalensemble",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor"
-        ],
-        "05/2015": [
-          "/artists/latitutde41"
-        ],
-        "01/2015": [
-          "/artists/dover_quartet",
-          "/artists/elena_urioste",
-          "/artists/nicholascanellakis",
-          "/artists/michaelbrown"
-        ],
-        "09/2014": [
-          "/artists/decoda"
-        ],
-        "02/2015": [
-          "/artists/timoandres",
-          "/artists/teslaquartet",
-          "/artists/beccastevens"
-        ]
-      },
-      "transliterated-concert_id": {
-        "1": [
-          "/artists/decoda"
-        ],
-        "3": [
-          "/artists/jesse_mills",
-          "/artists/todd_palmer",
-          "/artists/rieko_aizawa"
-        ],
-        "8": [
-          "/artists/anthonycostanzo",
-          "/artists/internationalensemble"
-        ],
-        "5": [
-          "/artists/elena_urioste",
-          "/artists/nicholascanellakis",
-          "/artists/michaelbrown"
-        ],
-        "2": [
-          "/artists/jasper_quartet"
-        ],
-        "9": [
-          "/artists/mihaimarica",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor"
-        ],
-        "4": [
-          "/artists/dover_quartet"
-        ],
-        "6": [
-          "/artists/timoandres",
-          "/artists/teslaquartet",
-          "/artists/beccastevens"
-        ],
-        "7": [
-          "/artists/ericreed",
-          "/artists/christophercano",
-          "/artists/markholloway",
-          "/artists/jennifercano"
-        ],
-        "10": [
-          "/artists/latitutde41"
-        ]
-      },
-      "headshot": {
-        "/assets/img/artists/tara_oconnor.jpg": [
-          "/artists/taraoconnor"
-        ],
-        "http://www.jesse-mills.com/jm/jesse_mills,_violin___welcome_files/shapeimage_4.png": [
-          "/artists/jesse_mills"
-        ],
-        "/assets/img/artists/pedja_muzijevic.jpg": [
-          "/artists/pedjamuzijevic"
-        ],
-        "/assets/img/artists/christopher_cano.jpg": [
-          "/artists/christophercano"
-        ],
-        "/assets/img/artists/nicholas_canellakis.jpg": [
-          "/artists/nicholascanellakis"
-        ],
-        "/assets/img/artists/jasperquartet.jpg": [
-          "/artists/jasper_quartet"
-        ],
-        "/assets/img/artists/teslagroup.jpg": [
-          "/artists/teslaquartet"
-        ],
-        "/assets/img/artists/dover.jpg": [
-          "/artists/dover_quartet"
-        ],
-        "http://www.riekoaizawa.com/ra/rieko_aizawa,_piano___about_files/shapeimage_1.png": [
-          "/artists/rieko_aizawa"
-        ],
-        "/assets/img/artists/tbd.jpg": [
-          "/artists/internationalensemble",
-          "/artists/decoda"
-        ],
-        "/assets/img/artists/anthony_costanzo.jpg": [
-          "/artists/anthonycostanzo"
-        ],
-        "/assets/img/artists/elena_urioste.jpg": [
-          "/artists/elena_urioste"
-        ],
-        "/assets/img/artists/jennifer_cano.jpg": [
-          "/artists/jennifercano"
-        ],
-        "/assets/img/artists/toddpalmer.jpg": [
-          "/artists/todd_palmer"
-        ],
-        "/assets/img/artists/eric_reed.jpg": [
-          "/artists/ericreed"
-        ],
-        "/assets/img/artists/timo_andres.jpg": [
-          "/artists/timoandres"
-        ],
-        "/assets/img/artists/becca_stevens.jpg": [
-          "/artists/beccastevens"
-        ],
-        "http://triolatitude41.com/images/latitude-41_153.jpeg": [
-          "/artists/latitutde41"
-        ],
-        "/assets/img/artists/mihai_marica.jpg": [
-          "/artists/mihaimarica"
-        ],
-        "/assets/img/artists/michael_brown.jpg": [
-          "/artists/michaelbrown"
-        ],
-        "/assets/img/artists/mark_holloway.jpg": [
-          "/artists/markholloway"
-        ]
-      },
-      "slug": {
-        "/artists/mihaimarica": [
-          "/artists/mihaimarica"
-        ],
-        "/artists/dover_quartet": [
-          "/artists/dover_quartet"
-        ],
-        "/artists/timoandres": [
-          "/artists/timoandres"
-        ],
-        "/artists/ericreed": [
-          "/artists/ericreed"
-        ],
-        "/artists/latitutde41": [
-          "/artists/latitutde41"
-        ],
-        "/artists/jasper_quartet": [
-          "/artists/jasper_quartet"
-        ],
-        "/artists/teslaquartet": [
-          "/artists/teslaquartet"
-        ],
-        "/artists/anthonycostanzo": [
-          "/artists/anthonycostanzo"
-        ],
-        "/artists/elena_urioste": [
-          "/artists/elena_urioste"
-        ],
-        "/artists/internationalensemble": [
-          "/artists/internationalensemble"
-        ],
-        "/artists/jesse_mills": [
-          "/artists/jesse_mills"
-        ],
-        "/artists/nicholascanellakis": [
-          "/artists/nicholascanellakis"
-        ],
-        "/artists/beccastevens": [
-          "/artists/beccastevens"
-        ],
-        "/artists/rieko_aizawa": [
-          "/artists/rieko_aizawa"
-        ],
-        "/artists/christophercano": [
-          "/artists/christophercano"
-        ],
-        "/artists/todd_palmer": [
-          "/artists/todd_palmer"
-        ],
-        "/artists/markholloway": [
-          "/artists/markholloway"
-        ],
-        "/artists/decoda": [
-          "/artists/decoda"
-        ],
-        "/artists/michaelbrown": [
-          "/artists/michaelbrown"
-        ],
-        "/artists/taraoconnor": [
-          "/artists/taraoconnor"
-        ],
-        "/artists/pedjamuzijevic": [
-          "/artists/pedjamuzijevic"
-        ],
-        "/artists/jennifercano": [
-          "/artists/jennifercano"
-        ]
-      },
-      "concert_id": {
-        "1": [
-          "/artists/decoda"
-        ],
-        "3": [
-          "/artists/jesse_mills",
-          "/artists/todd_palmer",
-          "/artists/rieko_aizawa"
-        ],
-        "8": [
-          "/artists/anthonycostanzo",
-          "/artists/internationalensemble"
-        ],
-        "5": [
-          "/artists/elena_urioste",
-          "/artists/nicholascanellakis",
-          "/artists/michaelbrown"
-        ],
-        "2": [
-          "/artists/jasper_quartet"
-        ],
-        "9": [
-          "/artists/mihaimarica",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor"
-        ],
-        "4": [
-          "/artists/dover_quartet"
-        ],
-        "6": [
-          "/artists/timoandres",
-          "/artists/teslaquartet",
-          "/artists/beccastevens"
-        ],
-        "7": [
-          "/artists/ericreed",
-          "/artists/christophercano",
-          "/artists/markholloway",
-          "/artists/jennifercano"
-        ],
-        "10": [
-          "/artists/latitutde41"
-        ]
-      },
-      "tags": {
-        "example": [
-          "/artists/ericreed",
-          "/artists/timoandres",
-          "/artists/dover_quartet",
-          "/artists/mihaimarica",
-          "/artists/teslaquartet",
-          "/artists/jasper_quartet",
-          "/artists/latitutde41",
-          "/artists/elena_urioste",
-          "/artists/anthonycostanzo",
-          "/artists/jesse_mills",
-          "/artists/internationalensemble",
-          "/artists/beccastevens",
-          "/artists/nicholascanellakis",
-          "/artists/todd_palmer",
-          "/artists/christophercano",
-          "/artists/rieko_aizawa",
-          "/artists/michaelbrown",
-          "/artists/decoda",
-          "/artists/markholloway",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor",
-          "/artists/jennifercano"
-        ],
-        "news": [
-          "/artists/ericreed",
-          "/artists/timoandres",
-          "/artists/dover_quartet",
-          "/artists/mihaimarica",
-          "/artists/teslaquartet",
-          "/artists/jasper_quartet",
-          "/artists/latitutde41",
-          "/artists/elena_urioste",
-          "/artists/anthonycostanzo",
-          "/artists/jesse_mills",
-          "/artists/internationalensemble",
-          "/artists/beccastevens",
-          "/artists/nicholascanellakis",
-          "/artists/todd_palmer",
-          "/artists/christophercano",
-          "/artists/rieko_aizawa",
-          "/artists/michaelbrown",
-          "/artists/decoda",
-          "/artists/markholloway",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor",
-          "/artists/jennifercano"
-        ],
-        "story": [
-          "/artists/ericreed",
-          "/artists/timoandres",
-          "/artists/dover_quartet",
-          "/artists/mihaimarica",
-          "/artists/teslaquartet",
-          "/artists/jasper_quartet",
-          "/artists/latitutde41",
-          "/artists/elena_urioste",
-          "/artists/anthonycostanzo",
-          "/artists/jesse_mills",
-          "/artists/internationalensemble",
-          "/artists/beccastevens",
-          "/artists/nicholascanellakis",
-          "/artists/todd_palmer",
-          "/artists/christophercano",
-          "/artists/rieko_aizawa",
-          "/artists/michaelbrown",
-          "/artists/decoda",
-          "/artists/markholloway",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor",
-          "/artists/jennifercano"
-        ]
-      },
-      "transliterated-slug": {
-        "/artists/mihaimarica": [
-          "/artists/mihaimarica"
-        ],
-        "/artists/dover_quartet": [
-          "/artists/dover_quartet"
-        ],
-        "/artists/timoandres": [
-          "/artists/timoandres"
-        ],
-        "/artists/ericreed": [
-          "/artists/ericreed"
-        ],
-        "/artists/latitutde41": [
-          "/artists/latitutde41"
-        ],
-        "/artists/jasper_quartet": [
-          "/artists/jasper_quartet"
-        ],
-        "/artists/teslaquartet": [
-          "/artists/teslaquartet"
-        ],
-        "/artists/anthonycostanzo": [
-          "/artists/anthonycostanzo"
-        ],
-        "/artists/elena_urioste": [
-          "/artists/elena_urioste"
-        ],
-        "/artists/internationalensemble": [
-          "/artists/internationalensemble"
-        ],
-        "/artists/jesse_mills": [
-          "/artists/jesse_mills"
-        ],
-        "/artists/nicholascanellakis": [
-          "/artists/nicholascanellakis"
-        ],
-        "/artists/beccastevens": [
-          "/artists/beccastevens"
-        ],
-        "/artists/rieko_aizawa": [
-          "/artists/rieko_aizawa"
-        ],
-        "/artists/christophercano": [
-          "/artists/christophercano"
-        ],
-        "/artists/todd_palmer": [
-          "/artists/todd_palmer"
-        ],
-        "/artists/markholloway": [
-          "/artists/markholloway"
-        ],
-        "/artists/decoda": [
-          "/artists/decoda"
-        ],
-        "/artists/michaelbrown": [
-          "/artists/michaelbrown"
-        ],
-        "/artists/taraoconnor": [
-          "/artists/taraoconnor"
-        ],
-        "/artists/pedjamuzijevic": [
-          "/artists/pedjamuzijevic"
-        ],
-        "/artists/jennifercano": [
-          "/artists/jennifercano"
-        ]
-      },
-      "transliterated-website": {
-        "http//lmgtfycom/qmarkhollowayviola": [
-          "/artists/markholloway"
-        ],
-        "http//triolatitude41com/": [
-          "/artists/latitutde41"
-        ],
-        "http//wwwmichaelbrownmusiccom": [
-          "/artists/michaelbrown"
-        ],
-        "http//wwwjenniferjohnsoncanonet": [
-          "/artists/jennifercano"
-        ],
-        "http//wwwjesse-millscom/jm/jesse_mills_violin___welcomehtml": [
-          "/artists/jesse_mills"
-        ],
-        "http//wwwbeccastevenscom": [
-          "/artists/beccastevens"
-        ],
-        "http//decodamusicorg/": [
-          "/artists/decoda"
-        ],
-        "http//wwwnicholascanellakiscom/": [
-          "/artists/nicholascanellakis"
-        ],
-        "http//wwwteslaquartetcom": [
-          "/artists/teslaquartet"
-        ],
-        "http//lmgtfycom/qmihaimaricacello": [
-          "/artists/mihaimarica"
-        ],
-        "http//wwwriekoaizawacom/ra/rieko_aizawa_piano___welcomehtml": [
-          "/artists/rieko_aizawa"
-        ],
-        "http//wwwandrescom": [
-          "/artists/timoandres"
-        ],
-        "http//bitly/1s5fofw": [
-          "/artists/taraoconnor"
-        ],
-        "http//wwwiceorgorg": [
-          "/artists/internationalensemble"
-        ],
-        "http//wwwanthonyrothcostanzocom": [
-          "/artists/anthonycostanzo"
-        ],
-        "http//wwwelenauriostecom": [
-          "/artists/elena_urioste"
-        ],
-        "http//lmgtfycom/qericreedhorn": [
-          "/artists/ericreed"
-        ],
-        "http//wwwjasperquartetcom": [
-          "/artists/jasper_quartet"
-        ],
-        "http//wwwdoverquartetcom": [
-          "/artists/dover_quartet"
-        ],
-        "http//wwwpedjamuzijeviccom": [
-          "/artists/pedjamuzijevic"
-        ],
-        "http//wwwchristophercanocom": [
-          "/artists/christophercano"
-        ],
-        "http//lmgtfycom/qtoddpalmerclarinet": [
-          "/artists/todd_palmer"
-        ]
-      },
-      "instrument": {
-        "clarinet": [
-          "/artists/todd_palmer"
-        ],
-        "composer and piano": [
-          "/artists/timoandres",
-          "/artists/michaelbrown"
-        ],
-        "piano": [
-          "/artists/christophercano",
-          "/artists/rieko_aizawa",
-          "/artists/pedjamuzijevic"
-        ],
-        "cello": [
-          "/artists/mihaimarica",
-          "/artists/nicholascanellakis"
-        ],
-        "mezzo-soprano": [
-          "/artists/jennifercano"
-        ],
-        "counter tenor": [
-          "/artists/anthonycostanzo"
-        ],
-        "horn": [
-          "/artists/ericreed"
-        ],
-        "flute": [
-          "/artists/taraoconnor"
-        ],
-        "viola": [
-          "/artists/markholloway"
-        ],
-        "violin": [
-          "/artists/elena_urioste",
-          "/artists/jesse_mills"
-        ],
-        "ensemble": [
-          "/artists/dover_quartet",
-          "/artists/teslaquartet",
-          "/artists/jasper_quartet",
-          "/artists/latitutde41",
-          "/artists/internationalensemble",
-          "/artists/decoda"
-        ],
-        "vocals": [
-          "/artists/beccastevens"
-        ]
-      },
-      "month": {
-        "11": [
-          "/artists/jesse_mills",
-          "/artists/todd_palmer",
-          "/artists/rieko_aizawa"
-        ],
-        "10": [
-          "/artists/jasper_quartet"
-        ],
-        "09": [
-          "/artists/decoda"
-        ],
-        "05": [
-          "/artists/latitutde41"
-        ],
-        "04": [
-          "/artists/mihaimarica",
-          "/artists/anthonycostanzo",
-          "/artists/internationalensemble",
-          "/artists/pedjamuzijevic",
-          "/artists/taraoconnor"
-        ],
-        "01": [
-          "/artists/dover_quartet",
-          "/artists/elena_urioste",
-          "/artists/nicholascanellakis",
-          "/artists/michaelbrown"
-        ],
-        "02": [
-          "/artists/timoandres",
-          "/artists/teslaquartet",
-          "/artists/beccastevens"
-        ],
-        "03": [
-          "/artists/ericreed",
-          "/artists/christophercano",
-          "/artists/markholloway",
-          "/artists/jennifercano"
-        ]
-      },
-      "transliterated-instrument": {
-        "clarinet": [
-          "/artists/todd_palmer"
-        ],
-        "piano": [
-          "/artists/christophercano",
-          "/artists/rieko_aizawa",
-          "/artists/pedjamuzijevic"
-        ],
-        "cello": [
-          "/artists/mihaimarica",
-          "/artists/nicholascanellakis"
-        ],
-        "mezzo-soprano": [
-          "/artists/jennifercano"
-        ],
-        "counter-tenor": [
-          "/artists/anthonycostanzo"
-        ],
-        "horn": [
-          "/artists/ericreed"
-        ],
-        "flute": [
-          "/artists/taraoconnor"
-        ],
-        "viola": [
-          "/artists/markholloway"
-        ],
-        "composer-and-piano": [
-          "/artists/timoandres",
-          "/artists/michaelbrown"
-        ],
-        "violin": [
-          "/artists/elena_urioste",
-          "/artists/jesse_mills"
-        ],
-        "ensemble": [
-          "/artists/dover_quartet",
-          "/artists/teslaquartet",
-          "/artists/jasper_quartet",
-          "/artists/latitutde41",
-          "/artists/internationalensemble",
-          "/artists/decoda"
-        ],
-        "vocals": [
-          "/artists/beccastevens"
+          "/concerts/1415/may",
+          "/concerts/1415/september"
+        ],
+        "tara helen o'connor & friends": [
+          "/concerts/1415/april-2"
         ]
       }
     }
