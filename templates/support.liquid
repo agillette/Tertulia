@@ -8,7 +8,7 @@
 	</section>-->
 	<section id="restaurants-content" class="page-basic no-header">
 		<div class="row clearfix">
-			<div class="column two-thirds push-sixth">
+			<div class="column two-thirds">
 				<article class="page-section">
 					<h2 class="section-title">Support Tertulia</h2>
 						<p class="large">Ticket sales alone make up the majority of Tertulia's annual revenue, but we still need your help to balance our budget. And we're a 501(c)(3) non-profit, so your gift is tax-deductible.</p>
@@ -49,8 +49,28 @@
 					<h2 class="section-title">Season Sponsorship</h2>
 					<p class="large">Tertulia is a fast-growing new chamber music series that is aimed at the city's younger generation of concert-goers. If you or your company is interested in sponsorship, please contact <a href="mailto:julia@tertulianyc">Julia Villagra.</a></p>
 				</article>
-				
-			
+			</div>
+			<div class="column one-third page-sidebar">
+				{% collection "concerts" by 5 %}
+				<div id="sidebar-concerts" style="font-size:75%;">
+					{% for concert in collection.items %}
+					<div class="row clearfix event-row">
+						<div class="column one-quarter event-date">
+							<span class="year" style="font-size:1.75em;">{{ concert.calendar_month }}</span>
+							<span class="month-day">{{ concert.calendar_year }}</span>
+						</div>
+						<div class="column three-quarters event-listing">
+							<!--<img src="{{ concert.thumbnail }}" alt="" />-->
+							<h3>{{ concert.group }}</h3>
+							<h4>{{ concert.location }} | 7 pm</h4>
+							<h4>{{ concert.address }}</h4>						
+							<a class="button raised-button primary" href="{{ concert.slug }}.html"><i class="fa fa-ticket"></i> Tickets & Info</a>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+				{% endcollection %}
+			</div>			
 		</div>
 	</section>
 {% endblock %}
