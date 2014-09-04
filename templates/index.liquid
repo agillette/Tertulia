@@ -1,5 +1,5 @@
 {% block content %} 
-	<section id="home-slider" style="overflow:hidden;background:transparent;position:relative;">
+	<section id="home-slider" style="overflow:hidden;background:transparent;position:relative;" class="hide-phone">
 		<video autoplay loop style="position: absolute; z-index: -1; bottom: 0px; left: 0px; width:100%">
 			<source src="/assets/img/vidloop.webm" type="video/webm">
 			<source src="/assets/img/vidloop.ogv" type="video/ogg">
@@ -23,14 +23,14 @@
 		</div>
 	</section>
 	<section id="events">
-		<h2 class="section-title">Season Highlights</h2>
+		<h2 class="section-title">Looking Ahead</h2>
 		<div class="row clearfix">
-		{% collection "concerts" by 4 order asc %}
+		{% collection "concerts" by 4 query 'featured=true' order asc %}
 			{% for concert in collection.items %}
-			<div class="column one-quarter phone-half">
+			<div class="column one-quarter phone-full">
 				<div class="card event-card">
 					<div class="media-area">
-						<img src="{{ concert.thumbnail }}" alt="{{ concert.title }}">
+						<img src="{{ concert.thumbnail }}" alt="{{ concert.title }}"><img class="food-pic" src="{{ concert.food-pic }}">
 						<!--<div class="caption">
 							<h4>{{ concert.location }}</h4>
 							<h3>{{ concert.group }}</h3>
@@ -65,88 +65,20 @@
 				<div class="row clearfix">
 					<div class="column one-half phone-full" id="get-involved">
 						<div class="card cta-card">
-							<div class="calendar">
-								<table>
-									<thead>
-										<tr>
-											<th colspan="7">August 2014</th>
-										</tr>
-										<tr>
-											<th>Su</th>
-											<th>Mo</th>
-											<th>Tu</th>
-											<th>We</th>
-											<th>Th</th>
-											<th>Fr</th>
-											<th>Sa</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td class="last-month">27</td>
-											<td class="last-month">28</td>
-											<td class="last-month">29</td>
-											<td class="last-month">30</td>
-											<td class="last-month">31</td>
-											<td>1</td>
-											<td>2</td>
-										</tr>
-										<tr>
-											<td>3</td>
-											<td>4</td>
-											<td>5</td>
-											<td>6</td>
-											<td>7</td>
-											<td>8</td>
-											<td>9</td>
-										</tr>
-										<tr>
-											<td>10</td>
-											<td>11</td>
-											<td>12</td>
-											<td>13</td>
-											<td class="other-event"><a class="tooltip" href="#" title="This is not a Tertulia, but it is cool">14</a></td>
-											<td>15</td>
-											<td>16</td>
-										</tr>
-										<tr>
-											<td>17</td>
-											<td>18</td>
-											<td>19</td>
-											<td>20</td>
-											<td>21</td>
-											<td>22</td>
-											<td>23</td>
-										</tr>
-										<tr>
-											<td>24</td>
-											<td>25</td>
-											<td>26</td>
-											<td>27</td>
-											<td>28</td>
-											<td>29</td>
-											<td class="tertulia-event"><a class="tooltip" href="#" title="This is a Tertulia. Come to it.">30</a></td>
-										</tr>
-										<tr>
-											<td>31</td>
-											<td class="next-month">1</td>
-											<td class="next-month">2</td>
-											<td class="next-month">3</td>
-											<td class="next-month">4</td>
-											<td class="next-month">5</td>
-											<td class="next-month">6</td>
-										</tr>
-									</tbody>
-								</table>
+							<div class="media-area">
+								<img src="/assets/img/founders.jpg" alt="" />
+							</div>
+							<div class="description">
+								<h3>Artistic Directors</h3>
+								<p>Julia Villagra and James  Austin Smith bring their shared love of chamber music and food to Tertulia this season.</p>
 							</div>
 							<div class="action-area">
-								<a href="../season.html" class="button flat-button primary">View Full Season</a>
-								<a href="#" class="button flat-button">Download (iCal)</a>
+								<a href="/about.html" class="button flat-button primary">Learn More</a>
 							</div>
 						</div>
 						<div class="card cta-card">
 							<div class="media-area">
-								<img src="/assets/img/artists/timo-home.jpg" alt="" />>
+								<img src="/assets/img/artists/timo-home.jpg" alt="" />
 							</div>
 							<div class="description">
 								<h3>Composer-in-Residence</h3>
@@ -164,7 +96,7 @@
 							</div>
 							<div class="description">
 								<h3>Meet Jesse</h3>
-								<p>Jesse Mills, violin, is performing on November 24, 2014.</p>
+								<p>Jesse Mills, violin, is performing on November 24, 2014.<br><br></p>
 							</div>
 							<div class="action-area">
 								<a href="/concerts/1415/november.html" class="button flat-button primary">Get Tickets</a>
@@ -180,7 +112,7 @@
 								<p>Members get priority tickets, access to exclusive events and other great perks.</p>
 							</div>
 							<div class="action-area">
-								<a href="../membership.html" class="button flat-button primary">Learn More</a>
+								<a href="../support.html" class="button flat-button primary">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -201,7 +133,7 @@
 					</div>
 					<div class="list-item news-teaser no-thumb clearfix">
 						<img src="/assets/img/james.jpg" alt="" class="left-thumb" />
-						<h4>Tertulia announces James Austin Smith as Co-Artistic Director</h4>
+						<h4><a href="http://blog.tertulianyc.org/post/91843316942/dear-tertulia-friends-and-fans-i-am-thrilled-to" target="_blank">Tertulia announces James Austin Smith as Co-Artistic Director</a></h4>
 						<p>I am thrilled to tell you starting this 2014-2015 season, James Austin Smith will be joining me as Tertulia's Co-Artistic Director.</p>
 						<div class="action-area">
 							<div class="action-icons">
@@ -211,17 +143,17 @@
 					</div>
 					<div class="list-item news-teaser clearfix">
 						<img class="left-thumb" src="/assets/img/artists/timo_andres.jpg">
-						<h4>Timo Andres joins Tertulia as first ever chef de musique.</h4>
+						<h4><a href="/timo.html">Timo Andres joins Tertulia as first ever chef de musique.</a></h4>
 						<p>Timo Andres, New York based composer and pianist, is Tertulia's composer "in residence" for the 2014-2015 season.</p>
 						<div class="action-area">
 							<div class="action-icons">
-								
+								<a href="/timo.html"><i class="fa fa-share"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="list-item news-teaser clearfix">
 						<img class="left-thumb" src="http://graphics8.nytimes.com/images/2013/05/21/arts/21TERTULIA/21TERTULIA-articleLarge.jpg">
-						<h4>That Corner Spot? Its Perfect for a Concert.</h4>
+						<h4><a href="http://www.nytimes.com/2013/05/21/arts/music/that-corner-spot-its-perfect-for-a-concert.html?_r=0" target="_blank">That Corner Spot? Its Perfect for a Concert.</a></h4>
 						<p>Thanks to <em>New York Times</em> critic Steve Smith a wonderful review of our May 2013 Tertulia at Harding's.</p>
 						<div class="action-area">
 							<div class="action-icons">
@@ -262,7 +194,24 @@
 		var hOffset = $('#mainhead').offset().top;
 		$(window).scroll(function(){
 			var wScroll = $(window).scrollTop();
-		})
+		});
+		$('.next-month-link').click(function(e){
+			e.preventDefault();
+			var currMo = $('.calendar .current');
+			currMo.removeClass('current');
+			currMo.next('table').addClass('current');
+		});
+		$('.prev-month-link').click(function(e){
+			e.preventDefault();
+			var currMo = $('.calendar .current');
+			currMo.removeClass('current');
+			currMo.prev('table').addClass('current');
+		});
+		$('#events .card').hover(function(){
+			$(this).find('img:first-child').addClass('foodie');
+		}, function(){
+			$(this).find('img:first-child').removeClass('foodie');
+		});
 	});
 </script>
 {% endblock %}

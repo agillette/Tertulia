@@ -1,0 +1,11 @@
+---
+title: Kivie Cahn-Lipman
+instrument: Cello
+published: true
+slug: /kiviecahnlipman
+headshot: "/assets/img/artists/kivie-lipman-thumbnail.jpg"
+concert_id: 8
+date: 2015-04-14 19:00
+website: http://www.iceorg.org
+tags: [example,news,story]
+---

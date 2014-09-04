@@ -5,13 +5,22 @@
         <title>Tertulia</title>
 				<meta name="viewport" content="width=device-width, user-scalable=no">
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+				<link rel="image_src" href="/assets/img/logo-black-square.jpg" />
+				<meta property="og:image" content="/assets/img/logo-black-square.jpg"/>
         <!-- Styles -->
 				<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,400italic,600italic,400,600,300' rel='stylesheet' type='text/css'>
 				<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-				<link rel="stylesheet" href="http://qtip2.com/v/2.2.0/basic/jquery.qtip.min.css" />
+				<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.0/jquery.qtip.min.css" />
         <link href="/assets/css/app.min.css" rel="stylesheet" type="text/css" media="all" />
         <!-- Style block allowing child pages to inject their own styles -->
         
+<style type="text/css">
+	.qtip-content {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+</style>
+
     </head>
     <body>
 				<!-- Include -->
@@ -45,9 +54,9 @@
 					<li><a class="muted" href="/restaurants.html">For Restaurants</a></li>
 					<li><a class="muted" href="/support.html">Support</a></li>					
 					<li><a class="muted" href="/contact.html">Contact</a></li>
-					<li class="social"><a class="muted" href="#"><i class="fa fa-instagram"></i></a></li>
-					<li class="social"><a class="muted" href="#"><i class="fa fa-twitter"></i></a></li>
-					<li class="social"><a class="muted" href="#"><i class="fa fa-facebook"></i></a></li>
+					<li class="social"><a class="muted" href="http://instagram.com/tertulianyc"><i class="fa fa-instagram"></i></a></li>
+					<li class="social"><a class="muted" href="https://twitter.com/tertuliaNYC"><i class="fa fa-twitter"></i></a></li>
+					<li class="social"><a class="muted" href="https://www.facebook.com/tertuliachambermusic"><i class="fa fa-facebook"></i></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -55,14 +64,13 @@
 </header>
 				<!-- Content block, child page inject content -->
 				 
-	<!--<section id="restaurants-intro">
+	<section class="page-intro" id="about-intro">
 		<div class="row">
 			<div class="column one-half push-quarter">
-				<p>"That corner spot? It's perfect for a concert."<br>- The New York Times<br><br>"A complete success."<br>- Edna Landau</p>
 			</div>
 		</div>
-	</section>-->
-	<section id="restaurants-content" class="page-basic no-header">
+	</section>
+	<section id="about-content" class="page-basic">
 		<div class="row clearfix">
 			<div class="column two-thirds push-sixth">
 				<article class="page-section clearfix">
@@ -70,12 +78,12 @@
 					<p class="large">Tertulia is a chamber music series that is designed to attract new and experienced audiences alike, or really, anyone who loves incredible food and music. The idea is simple: Tertulia presents world-class chamber music concerts in select restaurants around the city, and musicians and audiences share an evening of music, food, drink and conversation.</p>
 					<p class="large">At Tertulia we embrace two constants above all else: respect the music during performance, and allow time for the audience to eat and socialize.  There are three performances separated by extended intermissions.  The format and program is designed to enhance the social and culinary experience, but at all Tertulias, the music is paramount. <a href="#faq">Questions?</a></p>
 					<div class="row icon-row clearfix">
-						<div class="column one-sixth"><img src="../assets/img/meetthemusicians.png" alt="" /></div>
-						<div class="column one-sixth"><img src="../assets/img/silence.png" alt="" /></div>
-						<div class="column one-sixth"><img src="../assets/img/stayseated.png" alt="" /></div>
-						<div class="column one-sixth"><img src="../assets/img/respect.png" alt="" /></div>
-						<div class="column one-sixth"><img src="../assets/img/showyourlove.png" alt="" /></div>
-						<div class="column one-sixth"><img src="../assets/img/besocial.png" alt="" /></div>
+						<div class="column one-sixth"><img class="tooltip" title="The beauty of Tertulias is that there is no backstage, so we encourage you to meet and mingle with the musicians." src="../assets/img/meetthemusicians.png" alt="" /></div>
+						<div class="column one-sixth"><img class="tooltip" title="Don't forget to silence your cell phone and turn off the flash." src="../assets/img/silence.png" alt="" /></div>
+						<div class="column one-sixth"><img class="tooltip" title="We ask the audience to avoid getting up during performances. Restaurant service will be suspended as well." src="../assets/img/stayseated.png" alt="" /></div>
+						<div class="column one-sixth"><img class="tooltip" title="Please respect the performance the same way you would in a concert hall. Your silence and attention during music is expected." src="../assets/img/respect.png" alt="" /></div>
+						<div class="column one-sixth"><img class="tooltip" title="Don't panic about when to clap. At Tertulia you can show your love after movements or hold your applause until the end. Still unsure? Go with the flow." src="../assets/img/showyourlove.png" alt="" /></div>
+						<div class="column one-sixth"><img class="tooltip" title="If your phone's sound and flash are off, we encourage you to share fun Tertulia moments on social media using #Tertulianyc." src="../assets/img/besocial.png" alt="" /></div>
 					</div>
 				</article>
 				<article class="page-section">
@@ -84,7 +92,7 @@
 						<img src="../assets/img/directors-stitch.jpg" alt="Julia and James, Co-Artistic Directors" />
 						<figcaption>James & Julia, Co-Artistic Directors</figcaption>
 					</figure>
-					<p class="large">Bringing together their shared passion for chamber music and New York City's unmatched culinary arts scene, Artistic Directors Julia Villagra and James Austin Smith have created a vibrant concert series aimed at New York's dynamic generation of young music lovers. Julia, Tertulia's founder, felt compelled to design a chamber music series that would attract her peers. After moving to New York in 2007, she immediately began to explore the city's dining scene. It was her interest in food and wine that served as inspiration for her decision to bring chamber music into restaurants. Her objective was clear: hire the best musicians, respect the performance, and extend intermissions so people can eat, drink, and be social. Today, the <em>New York Times</em> calls presenters "to observe her approach" in "luring the young and the restless to the charms of chamber music."</p>
+					<p class="large">Bringing together their shared passion for chamber music and New York City's unmatched culinary arts scene, Artistic Directors Julia Villagra and James Austin Smith have created a vibrant concert series aimed at New York's dynamic generation of young music lovers. Julia, Tertulia's founder, felt compelled to design a chamber music series that would attract her peers. After moving to New York in 2007, she immediately began to explore the city's dining scene. It was her interest in food and wine that served as inspiration for her decision to bring chamber music into restaurants.  Her objective was clear: attract oustanding musicians by showing respect for the performance, and extend intermissions so people can enjoy eating, drinking, and socializing. Today, the <em>New York Times</em> calls presenters "to observe her approach" in "luring the young and the restless to the charms of chamber music."</p>
 					<p class="large">James, a NYC-based oboist praised his "virtuosic" and "brilliant" performances by <em>The New York Times</em>, performs equal parts new and old music across the United States and around the world. In addition to serving as Tertulia's Co-Artistic Director, James is an artist of the Chamber Music Society of Lincoln Center (Chamber Music Society Two), the International Contemporary Ensemble (ICE), the Talea Ensemble, Cygnus and Decoda, and is a regular guest of the Orpheus Chamber Orchestra.  He is a member of the faculty of the State University of New York at Purchase and in the fall of 2014 he will join the faculty of the Manhattan School of Music.</p>
 					<p class="large">Both Julia and James were raised in musical families in Connecticut. They met in high school while playing in a youth orchestra and are thrilled to have reconnected in New York, a decade later.</p>
 				</article>
@@ -150,26 +158,34 @@
 							</ul>
 						</div>
 						<div class="column one-third phone-full">
-							<form action="">
-								<fieldset>
-									<legend>Join Our Mailing List</legend>
-									<label for="email">Email Address</label>
-									<input type="email" placeholder="example@example.com" />
-									<button type="submit" class="button raised-button primary">Subscribe</button>
-								</fieldset>
-							</form>
+							<div id="mc_embed_signup">
+								<form action="//tertulianyc.us7.list-manage.com/subscribe/post?u=e659c37fcd8fbdee8ecf263b1&amp;id=a83118e20c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+									<fieldset>
+										<legend>Join Our Mailing List</legend>
+										<label for="mce-EMAIL">Email Address </label>
+										<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+										<div id="mce-responses" class="clear">
+											<div class="response" id="mce-error-response" style="display:none"></div>
+											<div class="response" id="mce-success-response" style="display:none"></div>
+										</div>
+										<div style="position: absolute; left: -5000px;"><input type="text" name="b_e659c37fcd8fbdee8ecf263b1_a83118e20c" tabindex="-1" value=""></div>
+										<button type="submit"id="mc-embedded-subscribe" class="button raised-button primary">Subscribe</button>
+									</fieldset
+								</form>
+							</div>
 						</div>
 					</div>
 				</footer>
 				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-				<script src="http://qtip2.com/v/2.2.0/basic/jquery.qtip.min.js"></script>
+				<script src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.0/basic/jquery.qtip.min.js"></script>
+				<script src="https://js.braintreegateway.com/v2/braintree.js"></script>
         <!-- Script block allowing child pages to inject their own scripts -->
         
 	<script>
 	$(document).ready(function(){
 		$('.question a').click(function(e){
 			e.preventDefault();
-			$(this).parents('.question').next('.answer').slideToggle();
+			$(this).parents('.question').next('.answer').toggleClass('open');
 		});
 	});
 	</script>
@@ -201,6 +217,10 @@
 						$('.tooltip').qtip({
 							style: {
 								classes: 'qtip-light qtip-shadow'
+							},
+							position: {
+								my: 'top center',
+								at: 'bottom center'
 							}
 						});
 						$(window).resize(function(){

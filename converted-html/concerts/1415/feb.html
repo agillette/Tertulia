@@ -5,6 +5,8 @@
         <title>Tertulia</title>
 				<meta name="viewport" content="width=device-width, user-scalable=no">
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+				<link rel="image_src" href="/assets/img/logo-black-square.jpg" />
+				<meta property="og:image" content="/assets/img/logo-black-square.jpg"/>
         <!-- Styles -->
 				<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,400italic,600italic,400,600,300' rel='stylesheet' type='text/css'>
 				<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -45,9 +47,9 @@
 					<li><a class="muted" href="/restaurants.html">For Restaurants</a></li>
 					<li><a class="muted" href="/support.html">Support</a></li>					
 					<li><a class="muted" href="/contact.html">Contact</a></li>
-					<li class="social"><a class="muted" href="#"><i class="fa fa-instagram"></i></a></li>
-					<li class="social"><a class="muted" href="#"><i class="fa fa-twitter"></i></a></li>
-					<li class="social"><a class="muted" href="#"><i class="fa fa-facebook"></i></a></li>
+					<li class="social"><a class="muted" href="http://instagram.com/tertulianyc"><i class="fa fa-instagram"></i></a></li>
+					<li class="social"><a class="muted" href="https://twitter.com/tertuliaNYC"><i class="fa fa-twitter"></i></a></li>
+					<li class="social"><a class="muted" href="https://www.facebook.com/tertuliachambermusic"><i class="fa fa-facebook"></i></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -72,9 +74,7 @@
 		<div class="row clearfix">
 			<div class="column two-thirds push-sixth">
 				<div class="row clearfix">
-				
-
-<div class="column two-thirds">
+				<div class="column two-thirds">
 	<h3>Itinerary</h3>
 	<h4>Cocktails & Amuse-Bouche</h4>
 	<p>ANDRES & SCHUMANN: Selections for solo piano</p>
@@ -84,7 +84,7 @@
 	<p>ANDRES: Piano Quintet</p>
 	<h4>Mingle & Meet the Musicians</h4>
 	<p><em>Program includes 50 to 60 minutes of music.<br><br></em></p>
-	<p><a href="#" class="button raised-button primary" style="margin-right: 1em;">Listen on Spotify <i class="fa fa-spotify"></i></a> <a href="#" class="button raised-button primary">Prix Fixe Menu <i class="fa fa-cutlery"></i></a></p>
+	<p><a target="_blank" href="http://open.spotify.com/user/124965408/playlist/2ygqodiJ5yKiStfNdse0Sa" class="button raised-button primary" style="margin-right: 1em;">Listen on Spotify <i class="fa fa-spotify"></i></a> <a href="#" class="button raised-button primary">Prix Fixe Menu <i class="fa fa-cutlery"></i></a></p>
 </div>
 <div class="column one-third artists-sidebar">
 	<h3>Artists</h3>
@@ -102,7 +102,8 @@
 		<h2 class="section-title">Tickets</h2>
 		<div class="row clearfix">
 			<div class="column two-thirds push-sixth">
-				<table class="ticket-table">
+				<div style="width:100%; text-align:left;" ><iframe src="//eventbrite.com/tickets-external?eid=12914159599&ref=etckt" frameborder="0" height="500" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Event registration</a><span style="color:#ddd;"> for </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="https://www.eventbrite.com/e/tertulia-chamber-music-at-hardings-nyc-complete-2014-2015-season-tickets-12854013701?ref=etckt">Tertulia Chamber Music at Harding's NYC - Complete 2014-2015 Season</a> <span style="color:#ddd;">powered by</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=etckt">Eventbrite</a></div></div>
+				<!--<table class="ticket-table">
 					<thead>
 						<tr>
 							<th>Ticket Type <sup>1</sup></th>
@@ -117,145 +118,134 @@
 							<td><strong>Sponsor</strong> <a class="tooltip" title="Two (2) ticket minimum (a table) includes prix fixe dinner, front row table, a tax-deductible donation, one round on us, and your name listed in our program."><i class="fa fa-info-circle"></i></a></td>
 							<td>
 								
-								<select name="concert" id="">
+								<select name="concert" id="first-select">
 									
-									<option value="1">Sept 29 DECODA at Harding's</option>
+									<option value="1" data-desc="on Sept 29 at Harding's">Sept 29 DECODA at Harding's</option>
 									
-									<option value="2">Oct 27 Jasper String Quartet at Harding's</option>
+									<option value="2" data-desc="on Oct 27 at Harding's">Oct 27 Jasper String Quartet at Harding's</option>
 									
-									<option value="20">Nov 11 TBA</option>
+									<option value="3" data-desc="on Nov 24 at Harding's">Nov 24 Todd Palmer & Friends at Harding's</option>
 									
-									<option value="3">Nov 24 Todd Palmer & Friends at Harding's</option>
+									<option value="5" data-desc="on Jan 11 at Tarallucci e Vino">Jan 11 Dover Quartet at Tarallucci e Vino</option>
 									
-									<option value="4">Dec 07 TBA at Tarallucci e Vino</option>
+									<option value="22" data-desc="on Jan 26 at Harding's">Jan 26 Elena Urioste, Nick Canellakis & Michael Brown at Harding's</option>
 									
-									<option value="5">Jan 11 Dover Quartet at Tarallucci e Vino</option>
+									<option value="6" selected data-desc="on Feb 16 at Harding's">Feb 16 Timo Andres & Friends at Harding's</option>
 									
-									<option value="6" selected>Feb 16 Timo Andres & Friends at Harding's</option>
+									<option value="7" data-desc="on Mar 8 at Cubana Social">Mar 8 Latitude 41 at Cubana Social</option>
 									
-									<option value="7">Mar 8 TBA at Cubana Social</option>
+									<option value="8" data-desc="on Mar 30 at Harding's">Mar 30 Jennifer Johnson Cano & Friends at Harding's</option>
 									
-									<option value="8">Mar 30 Jennifer Johnson Cano & Friends at Harding's</option>
+									<option value="9" data-desc="on April 14 at Cubana Social">April 14 Anthony Roth Costanzo & ICE Ensemble at Cubana Social</option>
 									
-									<option value="9">April 14 Anthony Roth Costanzo & ICE Ensemble at Location TBA</option>
+									<option value="10" data-desc="on April 27 at Harding's">April 27 Tara Helen O'Connor & Friends at Harding's</option>
 									
-									<option value="10">April 27 Tara Helen O'Connor & Friends at Harding's</option>
-									
-									<option value="11">May 11 DECODA at Cubana Social</option>
+									<option value="11" data-desc="on May 11 at TBA">May 11 DECODA at restaurant TBA</option>
 									
 								</select>
-								
 							</td>
-							<td>$140.00</td>
-							<td>$4.36</td>
+							<td>$110.00</td>
+							<td>$2.50</td>
 							<td>
-								<select name="quantity" id="">
+								<select name="quantity-sponsor" id="">
 									<option value="0">-</option>
 									<option value="2">2</option>
-									<option value="2">3</option>
-									<option value="2">4</option>
-									<option value="2">5</option>
-									<option value="2">6</option>
-									<option value="2">7</option>
-									<option value="2">8</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
 								</select>
 							</td>
 						</tr>
 						<tr>
 							<td><strong>Patron</strong> <a class="tooltip" title="Includes dinner, a seat at a table with an excellent view, and your name listed in our program."><i class="fa fa-info-circle"></i></a></td>
 							<td>
-								
 								<select name="concert" id="">
 									
 									<option value="1">Sept 29 DECODA at Harding's</option>
 									
 									<option value="2">Oct 27 Jasper String Quartet at Harding's</option>
 									
-									<option value="20">Nov 11 TBA</option>
-									
 									<option value="3">Nov 24 Todd Palmer & Friends at Harding's</option>
-									
-									<option value="4">Dec 07 TBA at Tarallucci e Vino</option>
 									
 									<option value="5">Jan 11 Dover Quartet at Tarallucci e Vino</option>
 									
+									<option value="22">Jan 26 Elena Urioste, Nick Canellakis & Michael Brown at Harding's</option>
+									
 									<option value="6" selected>Feb 16 Timo Andres & Friends at Harding's</option>
 									
-									<option value="7">Mar 8 TBA at Cubana Social</option>
+									<option value="7">Mar 8 Latitude 41 at Cubana Social</option>
 									
 									<option value="8">Mar 30 Jennifer Johnson Cano & Friends at Harding's</option>
 									
-									<option value="9">April 14 Anthony Roth Costanzo & ICE Ensemble at Location TBA</option>
+									<option value="9">April 14 Anthony Roth Costanzo & ICE Ensemble at Cubana Social</option>
 									
 									<option value="10">April 27 Tara Helen O'Connor & Friends at Harding's</option>
 									
-									<option value="11">May 11 DECODA at Cubana Social</option>
+									<option value="11">May 11 DECODA at restaurant TBA</option>
 									
 								</select>
-								
 							</td>
 							<td>$100.00</td>
-							<td>$3.20</td>
+							<td>$2.50</td>
 							<td>
-								<select name="quantity" id="">
+								<select name="quantity-patron" id="">
 									<option value="0">-</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
-									<option value="2">3</option>
-									<option value="2">4</option>
-									<option value="2">5</option>
-									<option value="2">6</option>
-									<option value="2">7</option>
-									<option value="2">8</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
 								</select>
 							</td>
 						</tr>
 						<tr>
 							<td><strong>Friend</strong> <a class="tooltip" title="Includes a seat at a table and prix fixe dinner."><i class="fa fa-info-circle"></i></a></td>
 							<td>
-								
 								<select name="concert" id="">
 									
 									<option value="1">Sept 29 DECODA at Harding's</option>
 									
 									<option value="2">Oct 27 Jasper String Quartet at Harding's</option>
 									
-									<option value="20">Nov 11 TBA</option>
-									
 									<option value="3">Nov 24 Todd Palmer & Friends at Harding's</option>
-									
-									<option value="4">Dec 07 TBA at Tarallucci e Vino</option>
 									
 									<option value="5">Jan 11 Dover Quartet at Tarallucci e Vino</option>
 									
+									<option value="22">Jan 26 Elena Urioste, Nick Canellakis & Michael Brown at Harding's</option>
+									
 									<option value="6" selected>Feb 16 Timo Andres & Friends at Harding's</option>
 									
-									<option value="7">Mar 8 TBA at Cubana Social</option>
+									<option value="7">Mar 8 Latitude 41 at Cubana Social</option>
 									
 									<option value="8">Mar 30 Jennifer Johnson Cano & Friends at Harding's</option>
 									
-									<option value="9">April 14 Anthony Roth Costanzo & ICE Ensemble at Location TBA</option>
+									<option value="9">April 14 Anthony Roth Costanzo & ICE Ensemble at Cubana Social</option>
 									
 									<option value="10">April 27 Tara Helen O'Connor & Friends at Harding's</option>
 									
-									<option value="11">May 11 DECODA at Cubana Social</option>
+									<option value="11">May 11 DECODA at restaurant TBA</option>
 									
 								</select>
-								
 							</td>
 							<td>$75.00</td>
-							<td>$2.48</td>
+							<td>$2.50</td>
 							<td>
-								<select name="quantity" id="">
+								<select name="quantity-friend" id="">
 									<option value="0">-</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
-									<option value="2">3</option>
-									<option value="2">4</option>
-									<option value="2">5</option>
-									<option value="2">6</option>
-									<option value="2">7</option>
-									<option value="2">8</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
 								</select>
 							</td>
 						</tr>
@@ -263,34 +253,45 @@
 							<td><strong>General Entry</strong> <a class="tooltip" title="Includes a seat at the bar, but NOT dinner. "><i class="fa fa-info-circle"></i></a></td>
 							<td>
 								<select name="concert" id="">
-									<option value="1" selected="">Sept 29 DECODA at Harding's</option>
+									
+									<option value="1">Sept 29 DECODA at Harding's</option>
+									
 									<option value="2">Oct 27 Jasper String Quartet at Harding's</option>
-									<option value="20">Nov 11 TBA</option>
-									<option value="3">Nov 24 Todd Palmer &amp; Friends at Harding's</option>
-									<option value="4">Dec 07 TBA at Tarallucci e Vino</option>
+									
+									<option value="3">Nov 24 Todd Palmer & Friends at Harding's</option>
+									
 									<option value="5">Jan 11 Dover Quartet at Tarallucci e Vino</option>
-									<option value="6">Feb 16 Timo Andres &amp; Friends at Harding's</option>
-									<option value="7">Mar 8 TBA at Cubana Social</option>
-									<option value="8">Mar 30 Jennifer Johnson Cano &amp; Friends at Harding's</option>
-									<option value="9">April 14 Anthony Roth Costanzo &amp; ICE Ensemble at Location TBA</option>
-									<option value="10">April 27 Tara Helen O'Connor &amp; Friends at Harding's</option>
-									<option value="11">May 11 DECODA at Cubana Social</option>
+									
+									<option value="22">Jan 26 Elena Urioste, Nick Canellakis & Michael Brown at Harding's</option>
+									
+									<option value="6" selected>Feb 16 Timo Andres & Friends at Harding's</option>
+									
+									<option value="7">Mar 8 Latitude 41 at Cubana Social</option>
+									
+									<option value="8">Mar 30 Jennifer Johnson Cano & Friends at Harding's</option>
+									
+									<option value="9">April 14 Anthony Roth Costanzo & ICE Ensemble at Cubana Social</option>
+									
+									<option value="10">April 27 Tara Helen O'Connor & Friends at Harding's</option>
+									
+									<option value="11">May 11 DECODA at restaurant TBA</option>
 									
 								</select>
+								
 							</td>
 							<td>$20.00</td>
-							<td>$0.88</td>
+							<td>$2.50</td>
 							<td>
-								<select name="quantity" id="">
+								<select name="quantity-general" id="">
 									<option value="0">-</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
-									<option value="2">3</option>
-									<option value="2">4</option>
-									<option value="2">5</option>
-									<option value="2">6</option>
-									<option value="2">7</option>
-									<option value="2">8</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
 								</select>
 							</td>
 						</tr>
@@ -355,8 +356,8 @@
 				</table>
 				<div class="checkout-actions">
 					<a href="#" class="button raised-button">Reset Form</a>
-					<a href="#" class="button raised-button primary">Checkout</a>
-				</div>
+					<a href="#" class="button raised-button primary" id="checkout-btn">Checkout</a>
+				</div>-->
 			</div>
 		</div>
 	</section>
@@ -391,8 +392,27 @@
 						</div>
 					</div>
 				</footer>
+				<div id="modal-checkout" style="display:none;width:100%;height:100%;position:fixed;top:0;left:0;background:rgba(0,0,0,0.8);text-align:center;z-index:102;">
+					<div id="checkout-container" style="background:#fff;box-shadow:0 0 2em #000;width:50%;margin-top:8em;margin-left:25%;padding:2em;text-align:left;">
+						<form id="checkout" method="post" action="/checkout">
+							<p style="text-align:left;margin-bottom:2em;">You are purchasing <span id="ticket-desc">n/a</span> for the Tertulia performance <span id="location-desc">n/a</span>. To complete your purchase please fill out the payment details below.</p>
+							<label for="name">Full Name</label>
+							<input data-braintree-name="cardholder_name" placeholder="John Smith">
+							<label for="email">Email Address</label>
+							<input data-braintree-name="cardholder_email" type="email" placeholder="example@example.com">
+							<label for="ccnum">CC Number</label>
+							<input data-braintree-name="number">
+							<label for="exp">Expiration</label>
+							<input data-braintree-name="expiration_date" placeholder="10/20">
+							<!--<label for="email">Email Address</label>
+							<input name="email" type="email" placeholder="example@example.com">-->
+							<input id="total-btn" type="submit" class="button raised-button primary" value="Pay $10">
+						</form>
+					</div>
+				</div>
 				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 				<script src="http://qtip2.com/v/2.2.0/basic/jquery.qtip.min.js"></script>
+				<script src="https://js.braintreegateway.com/v2/braintree.js"></script>
         <!-- Script block allowing child pages to inject their own scripts -->
         
         <script type="text/javascript">
@@ -409,6 +429,57 @@
 						$('.tooltip').qtip({
 							style: {
 								classes: 'qtip-light qtip-shadow'
+							}
+						});
+						$('#checkout-btn').click(function(e){
+							e.preventDefault();
+							var sponsorTotal = $('select[name="quantity-sponsor"]').val() * 112.50;
+							var patronTotal = $('select[name="quantity-patron"]').val() * 102.50;
+							var friendTotal = $('select[name="quantity-friend"]').val() * 82.50;
+							var generalTotal = $('select[name="quantity-general"]').val() * 22.50;
+							var total = sponsorTotal + patronTotal + friendTotal + generalTotal;
+							var tixDesc = '';
+							var locationDesc = $('#first-select option:selected').attr('data-desc');
+							if(sponsorTotal) {
+								tixDesc += $('select[name="quantity-sponsor"]').val()+' Sponsor level ticket(s)';
+								if(patronTotal || friendTotal || generalTotal) {
+									tixDesc += ' and ';
+								}
+							}
+							if(patronTotal) {
+								tixDesc += $('select[name="quantity-patron"]').val()+' Patron level ticket(s)';
+								if(friendTotal || generalTotal) {
+									tixDesc += ' and ';
+								}
+							}
+							if(friendTotal) {
+								tixDesc += $('select[name="quantity-friend"]').val()+' Friend level ticket(s)';
+								if(generalTotal) {
+									tixDesc += ' and ';
+								}
+							}
+							if(generalTotal) {
+								tixDesc += $('select[name="quantity-friend"]').val()+' General admission ticket(s)';
+							}
+							if(!total){
+								alert('You forgot to select your tickets!');
+							}
+							else {							
+								$.post('/payments.php', 'cool', function(data){
+									var token = data;
+									$('#modal-checkout').fadeIn('normal', function(){
+										$('#ticket-desc').html(tixDesc);
+										$('#location-desc').html(locationDesc);
+										console.log(locationDesc);
+										$('#total-btn').val('Pay $'+total);
+										braintree.setup(token, "custom", {
+											id: "checkout"
+										});
+										$('#modal-checkout').click(function(){
+											$(this).fadeOut();
+										});
+									});
+								});
 							}
 						});
 					});

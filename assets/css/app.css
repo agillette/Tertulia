@@ -242,6 +242,9 @@ input[type=button] {
 .push-quarter {
   margin-left: 25%; }
 
+.push-twelfth {
+  margin-left: 8.3333%; }
+
 /* forms */
 form legend {
   color: #212121;
@@ -312,7 +315,7 @@ form.inline-page-form input:disabled {
   color: #03a9f4; }
 
 .flat-button.accent {
-  color: yellow; }
+  color: #ffff00; }
 
 .flat-button:hover {
   color: #0288d1; }
@@ -352,13 +355,16 @@ form.inline-page-form input:disabled {
     padding: 1.1em 0 1em 0; }
     .card .calendar table {
       width: 100%;
-      margin-bottom: 3.88em; }
+      margin-bottom: 4.72em;
+      display: none; }
       .card .calendar table tr td, .card .calendar table tr th {
         text-align: center;
         font-size: 0.75em;
         padding: 0.4em 0.5em; }
       .card .calendar table tr .next-month, .card .calendar table tr .last-month {
         background: #eee; }
+    .card .calendar table.current {
+      display: table; }
     .card .calendar .other-event {
       background: #b3e5fc; }
       .card .calendar .other-event a {
@@ -400,6 +406,12 @@ form.inline-page-form input:disabled {
         color: rgba(255, 255, 255, 0.8); }
   .card .description {
     padding: 1em; }
+    .card .description h3 {
+      color: #212121;
+      font-size: 1.25em;
+      font-weight: 600;
+      line-height: 1.3333;
+      margin-bottom: 0.5em; }
   .card .event-description {
     padding: 1em; }
     .card .event-description h4 {
@@ -457,9 +469,9 @@ ul.unstyled {
 
 ul.link-list li {
   margin-bottom: 0.5em;
-  color: white; }
+  color: #fff; }
   ul.link-list li a {
-    color: white;
+    color: #fff;
     text-decoration: none; }
   ul.link-list li a:hover {
     color: #03a9f4; }
@@ -470,7 +482,7 @@ body {
   font-weight: 300;
   line-height: 1.4286;
   background: #f9f9f9;
-  font-size: 1.1713vw; }
+  font-size: 100%; }
 
 .show-phone {
   display: none; }
@@ -508,7 +520,7 @@ h2.section-title:after {
   display: block;
   height: 4em;
   background: #424242;
-  color: white;
+  color: #fff;
   width: 100%;
   box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.2);
   position: fixed;
@@ -538,7 +550,7 @@ h2.section-title:after {
         font-weight: 400;
         line-height: 1.5;
         text-decoration: none;
-        color: white; }
+        color: #fff; }
       #mainhead nav ul li a.muted {
         color: #bdbdbd; }
       #mainhead nav ul li a.active {
@@ -601,7 +613,7 @@ h2.section-title:after {
       font-size: 1.5em;
       font-weight: 400;
       line-height: 1.3333;
-      color: white;
+      color: #fff;
       text-align: center;
       font-weight: 300;
       transform: translateY(-50%); }
@@ -637,6 +649,20 @@ h2.section-title:after {
 
 #home-season-link {
   margin-top: 3.5em; }
+
+#events .media-area img {
+  transition: all 0.8s;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  z-index: 1; }
+#events .media-area img.foodie {
+  transform: translateY(-100%); }
+#events .media-area img.food-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0; }
 
 /* musicians */
 #musicians-intro {
@@ -677,7 +703,7 @@ h2.section-title:after {
     position: relative;
     z-index: 3; }
     #musicians-intro p a {
-      color: yellow;
+      color: #ffff00;
       text-decoration: none; }
   #musicians-intro a {
     position: relative;
@@ -706,7 +732,7 @@ h2.section-title:after {
 
 /* restaurants */
 #restaurants-intro {
-  min-height: 75vh;
+  min-height: 60vh;
   background: url(http://dz0zjhi21dz2t.cloudfront.net/media/80702/photos/66884/1366.jpg) center center no-repeat;
   background-size: cover; }
   #restaurants-intro p {
@@ -714,11 +740,11 @@ h2.section-title:after {
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.3333;
-    color: white;
+    color: #fff;
     text-align: center;
     padding-top: 35%;
     font-weight: 300;
-    text-shadow: 0 0 1em black; }
+    text-shadow: 0 0 1em #000; }
 
 /* page basics */
 p.large {
@@ -784,38 +810,57 @@ p.large {
     .expandable li span a {
       text-decoration: none; }
   .expandable li .answer {
-    display: none; }
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s; }
+  .expandable li .answer.open {
+    max-height: 3em; }
 
 .page-basic.no-header {
   padding-top: 3.5em; }
 
+.page-basic blockquote {
+  font-size: 1.25em;
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+  text-align: justify;
+  color: #757575;
+  font-style: italic;
+  margin-top: 2em; }
+  .page-basic blockquote cite {
+    display: block;
+    font-style: normal;
+    color: #212121;
+    font-size: 80%;
+    margin-top: 1em; }
+
 /* events */
-.event-intro {
-  height: 34.25em;
+.event-intro, .page-intro {
+  min-height: 34.25em;
   position: relative; }
-  .event-intro .intro-title {
+  .event-intro .intro-title, .page-intro .intro-title {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.74);
     padding: 1.5em 0; }
-    .event-intro .intro-title h2 {
+    .event-intro .intro-title h2, .page-intro .intro-title h2 {
       color: #212121;
       font-size: 1.5em;
       font-weight: 400;
       line-height: 1.3333;
       color: #fff;
       margin-bottom: 0.5em; }
-    .event-intro .intro-title h3 {
+    .event-intro .intro-title h3, .page-intro .intro-title h3 {
       color: #212121;
       font-size: 1em;
       font-weight: 400;
       line-height: 1.5;
       color: #fff; }
-    .event-intro .intro-title .column {
+    .event-intro .intro-title .column, .page-intro .intro-title .column {
       position: relative; }
-      .event-intro .intro-title .column .action-button {
+      .event-intro .intro-title .column .action-button, .page-intro .intro-title .column .action-button {
         position: absolute;
         right: 0;
         top: -3.5em; }
@@ -952,10 +997,20 @@ p.large {
     line-height: 1.3333;
     font-size: 1em; }
 
+.page-intro {
+  min-height: 60vh; }
+
+#about-intro {
+  background: url(../img/about-head.jpg) center top no-repeat;
+  background-size: cover; }
+
+.news-teaser h4 a {
+  text-decoration: none; }
+
 /* footer */
 #mainfoot {
   background: #212121;
-  color: white;
+  color: #fff;
   padding: 2em 0;
   margin-top: 4em; }
   #mainfoot h3 {

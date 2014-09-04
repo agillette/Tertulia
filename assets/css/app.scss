@@ -5,7 +5,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	@include body;
 	background: #f9f9f9;
-	font-size: 1.1713vw;
+	font-size: 100%;
 }
 
 .show-phone {
@@ -207,6 +207,25 @@ h2.section-title:after {
 	margin-top: 3.5em;
 }
 
+#events .media-area {
+	img {
+		transition: all 0.8s;
+		margin: 0;
+		display: inline-block;
+		position: relative;
+		z-index: 1;
+	}
+	img.foodie {
+		transform: translateY(-100%);
+	}
+	img.food-pic {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;
+	}
+}
+
 /* musicians */
 
 #musicians-intro {
@@ -280,7 +299,7 @@ h2.section-title:after {
 /* restaurants */
 
 #restaurants-intro {
-	min-height: 75vh;
+	min-height: 60vh;
 	background: url(http://dz0zjhi21dz2t.cloudfront.net/media/80702/photos/66884/1366.jpg) center center no-repeat;
 	background-size: cover;
 	p {
@@ -376,7 +395,12 @@ p.large {
 			}
 		}
 		.answer {
-			display: none;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.4s;
+		}
+		.answer.open {
+			max-height: 3em;
 		}
 	}
 }
@@ -385,10 +409,27 @@ p.large {
 	padding-top: 3.5em;
 }
 
+.page-basic blockquote {
+	font-size: 1.25em;
+	line-height: 1.6;
+	margin-bottom: 1.5em;
+	text-align: justify;
+	color: lighten($black, 46%);
+	font-style: italic;
+	margin-top: 2em;
+	cite {
+		display: block;
+		font-style: normal;
+		color: lighten($black, 13%);
+		font-size: 80%;
+		margin-top: 1em;
+	}
+}
+
 /* events */
 
-.event-intro {
-	height: 34.25em;
+.event-intro, .page-intro {
+	min-height: 34.25em;
 	position: relative;
 	.intro-title {
 		position: absolute;
@@ -566,6 +607,23 @@ p.large {
 	h3 {
 		@include title;
 		font-size: 1em;
+	}
+}
+
+.page-intro {
+	min-height: 60vh;
+}
+
+#about-intro {
+	background: url(../img/about-head.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+.news-teaser {
+	h4 {
+		a {
+			text-decoration: none;
+		}
 	}
 }
 

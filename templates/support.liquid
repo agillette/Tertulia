@@ -51,19 +51,18 @@
 				</article>
 			</div>
 			<div class="column one-third page-sidebar">
-				{% collection "concerts" by 5 %}
-				<div id="sidebar-concerts" style="font-size:75%;">
+				{% collection "concerts" by 5 order ASC %}
+				<div id="sidebar-concerts" style="font-size:80%;">
 					{% for concert in collection.items %}
 					<div class="row clearfix event-row">
-						<div class="column one-quarter event-date">
-							<span class="year" style="font-size:1.75em;">{{ concert.calendar_month }}</span>
-							<span class="month-day">{{ concert.calendar_year }}</span>
+						<div class="column one-third event-date">
+							<img src="{{ concert.thumbnail }}" alt="" />
 						</div>
-						<div class="column three-quarters event-listing">
+						<div class="column two-thirds event-listing">
 							<!--<img src="{{ concert.thumbnail }}" alt="" />-->
 							<h3>{{ concert.group }}</h3>
 							<h4>{{ concert.location }} | 7 pm</h4>
-							<h4>{{ concert.address }}</h4>						
+							<h4>{{ concert.calendar_month }}, {{ concert.calendar_year }}</h4>						
 							<a class="button raised-button primary" href="{{ concert.slug }}.html"><i class="fa fa-ticket"></i> Tickets & Info</a>
 						</div>
 					</div>
