@@ -100,11 +100,12 @@ h2.section-title:after {
 			top: 0;
 			left: 0;
 			width: 60%;
-			margin-left: -60%;
+			margin-left: -65%;
 			height: 100vh;
 			background: #fff;
 			box-shadow: 0 0 3em rgba(0,0,0,0.9);
 			transition: margin 0.5s;
+			z-index: 101;
 			ul {
 				margin: 1em;
 				li {
@@ -154,7 +155,7 @@ h2.section-title:after {
 	background: url(http://tertulianyc.org/tertulia_bg.png) center center no-repeat;
 	background-size: cover;
 	position: relative;
-	.row {
+	.first-row {
 		margin-top: 50vh;
 		p {
 			@include headline;
@@ -207,22 +208,30 @@ h2.section-title:after {
 	margin-top: 3.5em;
 }
 
-#events .media-area {
-	img {
-		transition: all 0.8s;
-		margin: 0;
-		display: inline-block;
-		position: relative;
-		z-index: 1;
+#events {
+	.event-description {
+		height: 6.375em;
+		h3 {
+			font-size: 1em;
+		}
 	}
-	img.foodie {
-		transform: translateY(-100%);
-	}
-	img.food-pic {
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 0;
+	.media-area {
+		img {
+			transition: all 0.8s;
+			margin: 0;
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+		}
+		img.foodie {
+			transform: translateY(-100%);
+		}
+		img.food-pic {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 0;
+		}
 	}
 }
 
@@ -546,6 +555,13 @@ p.large {
 	}
 	p a {
 		text-decoration: none;
+	}
+	.two-thirds {
+		p:last-child {
+			a:last-child {
+				display: none;
+			}
+		}
 	}
 }
 

@@ -566,11 +566,12 @@ h2.section-title:after {
       top: 0;
       left: 0;
       width: 60%;
-      margin-left: -60%;
+      margin-left: -65%;
       height: 100vh;
       background: #fff;
       box-shadow: 0 0 3em rgba(0, 0, 0, 0.9);
-      transition: margin 0.5s; }
+      transition: margin 0.5s;
+      z-index: 101; }
       #mainhead #collapse-nav .menu-overlay ul {
         margin: 1em; }
         #mainhead #collapse-nav .menu-overlay ul li {
@@ -606,9 +607,9 @@ h2.section-title:after {
   background: url(http://tertulianyc.org/tertulia_bg.png) center center no-repeat;
   background-size: cover;
   position: relative; }
-  #home-slider .row {
+  #home-slider .first-row {
     margin-top: 50vh; }
-    #home-slider .row p {
+    #home-slider .first-row p {
       color: #212121;
       font-size: 1.5em;
       font-weight: 400;
@@ -617,7 +618,7 @@ h2.section-title:after {
       text-align: center;
       font-weight: 300;
       transform: translateY(-50%); }
-    #home-slider .row #second em {
+    #home-slider .first-row #second em {
       font-size: 75%;
       font-style: italic;
       font-weight: normal; }
@@ -650,6 +651,10 @@ h2.section-title:after {
 #home-season-link {
   margin-top: 3.5em; }
 
+#events .event-description {
+  height: 6.375em; }
+  #events .event-description h3 {
+    font-size: 1em; }
 #events .media-area img {
   transition: all 0.8s;
   margin: 0;
@@ -947,6 +952,8 @@ p.large {
   margin: 1.3333em 0 0.3333em 0; }
 #event-program p a {
   text-decoration: none; }
+#event-program .two-thirds p:last-child a:last-child {
+  display: none; }
 
 .artists-sidebar ul {
   color: #212121;

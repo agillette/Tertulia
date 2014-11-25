@@ -1,14 +1,23 @@
 {% block content %} 
-	<section id="home-slider" style="overflow:hidden;background:transparent;position:relative;" class="hide-phone">
-		<video autoplay loop style="position: absolute; z-index: -1; bottom: 0px; left: 0px; width:100%">
+	<section id="home-slider" class="event-intro hide-phone" style="overflow:hidden;background:transparent;position:relative;">
+		<video autoplay loop style="position: absolute; z-index: -1; bottom: 0px; left: 0px; min-width: 100%; min-height: 100%;">
 			<source src="/assets/img/vidloop.webm" type="video/webm">
 			<source src="/assets/img/vidloop.ogv" type="video/ogg">
-			<!--<source src="/assets/img/vidloop.mp4" type="video/mp4">-->
+			<source src="/assets/img/vidloop.mp4" type="video/mp4">
 			Your browser does not support the video tag.    
 		</video>
-		<div class="row clearfix">
+		<div class="row first-row clearfix">
 			<div class="column one-half push-quarter phone-full">
 				<p id="second">"That corner spot? It's perfect for a concert."<br><em>- The New York Times</em></p>
+			</div>
+		</div>
+		<div class="intro-title">
+			<div class="row clearfix">
+				<div class="column full">
+					<h2>Next Tertulia | Todd Palmer with Jesse Mills and Rieko Aizawa at Harding's</h4>
+					<h3>November 24, 2014 | 7PM</h3>
+					<a href="/concerts/1415/november.html" class="button raised-button action-button accent"><i class="fa fa-ticket"></i></a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -16,7 +25,7 @@
 		<div class="row clearfix">
 			<div class="column two-thirds push-sixth phone-full">
 				<h2 class="section-title">Tertulia Chamber Music</h2>
-				<p class="large">Tertulia is a chamber music series that presents concerts in restaurants, in an atmosphere that combines lively conversation and excellent dining with the opportunity to hear some of the greatest performers of our time.  Tertulias are formatted as dinner-concerts, with three performances separated by extended intermissions. A typical Tertulia presents 60 minutes of music, with at least 75 minutes set aside for eating, drinking, and socializing.</p>
+				<p class="large">Tertulia is a chamber music series that presents concerts in restaurants, in an atmosphere that combines lively conversation and dining with the opportunity to hear some of the greatest performers of our time.  Tertulias are formatted as dinner-concerts, with three performances separated by extended intermissions. A typical Tertulia presents 60 minutes of music, with at least 75 minutes set aside for eating, drinking, and socializing.</p>
 				<p class="large">During performances restaurant service is suspended and conversation stops.</p>
 				<div class="text-center" style="margin-top:2em;"><a class="button raised-button accent" href="/season.html">Explore Our Season</a></div>
 			</div>
@@ -25,7 +34,7 @@
 	<section id="events">
 		<h2 class="section-title">Looking Ahead</h2>
 		<div class="row clearfix">
-		{% collection "concerts" by 4 query 'featured=true' order asc %}
+		{% collection "concerts" by 4 query 'featured=true&upcoming=true' order asc %}
 			{% for concert in collection.items %}
 			<div class="column one-quarter phone-full">
 				<div class="card event-card">
@@ -38,8 +47,7 @@
 					</div>
 					<div class="event-description">
 						<h3>{{ concert.group }}</h3>
-						<h3>{{ concert.calendar_month }}, {{ concert.calendar_year }}</h3>
-						<p>{{ concert.location }} | {{ concert.address }}</p>
+						<p>{{ concert.calendar_month }}, {{ concert.calendar_year }} | {{ concert.location }}</p>
 					</div>
 					<div class="action-area">
 						<a class="button raised-button primary" href="{{ concert.slug }}.html"><i class="fa fa-ticket"></i> Tickets & Info</a>
@@ -123,16 +131,16 @@
 				<div class="list">
 					<div class="list-item news-teaser clearfix">
 						<img class="left-thumb" src="http://33.media.tumblr.com/31b26823e9922a45e711bd140fc40d00/tumblr_n8q4wbNGih1qg5kmko1_r1_500.jpg">
-						<h4>Tertulia announces 2014-2015 season</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<h4><a href="/assets/img/season-announcement.pdf" target="_blank">Tertulia announces 2014-2015 season</a></h4>
+						<p>Forty-six artists, eleven concerts, four centuries of music, three restaurants, two artistic directors, one fabulous season of chamber music in a warm, welcoming setting in NYC.</p>
 						<div class="action-area">
 							<div class="action-icons">
-								
+								<a href="/assets/img/season-announcement.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="list-item news-teaser no-thumb clearfix">
-						<img src="/assets/img/james.jpg" alt="" class="left-thumb" />
+						<img src="/assets/img/artists/james-smith-thumbnail.jpg" alt="" class="left-thumb" />
 						<h4><a href="http://blog.tertulianyc.org/post/91843316942/dear-tertulia-friends-and-fans-i-am-thrilled-to" target="_blank">Tertulia announces James Austin Smith as Co-Artistic Director</a></h4>
 						<p>I am thrilled to tell you starting this 2014-2015 season, James Austin Smith will be joining me as Tertulia's Co-Artistic Director.</p>
 						<div class="action-area">
@@ -142,18 +150,28 @@
 						</div>
 					</div>
 					<div class="list-item news-teaser clearfix">
+						<img class="left-thumb" src="/assets/img/artists/andrew_yee.jpg">
+						<h4><a href="http://thehungrycellist.tumblr.com/" target="_blank">Andrew Yee is The Hungry Cellist (and our new favorite food and music vlogger)</a></h4>
+						<p>The Attacca Quartet's cellist Andrew Yee loves food and inventive cocktails <em>almost</em> as much as he loves chamber music. Tertulia first presented the Attaccas in January 2014; here, we quickly discovered our mutual affection for the culinary arts. Today you can find Andrew and his quartet  at New York's Metropolitan Museum of Art, as the 2014-2015 quartet-in-residence. But in the meantime, we just cannot get enough of Andrew's food and music video-blog <a href="http://thehungrycellist.tumblr.com/" target="_blank">The Hungry Cellist</a>.</p>
+						<div class="action-area">
+							<div class="action-icons">
+								<a href="http://thehungrycellist.tumblr.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+							</div>
+						</div>
+					</div>
+					<!--<div class="list-item news-teaser clearfix">
 						<img class="left-thumb" src="/assets/img/artists/timo_andres.jpg">
-						<h4><a href="/timo.html">Timo Andres joins Tertulia as first ever chef de musique.</a></h4>
+						<h4><a href="/timo.html">Timo Andres joins Tertulia as first ever composer-in-residence.</a></h4>
 						<p>Timo Andres, New York based composer and pianist, is Tertulia's composer "in residence" for the 2014-2015 season.</p>
 						<div class="action-area">
 							<div class="action-icons">
 								<a href="/timo.html"><i class="fa fa-share"></i></a>
 							</div>
 						</div>
-					</div>
+					</div>-->
 					<div class="list-item news-teaser clearfix">
 						<img class="left-thumb" src="http://graphics8.nytimes.com/images/2013/05/21/arts/21TERTULIA/21TERTULIA-articleLarge.jpg">
-						<h4><a href="http://www.nytimes.com/2013/05/21/arts/music/that-corner-spot-its-perfect-for-a-concert.html?_r=0" target="_blank">That Corner Spot? Its Perfect for a Concert.</a></h4>
+						<h4><a href="http://www.nytimes.com/2013/05/21/arts/music/that-corner-spot-its-perfect-for-a-concert.html?_r=0" target="_blank">That Corner Spot? It's Perfect for a Concert.</a></h4>
 						<p>Thanks to <em>New York Times</em> critic Steve Smith a wonderful review of our May 2013 Tertulia at Harding's.</p>
 						<div class="action-area">
 							<div class="action-icons">
